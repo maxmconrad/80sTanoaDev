@@ -22,13 +22,15 @@ class CfgPatches
             "80s_tanoa_hia_officer_p1",
             "80s_tanoa_hia_crew_mp5",
             "80s_tanoa_hia_pilot_p1",
+            "80s_tanoa_hia_motorcycle_scout_m16a1",
             "80s_tanoa_hia_specops_longsleeve_base",
             "80s_tanoa_hia_specops_base",
             "80s_tanoa_hia_specops_rifleman_m16a1",
             "80s_tanoa_hia_specops_marksman_g3a4",
             "80s_tanoa_hia_specops_demolition_mp5sd3",
             "80s_tanoa_hia_specops_at_rpg7_m16a1",
-            "80s_tanoa_hia_specops_squadlead_mp5sd3"
+            "80s_tanoa_hia_specops_squadlead_mp5sd3",
+            "80s_tanoa_hia_specops_squadlead_m16a1"
         };
 		weapons[]=
         {
@@ -1968,6 +1970,96 @@ class CfgVehicles
 			"gm_30rnd_9x19mm_b_dm51_mp5a3_blk",
             "gm_30rnd_9x19mm_b_dm51_mp5a3_blk",
             "gm_30rnd_9x19mm_b_dm51_mp5a3_blk",
+            "gm_8rnd_9x19mm_b_dm11_p1_blk",
+            "gm_8rnd_9x19mm_b_dm11_p1_blk",
+            "gm_8rnd_9x19mm_b_dm11_p1_blk",
+			"gm_handGrenade_frag_rgd5",
+			"gm_handGrenade_frag_rgd5"
+		};
+		linkedItems[]=
+		{
+			"gm_gc_compass_f73",
+			"ItemRadio",
+			"itemMap",
+			"gm_watch_kosei_80",
+			"gm_ge_headgear_beret_blk",
+            "G_Bandanna_oli",
+			"gm_ge_army_vest_80_leader"
+		};
+		respawnLinkedItems[]=
+		{
+			"gm_gc_compass_f73",
+			"ItemRadio",
+			"itemMap",
+			"gm_watch_kosei_80",
+			"gm_ge_headgear_beret_blk",
+            "G_Bandanna_oli",
+			"gm_ge_army_vest_80_leader"
+		};
+    };
+    class 80s_tanoa_hia_specops_squadlead_m16a1: 80s_tanoa_hia_specops_longsleeve_base
+    {
+        displayName="Squad Leader (M16A1)";
+        scope=2;
+		scopeCurator=2;
+        icon="iconManLeader";
+		role="Rifleman";
+        textSingular="$STR_A3_nameSound_veh_infantry_officer_s";
+		textPlural="$STR_A3_nameSound_veh_infantry_officer_p";
+		nameSound="veh_infantry_officer_s";
+        class SpeechVariants
+		{
+			class Default
+			{
+				speechSingular[]=
+				{
+					"veh_infantry_officer_s"
+				};
+				speechPlural[]=
+				{
+					"veh_infantry_officer_p"
+				};
+			};
+		};
+        backpack="gm_dk_army_backpack_73_oli";
+        weapons[]=
+		{
+			"Throw",
+			"Put",
+            "Binocular",
+			"80s_tanoa_m16a1_blk_suppressor",
+            "gm_p1_blk"
+		};
+		respawnWeapons[]=
+		{
+			"Throw",
+			"Put",
+            "Binocular",
+			"80s_tanoa_m16a1_blk_suppressor",
+            "gm_p1_blk"
+		};
+		magazines[]=
+		{
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+            "gm_8rnd_9x19mm_b_dm11_p1_blk",
+            "gm_8rnd_9x19mm_b_dm11_p1_blk",
+            "gm_8rnd_9x19mm_b_dm11_p1_blk",
+			"gm_handGrenade_frag_rgd5",
+			"gm_handGrenade_frag_rgd5"
+		};
+		respawnMagazines[]=
+		{
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
             "gm_8rnd_9x19mm_b_dm11_p1_blk",
             "gm_8rnd_9x19mm_b_dm11_p1_blk",
             "gm_8rnd_9x19mm_b_dm11_p1_blk",
