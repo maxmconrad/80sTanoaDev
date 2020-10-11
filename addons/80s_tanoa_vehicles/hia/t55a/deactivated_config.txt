@@ -1,0 +1,130 @@
+class CfgPatches
+{
+	class 80s_tanoa_vehicles_hia_t55a
+	{
+		units[]=
+        {
+            "80s_tanoa_hia_t55a"
+        };
+		weapons[]=
+        {
+        };
+		requiredAddons[]=
+		{
+			"gm_core_vehicles",
+		};
+	};
+};
+
+/////////////////////////
+// T-55A                /
+/////////////////////////
+class gm_texturesource_base;
+class CfgVehicles
+{
+    class gm_tracked_Tank_base;
+    class gm_t55_base
+    {
+        class AnimationSources
+        {
+            class barrel_01_unhide;
+            class barrel_02_unhide;
+            class fender_01_unhide;
+            class fender_02_unhide;
+            class barrelHolder_01_unhide;
+            class rearbar_01_unhide;
+            class turretBox_02_unhide;
+        };
+    };
+	class gm_t55a_base: gm_t55_base
+	{
+		class TextureSources
+		{
+			class 80s_tanoa_hia_oli: gm_texturesource_base
+			{
+				factions[]=
+				{
+					"80s_tanoa_hia"
+				};
+				displayname="HIA (Plain Green)";
+				textures[]=
+				{
+					"\gm\gm_vehicles\gm_land\gm_tracked\gm_t55\gm_gc_army_t55\data\oli\gm_gc_army_t55_wheels_01_oli_co.paa",
+					"#(rgb,8,8,3)color(0.199,0.230,0.171,1,CO)",
+                    "#(rgb,8,8,3)color(0.199,0.230,0.171,1,CO)",
+                    "#(rgb,8,8,3)color(0.199,0.230,0.171,1,CO)"
+				};
+			};
+		};
+	};
+	class 80s_tanoa_hia_t55a_base: gm_t55a_base
+	{
+		side=2;
+		faction="80s_tanoa_hia";
+		gm_InsigniasDefaultNation="80s_tanoa_insignia_hia_01";
+		gm_LicensePlate="80s_tanoa_licenseplate";
+		gm_LicensePlateSelectionsDigits[]=
+		{
+			"LicensePlate_01",
+			"LicensePlate_02",
+			"LicensePlate_03",
+			"LicensePlate_04",
+			"LicensePlate_05",
+			"LicensePlate_06",
+			"LicensePlate_07",
+			"LicensePlate_08"
+		};
+		gm_TacticalSignsDefaultIcon="";
+		gm_TacticalNumbersFontNumbers="";
+		gm_TacticalNumbersDefaultNumber="##";
+		gm_LicensePlateDefaultDigits="  ######";
+		crew="80s_tanoa_hia_crew_mp5";
+        editorPreview="gm\gm_vehicles\gm_land\gm_tracked\gm_t55\gm_gc_army_t55\data\ui\preview_gm_gc_army_t55a.jpg";
+	};
+	class 80s_tanoa_hia_t55a: 80s_tanoa_hia_t55a_base
+	{
+        displayName="T-55A";
+		scope=2;
+		scopeCurator=2;
+        scopeArsenal=2;
+		author="quarren";
+		hiddenSelectionsTextures[]=
+		{
+			"\gm\gm_vehicles\gm_land\gm_tracked\gm_t55\gm_gc_army_t55\data\oli\gm_gc_army_t55_wheels_01_oli_co.paa",
+			"#(rgb,8,8,3)color(0.199,0.230,0.171,1,CO)",
+            "#(rgb,8,8,3)color(0.199,0.230,0.171,1,CO)",
+            "#(rgb,8,8,3)color(0.199,0.230,0.171,1,CO)"
+		};
+        class AnimationSources: AnimationSources
+        {
+            class barrel_01_unhide: barrel_01_unhide
+            {
+                initPhase=1;
+            };
+            class barrel_02_unhide: barrel_02_unhide
+            {
+                initPhase=1;
+            };
+            class fender_01_unhide: fender_01_unhide
+            {
+                initPhase=1;
+            };
+            class fender_02_unhide: fender_02_unhide
+            {
+                initPhase=1;
+            };
+            class barrelHolder_01_unhide: barrelHolder_01_unhide
+            {
+                initPhase=1;
+            };
+            class rearbar_01_unhide: rearbar_01_unhide
+            {
+                initPhase=1;
+            };
+            class turretBox_02_unhide: turretBox_02_unhide
+            {
+                initPhase=1;
+            };
+        };
+	};
+};
