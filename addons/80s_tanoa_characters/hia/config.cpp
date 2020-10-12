@@ -483,23 +483,23 @@ class CfgVehicles
 		};
 		magazines[]=
 		{
-			"gm_20rnd_762x51mm_b_t_dm21_g3_blk",
-			"gm_20rnd_762x51mm_b_t_dm21_g3_blk",
-			"gm_20rnd_762x51mm_b_t_dm21_g3_blk",
-			"gm_20rnd_762x51mm_b_t_dm21_g3_blk",
-			"gm_20rnd_762x51mm_b_t_dm21_g3_blk",
-			"gm_20rnd_762x51mm_b_t_dm21_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
 			"gm_handGrenade_frag_rgd5",
 			"gm_handGrenade_frag_rgd5"
 		};
 		respawnMagazines[]=
 		{
-			"gm_20rnd_762x51mm_b_t_dm21_g3_blk",
-			"gm_20rnd_762x51mm_b_t_dm21_g3_blk",
-			"gm_20rnd_762x51mm_b_t_dm21_g3_blk",
-			"gm_20rnd_762x51mm_b_t_dm21_g3_blk",
-			"gm_20rnd_762x51mm_b_t_dm21_g3_blk",
-			"gm_20rnd_762x51mm_b_t_dm21_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
 			"gm_handGrenade_frag_rgd5",
 			"gm_handGrenade_frag_rgd5"
 		};
@@ -542,23 +542,23 @@ class CfgVehicles
 		};
 		magazines[]=
 		{
-			"gm_20rnd_762x51mm_b_t_dm21_g3_blk",
-			"gm_20rnd_762x51mm_b_t_dm21_g3_blk",
-			"gm_20rnd_762x51mm_b_t_dm21_g3_blk",
-			"gm_20rnd_762x51mm_b_t_dm21_g3_blk",
-			"gm_20rnd_762x51mm_b_t_dm21_g3_blk",
-			"gm_20rnd_762x51mm_b_t_dm21_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
 			"gm_handGrenade_frag_rgd5",
 			"gm_handGrenade_frag_rgd5"
 		};
 		respawnMagazines[]=
 		{
-			"gm_20rnd_762x51mm_b_t_dm21_g3_blk",
-			"gm_20rnd_762x51mm_b_t_dm21_g3_blk",
-			"gm_20rnd_762x51mm_b_t_dm21_g3_blk",
-			"gm_20rnd_762x51mm_b_t_dm21_g3_blk",
-			"gm_20rnd_762x51mm_b_t_dm21_g3_blk",
-			"gm_20rnd_762x51mm_b_t_dm21_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
 			"gm_handGrenade_frag_rgd5",
 			"gm_handGrenade_frag_rgd5"
 		};
@@ -823,23 +823,23 @@ class CfgVehicles
 		};
 		magazines[]=
 		{
-			"gm_20rnd_762x51mm_b_t_dm21_g3_blk",
-			"gm_20rnd_762x51mm_b_t_dm21_g3_blk",
-			"gm_20rnd_762x51mm_b_t_dm21_g3_blk",
-			"gm_20rnd_762x51mm_b_t_dm21_g3_blk",
-			"gm_20rnd_762x51mm_b_t_dm21_g3_blk",
-			"gm_20rnd_762x51mm_b_t_dm21_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
 			"gm_handGrenade_frag_rgd5",
 			"gm_handGrenade_frag_rgd5"
 		};
 		respawnMagazines[]=
 		{
-			"gm_20rnd_762x51mm_b_t_dm21_g3_blk",
-			"gm_20rnd_762x51mm_b_t_dm21_g3_blk",
-			"gm_20rnd_762x51mm_b_t_dm21_g3_blk",
-			"gm_20rnd_762x51mm_b_t_dm21_g3_blk",
-			"gm_20rnd_762x51mm_b_t_dm21_g3_blk",
-			"gm_20rnd_762x51mm_b_t_dm21_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
 			"gm_handGrenade_frag_rgd5",
 			"gm_handGrenade_frag_rgd5"
 		};
@@ -903,20 +903,20 @@ class CfgVehicles
 		};
 		magazines[]=
 		{
-			"gm_20rnd_762x51mm_b_t_dm21_g3_blk",
-			"gm_20rnd_762x51mm_b_t_dm21_g3_blk",
-			"gm_20rnd_762x51mm_b_t_dm21_g3_blk",
-			"gm_20rnd_762x51mm_b_t_dm21_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
 			"gm_1rnd_40mm_heat_pg7v_rpg7",
 			"gm_handGrenade_frag_rgd5",
 			"gm_handGrenade_frag_rgd5"
 		};
 		respawnMagazines[]=
 		{
-			"gm_20rnd_762x51mm_b_t_dm21_g3_blk",
-			"gm_20rnd_762x51mm_b_t_dm21_g3_blk",
-			"gm_20rnd_762x51mm_b_t_dm21_g3_blk",
-			"gm_20rnd_762x51mm_b_t_dm21_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
 			"gm_1rnd_40mm_heat_pg7v_rpg7",
 			"gm_handGrenade_frag_rgd5",
 			"gm_handGrenade_frag_rgd5"
@@ -961,23 +961,23 @@ class CfgVehicles
 		};
 		magazines[]=
 		{
-			"gm_20rnd_762x51mm_b_t_dm21_g3_blk",
-			"gm_20rnd_762x51mm_b_t_dm21_g3_blk",
-			"gm_20rnd_762x51mm_b_t_dm21_g3_blk",
-			"gm_20rnd_762x51mm_b_t_dm21_g3_blk",
-            "gm_20rnd_762x51mm_b_t_dm21_g3_blk",
-            "gm_20rnd_762x51mm_b_t_dm21_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+            "gm_20rnd_762x51mm_b_dm41_g3_blk",
+            "gm_20rnd_762x51mm_b_dm41_g3_blk",
 			"gm_handGrenade_frag_rgd5",
 			"gm_handGrenade_frag_rgd5"
 		};
 		respawnMagazines[]=
 		{
-			"gm_20rnd_762x51mm_b_t_dm21_g3_blk",
-			"gm_20rnd_762x51mm_b_t_dm21_g3_blk",
-			"gm_20rnd_762x51mm_b_t_dm21_g3_blk",
-			"gm_20rnd_762x51mm_b_t_dm21_g3_blk",
-            "gm_20rnd_762x51mm_b_t_dm21_g3_blk",
-            "gm_20rnd_762x51mm_b_t_dm21_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+            "gm_20rnd_762x51mm_b_dm41_g3_blk",
+            "gm_20rnd_762x51mm_b_dm41_g3_blk",
 			"gm_handGrenade_frag_rgd5",
 			"gm_handGrenade_frag_rgd5"
 		};
@@ -1041,23 +1041,23 @@ class CfgVehicles
 		};
 		magazines[]=
 		{
-			"gm_20rnd_762x51mm_b_t_dm21_g3_blk",
-			"gm_20rnd_762x51mm_b_t_dm21_g3_blk",
-			"gm_20rnd_762x51mm_b_t_dm21_g3_blk",
-			"gm_20rnd_762x51mm_b_t_dm21_g3_blk",
-			"gm_20rnd_762x51mm_b_t_dm21_g3_blk",
-			"gm_20rnd_762x51mm_b_t_dm21_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
 			"gm_handGrenade_frag_rgd5",
 			"gm_handGrenade_frag_rgd5"
 		};
 		respawnMagazines[]=
 		{
-			"gm_20rnd_762x51mm_b_t_dm21_g3_blk",
-			"gm_20rnd_762x51mm_b_t_dm21_g3_blk",
-			"gm_20rnd_762x51mm_b_t_dm21_g3_blk",
-			"gm_20rnd_762x51mm_b_t_dm21_g3_blk",
-			"gm_20rnd_762x51mm_b_t_dm21_g3_blk",
-			"gm_20rnd_762x51mm_b_t_dm21_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
 			"gm_handGrenade_frag_rgd5",
 			"gm_handGrenade_frag_rgd5"
 		};
