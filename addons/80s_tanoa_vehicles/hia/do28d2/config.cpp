@@ -74,6 +74,50 @@ class CfgVehicles
 		scopeCurator=2;
         scopeArsenal=2;
 		author="quarren";
+        class TransportItems
+        {
+            class _xx_burnBandage
+            {
+                name="gm_ge_army_burnBandage";
+                count=4;
+            };
+            class _xx_gauzeBandage
+            {
+                name="gm_ge_army_gauzeBandage";
+                count=4;
+            };
+            class _xx_gm_repairkit_01
+            {
+                name="gm_repairkit_01";
+                count=1;
+            };
+        };
+        class TransportWeapons
+        {
+            class _xx_binoculars
+            {
+                weapon="gm_df7x40_grn";
+                count=1;
+            };
+            class _xx_flare_pistol
+            {
+                weapon="gm_p2a1_blk";
+                count=1;
+            };
+        };
+        class TransportMagazines
+        {
+            class _xx_gm_1Rnd_265mm_flare_multi_red_DM23
+            {
+                magazine="gm_1Rnd_265mm_flare_multi_red_DM23";
+                count=4;
+            };
+            class _xx_gm_handGrenade_frag_rgd5
+            {
+                magazine="gm_handGrenade_frag_rgd5";
+                count=2;
+            };
+        };
 		hiddenSelectionsTextures[]=
 		{
 			"\80s_tanoa\80s_tanoa_vehicles\hia\do28d2\data\80s_tanoa_do28d2_ext_01_co.paa",
