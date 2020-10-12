@@ -118,7 +118,12 @@ class CfgVehicles
             class _xx_gm_20Rnd_762x51mm_b_DM41_g3_blk
             {
                 magazine="gm_20Rnd_762x51mm_b_DM41_g3_blk";
-                count=20;
+                count=12;
+            };
+            class _xx_gm_30Rnd_556x45mm_B_M855_stanag_gry
+            {
+                magazine="gm_30Rnd_556x45mm_B_M855_stanag_gry";
+                count=12;
             };
             class _xx_gm_120Rnd_762x51mm_b_t_DM21A1_mg3_grn
             {
