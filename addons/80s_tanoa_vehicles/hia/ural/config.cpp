@@ -82,6 +82,50 @@ class CfgVehicles
 		scopeCurator=2;
         scopeArsenal=2;
 		author="quarren";
+        class TransportItems
+        {
+            class _xx_burnBandage
+            {
+                name="gm_ge_army_burnBandage";
+                count=2;
+            };
+            class _xx_gauzeBandage
+            {
+                name="gm_ge_army_gauzeBandage";
+                count=2;
+            };
+            class _xx_gm_repairkit_01
+            {
+                name="gm_repairkit_01";
+                count=1;
+            };
+        };
+        class TransportWeapons
+        {
+            class _xx_binoculars
+            {
+                weapon="gm_df7x40_grn";
+                count=1;
+            };
+        };
+        class TransportMagazines
+        {
+            class _xx_gm_20Rnd_762x51mm_b_DM41_g3_blk
+            {
+                magazine="gm_20Rnd_762x51mm_b_DM41_g3_blk";
+                count=2;
+            };
+            class _xx_gm_30Rnd_556x45mm_B_M855_stanag_gry
+            {
+                magazine="gm_30Rnd_556x45mm_B_M855_stanag_gry";
+                count=2;
+            };
+            class _xx_gm_handGrenade_frag_rgd5
+            {
+                magazine="gm_handGrenade_frag_rgd5";
+                count=2;
+            };
+        };
 		hiddenSelectionsTextures[]=
 		{
 			"\gm\gm_vehicles\gm_land\gm_wheeled\gm_ural4320\gm_gc_bgs_ural4320\data\oli\gm_gc_bgs_ural4320_rim_01_oli_co.paa",
@@ -145,6 +189,50 @@ class CfgVehicles
 		scopeCurator=2;
         scopeArsenal=2;
 		author="quarren";
+        class TransportItems
+        {
+            class _xx_burnBandage
+            {
+                name="gm_ge_army_burnBandage";
+                count=2;
+            };
+            class _xx_gauzeBandage
+            {
+                name="gm_ge_army_gauzeBandage";
+                count=2;
+            };
+            class _xx_gm_repairkit_01
+            {
+                name="gm_repairkit_01";
+                count=1;
+            };
+        };
+        class TransportWeapons
+        {
+            class _xx_binoculars
+            {
+                weapon="gm_df7x40_grn";
+                count=1;
+            };
+        };
+        class TransportMagazines
+        {
+            class _xx_gm_20Rnd_762x51mm_b_DM41_g3_blk
+            {
+                magazine="gm_20Rnd_762x51mm_b_DM41_g3_blk";
+                count=2;
+            };
+            class _xx_gm_30Rnd_556x45mm_B_M855_stanag_gry
+            {
+                magazine="gm_30Rnd_556x45mm_B_M855_stanag_gry";
+                count=2;
+            };
+            class _xx_gm_handGrenade_frag_rgd5
+            {
+                magazine="gm_handGrenade_frag_rgd5";
+                count=2;
+            };
+        };
 		hiddenSelectionsTextures[]=
 		{
 			"\gm\gm_vehicles\gm_land\gm_wheeled\gm_ural4320\gm_gc_bgs_ural4320\data\oli\gm_gc_bgs_ural4320_rim_01_oli_co.paa",
@@ -208,6 +296,50 @@ class CfgVehicles
 		scopeCurator=2;
         scopeArsenal=2;
 		author="quarren";
+        class TransportItems
+        {
+            class _xx_burnBandage
+            {
+                name="gm_ge_army_burnBandage";
+                count=2;
+            };
+            class _xx_gauzeBandage
+            {
+                name="gm_ge_army_gauzeBandage";
+                count=2;
+            };
+            class _xx_gm_repairkit_01
+            {
+                name="gm_repairkit_01";
+                count=1;
+            };
+        };
+        class TransportWeapons
+        {
+            class _xx_binoculars
+            {
+                weapon="gm_df7x40_grn";
+                count=1;
+            };
+        };
+        class TransportMagazines
+        {
+            class _xx_gm_20Rnd_762x51mm_b_DM41_g3_blk
+            {
+                magazine="gm_20Rnd_762x51mm_b_DM41_g3_blk";
+                count=2;
+            };
+            class _xx_gm_30Rnd_556x45mm_B_M855_stanag_gry
+            {
+                magazine="gm_30Rnd_556x45mm_B_M855_stanag_gry";
+                count=2;
+            };
+            class _xx_gm_handGrenade_frag_rgd5
+            {
+                magazine="gm_handGrenade_frag_rgd5";
+                count=2;
+            };
+        };
 		hiddenSelectionsTextures[]=
 		{
 			"\gm\gm_vehicles\gm_land\gm_wheeled\gm_ural4320\gm_gc_bgs_ural4320\data\oli\gm_gc_bgs_ural4320_rim_01_oli_co.paa",
@@ -271,6 +403,50 @@ class CfgVehicles
 		scopeCurator=2;
         scopeArsenal=2;
 		author="quarren";
+        class TransportItems
+        {
+            class _xx_burnBandage
+            {
+                name="gm_ge_army_burnBandage";
+                count=2;
+            };
+            class _xx_gauzeBandage
+            {
+                name="gm_ge_army_gauzeBandage";
+                count=2;
+            };
+            class _xx_gm_repairkit_01
+            {
+                name="gm_repairkit_01";
+                count=1;
+            };
+        };
+        class TransportWeapons
+        {
+            class _xx_binoculars
+            {
+                weapon="gm_df7x40_grn";
+                count=1;
+            };
+        };
+        class TransportMagazines
+        {
+            class _xx_gm_20Rnd_762x51mm_b_DM41_g3_blk
+            {
+                magazine="gm_20Rnd_762x51mm_b_DM41_g3_blk";
+                count=2;
+            };
+            class _xx_gm_30Rnd_556x45mm_B_M855_stanag_gry
+            {
+                magazine="gm_30Rnd_556x45mm_B_M855_stanag_gry";
+                count=2;
+            };
+            class _xx_gm_handGrenade_frag_rgd5
+            {
+                magazine="gm_handGrenade_frag_rgd5";
+                count=2;
+            };
+        };
 		hiddenSelectionsTextures[]=
 		{
 			"\gm\gm_vehicles\gm_land\gm_wheeled\gm_ural4320\gm_gc_bgs_ural4320\data\oli\gm_gc_bgs_ural4320_rim_01_oli_co.paa",
@@ -334,6 +510,50 @@ class CfgVehicles
 		scopeCurator=2;
         scopeArsenal=2;
 		author="quarren";
+        class TransportItems
+        {
+            class _xx_burnBandage
+            {
+                name="gm_ge_army_burnBandage";
+                count=2;
+            };
+            class _xx_gauzeBandage
+            {
+                name="gm_ge_army_gauzeBandage";
+                count=2;
+            };
+            class _xx_gm_repairkit_01
+            {
+                name="gm_repairkit_01";
+                count=1;
+            };
+        };
+        class TransportWeapons
+        {
+            class _xx_binoculars
+            {
+                weapon="gm_df7x40_grn";
+                count=1;
+            };
+        };
+        class TransportMagazines
+        {
+            class _xx_gm_20Rnd_762x51mm_b_DM41_g3_blk
+            {
+                magazine="gm_20Rnd_762x51mm_b_DM41_g3_blk";
+                count=2;
+            };
+            class _xx_gm_30Rnd_556x45mm_B_M855_stanag_gry
+            {
+                magazine="gm_30Rnd_556x45mm_B_M855_stanag_gry";
+                count=2;
+            };
+            class _xx_gm_handGrenade_frag_rgd5
+            {
+                magazine="gm_handGrenade_frag_rgd5";
+                count=2;
+            };
+        };
 		hiddenSelectionsTextures[]=
 		{
 			"\gm\gm_vehicles\gm_land\gm_wheeled\gm_ural4320\gm_gc_bgs_ural4320\data\oli\gm_gc_bgs_ural4320_rim_01_oli_co.paa",
