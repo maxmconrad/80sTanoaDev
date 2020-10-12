@@ -765,23 +765,23 @@ class CfgVehicles
 		};
 		magazines[]=
 		{
-			"gm_20rnd_762x51mm_b_t_dm21a1_g3_blk",
-			"gm_20rnd_762x51mm_b_t_dm21a1_g3_blk",
-			"gm_20rnd_762x51mm_b_t_dm21a1_g3_blk",
-			"gm_20rnd_762x51mm_b_t_dm21a1_g3_blk",
-			"gm_20rnd_762x51mm_b_t_dm21a1_g3_blk",
-			"gm_20rnd_762x51mm_b_t_dm21a1_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
 			"gm_handGrenade_frag_rgd5",
 			"gm_handGrenade_frag_rgd5"
 		};
 		respawnMagazines[]=
 		{
-			"gm_20rnd_762x51mm_b_t_dm21a1_g3_blk",
-			"gm_20rnd_762x51mm_b_t_dm21a1_g3_blk",
-			"gm_20rnd_762x51mm_b_t_dm21a1_g3_blk",
-			"gm_20rnd_762x51mm_b_t_dm21a1_g3_blk",
-			"gm_20rnd_762x51mm_b_t_dm21a1_g3_blk",
-			"gm_20rnd_762x51mm_b_t_dm21a1_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
 			"gm_handGrenade_frag_rgd5",
 			"gm_handGrenade_frag_rgd5"
 		};
@@ -805,23 +805,23 @@ class CfgVehicles
 		};
 		magazines[]=
 		{
-			"gm_30rnd_545x39mm_b_t_7t3_ak74_org",
-			"gm_30rnd_545x39mm_b_t_7t3_ak74_org",
-			"gm_30rnd_545x39mm_b_t_7t3_ak74_org",
-			"gm_30rnd_545x39mm_b_t_7t3_ak74_org",
-			"gm_30rnd_545x39mm_b_t_7t3_ak74_org",
-			"gm_30rnd_545x39mm_b_t_7t3_ak74_org",
+			"gm_30rnd_545x39mm_b_7n6_ak74_org",
+			"gm_30rnd_545x39mm_b_7n6_ak74_org",
+			"gm_30rnd_545x39mm_b_7n6_ak74_org",
+			"gm_30rnd_545x39mm_b_7n6_ak74_org",
+			"gm_30rnd_545x39mm_b_7n6_ak74_org",
+			"gm_30rnd_545x39mm_b_7n6_ak74_org",
 			"gm_handGrenade_frag_rgd5",
 			"gm_handGrenade_frag_rgd5"
 		};
 		respawnMagazines[]=
 		{
-			"gm_30rnd_545x39mm_b_t_7t3_ak74_org",
-			"gm_30rnd_545x39mm_b_t_7t3_ak74_org",
-			"gm_30rnd_545x39mm_b_t_7t3_ak74_org",
-			"gm_30rnd_545x39mm_b_t_7t3_ak74_org",
-			"gm_30rnd_545x39mm_b_t_7t3_ak74_org",
-			"gm_30rnd_545x39mm_b_t_7t3_ak74_org",
+			"gm_30rnd_545x39mm_b_7n6_ak74_org",
+			"gm_30rnd_545x39mm_b_7n6_ak74_org",
+			"gm_30rnd_545x39mm_b_7n6_ak74_org",
+			"gm_30rnd_545x39mm_b_7n6_ak74_org",
+			"gm_30rnd_545x39mm_b_7n6_ak74_org",
+			"gm_30rnd_545x39mm_b_7n6_ak74_org",
 			"gm_handGrenade_frag_rgd5",
 			"gm_handGrenade_frag_rgd5"
 		};
