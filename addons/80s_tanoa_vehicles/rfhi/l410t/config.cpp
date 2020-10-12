@@ -63,6 +63,24 @@ class CfgVehicles
 		scopeCurator=2;
         scopeArsenal=2;
 		author="quarren";
+        class TransportItems
+        {
+            class _xx_burnBandage
+            {
+                name="gm_ge_army_burnBandage";
+                count=4;
+            };
+            class _xx_gauzeBandage
+            {
+                name="gm_ge_army_gauzeBandage";
+                count=4;
+            };
+            class _xx_gm_repairkit_01
+            {
+                name="gm_repairkit_01";
+                count=2;
+            };
+        };
 		hiddenSelectionsTextures[]=
 		{
 			"\gm\gm_vehicles\gm_air\gm_planes\gm_l410\gm_gc_airforce_l410\data\wdl\gm_gc_airforce_l410_ext_01_wdl_co.paa",
