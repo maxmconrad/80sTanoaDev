@@ -75,6 +75,32 @@ class CfgVehicles
 		gm_LicensePlateDefaultDigits="########";
 		crew="80s_tanoa_hia_rifleman_m16a1";
         editorPreview="gm\gm_vehicles\gm_land\gm_wheeled\gm_iltis\gm_ge_army_iltis\data\ui\preview_gm_ge_army_iltis_cargo.jpg";
+        class TransportItems
+        {
+            class _xx_burnBandage
+            {
+                name="gm_ge_army_burnBandage";
+                count=2;
+            };
+            class _xx_gauzeBandage
+            {
+                name="gm_ge_army_gauzeBandage";
+                count=2;
+            };
+            class _xx_gm_repairkit_01
+            {
+                name="gm_repairkit_01";
+                count=1;
+            };
+        };
+        class TransportWeapons
+        {
+            class _xx_binoculars
+            {
+                weapon="gm_df7x40_grn";
+                count=1;
+            };
+        };
 	};
 	class 80s_tanoa_hia_iltis_cargo_green_nocover: 80s_tanoa_hia_iltis_cargo_base
 	{
@@ -178,6 +204,32 @@ class CfgVehicles
 		scopeCurator=2;
         scopeArsenal=2;
 		author="quarren";
+        class TransportItems
+        {
+            class _xx_burnBandage
+            {
+                name="gm_ge_army_burnBandage";
+                count=2;
+            };
+            class _xx_gauzeBandage
+            {
+                name="gm_ge_army_gauzeBandage";
+                count=2;
+            };
+            class _xx_gm_repairkit_01
+            {
+                name="gm_repairkit_01";
+                count=1;
+            };
+        };
+        class TransportWeapons
+        {
+            class _xx_binoculars
+            {
+                weapon="gm_df7x40_grn";
+                count=1;
+            };
+        };
 		hiddenSelectionsTextures[]=
 		{
 			"\gm\gm_vehicles\gm_land\gm_wheeled\gm_iltis\gm_ge_army_iltis\data\oli\gm_ge_army_iltis_rim_01_oli_co.paa",
