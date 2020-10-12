@@ -1172,7 +1172,7 @@ class CfgVehicles
 		{
 			"Throw",
 			"Put",
-            "Binocular",
+            "gm_df7x40_grn",
 			"gm_m16a1_blk",
             "gm_p1_blk"
 		};
@@ -1180,7 +1180,7 @@ class CfgVehicles
 		{
 			"Throw",
 			"Put",
-            "Binocular",
+            "gm_df7x40_grn",
 			"gm_m16a1_blk",
             "gm_p1_blk"
 		};
@@ -1259,14 +1259,14 @@ class CfgVehicles
 		{
 			"Throw",
 			"Put",
-            "Binocular",
+            "gm_df7x40_grn",
             "gm_p1_blk"
 		};
 		respawnWeapons[]=
 		{
 			"Throw",
 			"Put",
-            "Binocular",
+            "gm_df7x40_grn",
             "gm_p1_blk"
 		};
 		magazines[]=
@@ -1936,7 +1936,7 @@ class CfgVehicles
 		{
 			"Throw",
 			"Put",
-            "Binocular",
+            "gm_df7x40_grn",
 			"gm_mp5sd3_blk_feroz24",
             "gm_p1_blk"
 		};
@@ -1944,7 +1944,7 @@ class CfgVehicles
 		{
 			"Throw",
 			"Put",
-            "Binocular",
+            "gm_df7x40_grn",
 			"gm_mp5sd3_blk_feroz24",
             "gm_p1_blk"
 		};
@@ -2026,7 +2026,7 @@ class CfgVehicles
 		{
 			"Throw",
 			"Put",
-            "Binocular",
+            "gm_df7x40_grn",
 			"80s_tanoa_m16a1_blk_suppressor",
             "gm_p1_blk"
 		};
@@ -2034,7 +2034,7 @@ class CfgVehicles
 		{
 			"Throw",
 			"Put",
-            "Binocular",
+            "gm_df7x40_grn",
 			"80s_tanoa_m16a1_blk_suppressor",
             "gm_p1_blk"
 		};
