@@ -77,6 +77,24 @@ class CfgVehicles
 		scopeCurator=2;
         scopeArsenal=2;
 		author="quarren";
+        class TransportItems
+        {
+            class _xx_burnBandage
+            {
+                name="gm_ge_army_burnBandage";
+                count=2;
+            };
+            class _xx_gauzeBandage
+            {
+                name="gm_ge_army_gauzeBandage";
+                count=2;
+            };
+            class _xx_gm_repairkit_01
+            {
+                name="gm_repairkit_01";
+                count=1;
+            };
+        };
 		hiddenSelectionsTextures[]=
 		{
 			"#(rgb,8,8,3)color(0.75,0.75,0.75,1,CO)",
