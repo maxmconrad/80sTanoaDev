@@ -76,6 +76,32 @@ class CfgVehicles
 		scopeCurator=2;
         scopeArsenal=2;
 		author="quarren";
+        class TransportItems
+        {
+            class _xx_burnBandage
+            {
+                name="gm_ge_army_burnBandage";
+                count=4;
+            };
+            class _xx_gauzeBandage
+            {
+                name="gm_ge_army_gauzeBandage";
+                count=4;
+            };
+            class _xx_gm_repairkit_01
+            {
+                name="gm_repairkit_01";
+                count=2;
+            };
+        };
+        class TransportMagazines
+        {
+            class _xx_gm_handGrenade_frag_rgd5
+            {
+                magazine="gm_handGrenade_frag_rgd5";
+                count=4;
+            };
+        };
 		hiddenSelectionsTextures[]=
 		{
 			"\gm\gm_vehicles\gm_land\gm_wheeled\gm_ural4320\gm_gc_bgs_ural4320\data\oli\gm_gc_bgs_ural4320_rim_01_oli_co.paa",
