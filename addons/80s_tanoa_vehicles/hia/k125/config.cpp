@@ -75,6 +75,24 @@ class CfgVehicles
 		scopeCurator=2;
         scopeArsenal=2;
 		author="quarren";
+        class TransportItems
+        {
+            class _xx_burnBandage
+            {
+                name="gm_ge_army_burnBandage";
+                count=2;
+            };
+            class _xx_gauzeBandage
+            {
+                name="gm_ge_army_gauzeBandage";
+                count=2;
+            };
+            class _xx_gm_repairkit_01
+            {
+                name="gm_repairkit_01";
+                count=1;
+            };
+        };
 		hiddenSelectionsTextures[]=
 		{
 			//"\gm\gm_vehicles\gm_land\gm_wheeled\gm_k125\gm_ge_army_k125\data\oli\gm_ge_army_k125_wheels_01_oli_co.paa",
