@@ -38,7 +38,7 @@ class CfgVehicles
 				displayname="Tucan Oil (Yellow)";
 				textures[]=
 				{
-					"(rgb,8,8,3)color(0.25,0.25,0.25,1,CO)",
+					"#(rgb,8,8,3)color(0.25,0.25,0.25,1,CO)",
 					"\80s_tanoa\80s_tanoa_vehicles\tucanoil\unimog\data\80s_tanoa_tucanoil_unigmog_ext_01_co.paa",
                     "\80s_tanoa\80s_tanoa_vehicles\tucanoil\unimog\data\80s_tanoa_tucanoil_unigmog_ext_02_co.paa",
                     "\80s_tanoa\80s_tanoa_vehicles\tucanoil\unimog\data\80s_tanoa_tucanoil_unigmog_ext_02_co.paa",
@@ -124,7 +124,7 @@ class CfgVehicles
         };
 		hiddenSelectionsTextures[]=
 		{
-			"(rgb,8,8,3)color(0.25,0.25,0.25,1,CO)",
+			"#(rgb,8,8,3)color(0.25,0.25,0.25,1,CO)",
 			"\80s_tanoa\80s_tanoa_vehicles\tucanoil\unimog\data\80s_tanoa_tucanoil_unigmog_ext_01_co.paa",
             "\80s_tanoa\80s_tanoa_vehicles\tucanoil\unimog\data\80s_tanoa_tucanoil_unigmog_ext_02_co.paa",
             "\80s_tanoa\80s_tanoa_vehicles\tucanoil\unimog\data\80s_tanoa_tucanoil_unigmog_ext_02_co.paa",
@@ -146,7 +146,7 @@ class CfgVehicles
 				displayname="Tucan Oil (Yellow)";
 				textures[]=
 				{
-					"(rgb,8,8,3)color(0.25,0.25,0.25,1,CO)",
+					"#(rgb,8,8,3)color(0.25,0.25,0.25,1,CO)",
 					"\80s_tanoa\80s_tanoa_vehicles\tucanoil\unimog\data\80s_tanoa_tucanoil_unigmog_ext_01_co.paa",
                     "\80s_tanoa\80s_tanoa_vehicles\tucanoil\unimog\data\80s_tanoa_tucanoil_unigmog_ext_02_co.paa",
                     "\80s_tanoa\80s_tanoa_vehicles\tucanoil\unimog\data\80s_tanoa_tucanoil_unigmog_ext_02_co.paa",
@@ -232,7 +232,7 @@ class CfgVehicles
         };
 		hiddenSelectionsTextures[]=
 		{
-			"(rgb,8,8,3)color(0.25,0.25,0.25,1,CO)",
+			"#(rgb,8,8,3)color(0.25,0.25,0.25,1,CO)",
 			"\80s_tanoa\80s_tanoa_vehicles\tucanoil\unimog\data\80s_tanoa_tucanoil_unigmog_ext_01_co.paa",
             "\80s_tanoa\80s_tanoa_vehicles\tucanoil\unimog\data\80s_tanoa_tucanoil_unigmog_ext_02_co.paa",
             "\80s_tanoa\80s_tanoa_vehicles\tucanoil\unimog\data\80s_tanoa_tucanoil_unigmog_ext_02_co.paa",
