@@ -52,6 +52,7 @@ class CfgVehicles
 		gm_TacticalNumbersFontNumbers="";
 		gm_TacticalNumbersDefaultNumber="";
 		gm_LicensePlateDefaultDigits="";
+        gm_LicensePlateDefaultDigits="";
 		crew="80s_tanoa_tucanoil_pilot_p1";
         editorPreview="gm\gm_vehicles\gm_air\gm_helicopters\gm_bo105\gm_ge_army_bo105\data\ui\preview_gm_ge_army_bo105m_vbh.jpg";
 	};
