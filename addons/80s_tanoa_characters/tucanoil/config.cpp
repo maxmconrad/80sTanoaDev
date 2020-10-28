@@ -75,7 +75,7 @@ class CfgVehicles
         uniformClass="80s_tanoa_tucanoil_uniform";
 		rankInsignias="army_wht";
         faceType="Man_A3";
-		side=1;
+		side=2;
 		genericNames="TanoanMen";
 		vehicleClass="Men";
 		editorSubcategory="gm_esc_men_80";
@@ -156,5 +156,22 @@ class CfgVehicles
             "gm_8rnd_9x19mm_b_dm11_p1_blk",
             "gm_8rnd_9x19mm_b_dm11_p1_blk"
 		};
+        linkedItems[]=
+		{
+			"gm_gc_compass_f73",
+			"ItemRadio",
+            "itemMap",
+            "gm_watch_kosei_80",
+            "80s_tanoa_gendarmerie_pilot_helmet",
+		};
+		respawnLinkedItems[]=
+		{
+			"gm_gc_compass_f73",
+			"ItemRadio",
+            "itemMap",
+            "gm_watch_kosei_80",
+            "80s_tanoa_gendarmerie_pilot_helmet",
+		};
 	};
+    
 };
