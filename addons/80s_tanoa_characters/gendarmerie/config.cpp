@@ -85,42 +85,6 @@ class CfgWeapons
             "#(rgb,8,8,3)color(0.75,0.75,0.75,1,CO)"
 		};
     };
-    // Tucan Rail (armed civilians)
-    class gm_uniform_unarmored_base;
-    class gm_ge_uniform_suit_80_base: gm_uniform_unarmored_base
-    {
-        class ItemInfo;
-    }
-	class 80s_tanoa_tucanrail_uniform: gm_ge_uniform_suit_80_base
-	{
-		scope=2;
-        scopeArsenal=2;
-		displayName="Tucan Rail Uniform (80s)";
-        picture="\gm\gm_characters\gm_ge_characters\data\ui\picture_gm_ge_dbp_uniform_suit_80_blu_ca";
-        class ItemInfo: ItemInfo
-        {
-            uniformClass="80s_tanoa_tucanrail_worker_base";
-        };
-        hiddenSelectionsTextures[]=
-		{
-            "\80s_tanoa\80s_tanoa_characters\gendarmerie\data\80s_tanoa_traindriver_suit_co.paa",
-            "",
-            "",
-            ""
-		};
-	};
-    class gm_ge_headgear_hat_80_gry;
-    class 80s_tanoa_tucanrail_hat: gm_ge_headgear_hat_80_gry
-    {
-        scope=2;
-        scopeArsenal=2;
-		displayName="Tucan Rail Hat (80s)";
-        picture="\gm\gm_characters\gm_ge_characters\data\ui\picture_gm_ge_headgear_hat_80_gry_ca";
-        hiddenSelectionsTextures[]=
-		{
-            "\80s_tanoa\80s_tanoa_characters\gendarmerie\data\80s_tanoa_traindriver_hat_co.paa"
-		};
-    };
 };
 
 /////////////////////////
@@ -379,65 +343,6 @@ class CfgVehicles
             "gm_watch_kosei_80",
             "80s_tanoa_gendarmerie_pilot_helmet",
             "80s_tanoa_gendarmerie_vest"
-		};
-	};
-    // Tucan Rail (armed  civilians)
-    class gm_ge_pol_officer_80_base;
-    class 80s_tanoa_tucanrail_worker_base: gm_ge_pol_officer_80_base
-    {
-        faction="80s_tanoa_gendarmerie";
-        displayName="Tucan Rail Worker (Unarmed)";
-        uniformClass="80s_tanoa_tucanrail_uniform";
-		rankInsignias="army_wht";
-        faceType="Man_A3";
-		side=1;
-		genericNames="TanoanMen";
-		vehicleClass="Men";
-		editorSubcategory="gm_esc_men_80";
-        scope=2;
-        scopeArsenal=2;
-		isgmContent=1;
-		dlc="gm";
-        author="quarren";
-		weapons[]=
-		{
-			"Throw",
-			"Put",
-		};
-		respawnWeapons[]=
-		{
-			"Throw",
-			"Put",
-		};
-		linkedItems[]=
-		{
-			"gm_gc_compass_f73",
-			"ItemRadio",
-            "itemMap",
-            "gm_watch_kosei_80",
-            "80s_tanoa_tucanrail_hat",
-            "80s_tanoa_gendarmerie_vest"
-		};
-		respawnLinkedItems[]=
-		{
-			"gm_gc_compass_f73",
-			"ItemRadio",
-            "itemMap",
-            "gm_watch_kosei_80",
-            "80s_tanoa_tucanrail_hat",
-            "80s_tanoa_gendarmerie_vest"
-		};
-		identityTypes[]=
-		{
-			"LanguageENGFRE_F",
-			"Head_Tanoan",
-		};
-        hiddenSelectionsTextures[]=
-		{
-            "\80s_tanoa\80s_tanoa_characters\gendarmerie\data\80s_tanoa_traindriver_suit_co.paa",
-            "",
-            "",
-            ""
 		};
 	};
 };
