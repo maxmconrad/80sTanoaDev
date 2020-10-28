@@ -66,7 +66,7 @@ class CfgWeapons
 /////////////////////////
 class CfgVehicles
 {
-    // Tucan Oil Security Services (armed  civilians)
+    // Tucan Oil Security Services
     class gm_ge_pol_officer_80_base;
     class 80s_tanoa_tucanoil_worker_base: gm_ge_pol_officer_80_base
     {
