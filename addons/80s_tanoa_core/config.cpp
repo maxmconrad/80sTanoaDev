@@ -36,6 +36,12 @@ class CfgFactionClasses
         priority=4;
         side=1;
     };
+    class 80s_tanoa_fc_tucanoil
+    {
+        displayName="Tucan Oil Security Services (80s)"
+        priority=4;
+        side=2;
+    };
 };
 
 /////////////////////////
