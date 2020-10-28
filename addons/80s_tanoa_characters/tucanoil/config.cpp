@@ -123,4 +123,38 @@ class CfgVehicles
             ""
 		};
 	};
+    class 80s_tanoa_tucanoil_pilot_p1: 80s_tanoa_tucanoil_worker_base
+    {
+        displayName="Pilot (P1)";
+        scope=2;
+        scopeArsenal=2;
+		weapons[]=
+		{
+			"Throw",
+			"Put",
+            "gm_p1_blk"
+		};
+		respawnWeapons[]=
+		{
+			"Throw",
+			"Put",
+            "gm_p1_blk"
+		};
+        magazines[]=
+		{
+			"gm_8rnd_9x19mm_b_dm11_p1_blk",
+            "gm_8rnd_9x19mm_b_dm11_p1_blk",
+            "gm_8rnd_9x19mm_b_dm11_p1_blk",
+            "gm_8rnd_9x19mm_b_dm11_p1_blk",
+            "gm_8rnd_9x19mm_b_dm11_p1_blk"
+		};
+		respawnMagazines[]=
+		{
+			"gm_8rnd_9x19mm_b_dm11_p1_blk",
+            "gm_8rnd_9x19mm_b_dm11_p1_blk",
+            "gm_8rnd_9x19mm_b_dm11_p1_blk",
+            "gm_8rnd_9x19mm_b_dm11_p1_blk",
+            "gm_8rnd_9x19mm_b_dm11_p1_blk"
+		};
+	};
 };
