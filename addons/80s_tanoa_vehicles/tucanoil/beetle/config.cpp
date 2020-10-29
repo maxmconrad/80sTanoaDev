@@ -4,7 +4,8 @@ class CfgPatches
 	{
 		units[]=
         {
-            "80s_tanoa_tucanoil_beetle"
+            "80s_tanoa_tucanoil_beetle",
+            "80s_tanoa_tucanoil_civ_beetle"
         };
 		weapons[]=
         {
@@ -100,4 +101,13 @@ class CfgVehicles
             "\gm\gm_vehicles\gm_land\gm_wheeled\gm_typ1\gm_ge_civ_typ1\data\col\gm_ge_civ_typ1_int_01_saphireblue_co.paa"
 		};
 	};
+    // Tucan Oil (Civilian)
+    class 80s_tanoa_tucanoil_civ_beetle: 80s_tanoa_tucanoil_beetle
+    {
+        faction="80s_tanoa_fc_tucanoil_civ";
+        displayName="Beetle";
+		side=3;
+        scope=2;
+        scopeArsenal=2;
+    };
 };

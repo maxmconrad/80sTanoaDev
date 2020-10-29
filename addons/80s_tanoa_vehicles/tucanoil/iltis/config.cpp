@@ -118,4 +118,13 @@ class CfgVehicles
             };
         };
 	};
+    // Tucan Oil (Civilian)
+    class 80s_tanoa_tucanoil_civ_iltis_cargo: 80s_tanoa_tucanoil_iltis_cargo
+    {
+        faction="80s_tanoa_fc_tucanoil_civ";
+        displayName="Polecat ATV";
+		side=3;
+        scope=2;
+        scopeArsenal=2;
+    };
 };

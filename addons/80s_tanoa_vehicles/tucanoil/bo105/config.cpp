@@ -4,7 +4,8 @@ class CfgPatches
 	{
 		units[]=
         {
-            "80s_tanoa_tucanoil_bo105"
+            "80s_tanoa_tucanoil_bo105",
+            "80s_tanoa_tucanoil_civ_bo105"
         };
 		weapons[]=
         {
@@ -87,5 +88,14 @@ class CfgVehicles
             "\80s_tanoa\80s_tanoa_vehicles\tucanoil\bo105\data\80s_tanoa_tucanoil_bo105_ext_01_co.paa",
             "\80s_tanoa\80s_tanoa_vehicles\tucanoil\bo105\data\80s_tanoa_tucanoil_bo105_ext_01_co.paa"
 		};
-    }
+    };
+    // Tucan Oil (Civilian)
+    class 80s_tanoa_tucanoil_civ_bo105: 80s_tanoa_tucanoil_bo105
+    {
+        faction="80s_tanoa_fc_tucanoil_civ";
+        displayName="Bo-105";
+		side=3;
+        scope=2;
+        scopeArsenal=2;
+    };
 };

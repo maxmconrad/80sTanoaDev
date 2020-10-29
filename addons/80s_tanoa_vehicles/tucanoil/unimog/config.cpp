@@ -219,11 +219,6 @@ class CfgVehicles
                 magazine="gm_20Rnd_762x51mm_b_DM41_g3_blk";
                 count=2;
             };
-            class _xx_gm_30Rnd_556x45mm_B_M855_stanag_gry
-            {
-                magazine="gm_30Rnd_556x45mm_B_M855_stanag_gry";
-                count=2;
-            };
             class _xx_gm_handGrenade_frag_rgd5
             {
                 magazine="gm_handGrenade_frag_rgd5";
@@ -239,4 +234,13 @@ class CfgVehicles
 			"#(rgb,8,8,3)color(0.15,0.15,0.1,1,CO)"
 		};
 	};
+    // Tucan Oil (Civilian)
+    class 80s_tanoa_tucanoil_civ_unimog_container: 80s_tanoa_tucanoil_unimog_container
+    {
+        faction="80s_tanoa_fc_tucanoil_civ";
+        displayName="Unimog";
+		side=3;
+        scope=2;
+        scopeArsenal=2;
+    };
 };
