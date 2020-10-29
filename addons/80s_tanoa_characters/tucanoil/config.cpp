@@ -261,8 +261,5 @@ class CfgVehicles
 		side=3;
         scope=2;
         scopeArsenal=2;
-		isgmContent=1;
-		dlc="gm";
-        author="quarren";
 	};
 };
