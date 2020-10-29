@@ -59,6 +59,23 @@ class CfgWeapons
             "\80s_tanoa\80s_tanoa_characters\tucanoil\data\80s_tanoa_tucanoil_hat_co.paa"
 		};
     };
+    // Tucan Oil (Civilian)
+    class gm_ge_uniform_blouse_80_base;
+    class gm_ge_pol_uniform_blouse_80_blk: gm_ge_uniform_blouse_80_base
+    {
+        class ItemInfo;
+    }
+	class 80s_tanoa_tucanoil_civ_blouse: gm_ge_pol_uniform_blouse_80_blk
+	{
+		scope=2;
+        scopeArsenal=2;
+		displayName="Tucan Oil Uniform (80s, Civilian)";
+        picture="\gm\gm_characters\gm_ge_characters\data\ui\picture_gm_ge_pol_uniform_blouse_80_blk_ca";
+        class ItemInfo: ItemInfo
+        {
+            uniformClass="80s_tanoa_tucanoil_civ_worker_base";
+        };
+	};
 };
 
 /////////////////////////
@@ -173,5 +190,61 @@ class CfgVehicles
             "80s_tanoa_gendarmerie_pilot_helmet",
 		};
 	};
-    
+    // Tucan Oil (Civilian)
+    class gm_ge_pol_patrol_80_blk;
+    class 80s_tanoa_tucanoil_civ_worker_base: gm_ge_pol_patrol_80_blk
+    {
+        faction="80s_tanoa_fc_tucanoil_civ";
+        displayName="Tucan Oil Worker (Civilian, Unarmed)";
+        uniformClass="80s_tanoa_tucanoil_civ_blouse";
+		rankInsignias="army_wht";
+        faceType="Man_A3";
+		side=3;
+		genericNames="TanoanMen";
+		vehicleClass="Men";
+		editorSubcategory="gm_esc_men_80";
+        scope=2;
+        scopeArsenal=2;
+		isgmContent=1;
+		dlc="gm";
+        author="quarren";
+		weapons[]=
+		{
+			"Throw",
+			"Put",
+		};
+		respawnWeapons[]=
+		{
+			"Throw",
+			"Put",
+		};
+		linkedItems[]=
+		{
+			"gm_gc_compass_f73",
+			"ItemRadio",
+            "itemMap",
+            "gm_watch_kosei_80",
+            "H_Cap_blk"
+		};
+		respawnLinkedItems[]=
+		{
+			"gm_gc_compass_f73",
+			"ItemRadio",
+            "itemMap",
+            "gm_watch_kosei_80",
+            "H_Cap_blk"
+		};
+		identityTypes[]=
+		{
+			"LanguageENGFRE_F",
+			"Head_Tanoan",
+		};
+        hiddenSelectionsTextures[]=
+		{
+            "\80s_tanoa\80s_tanoa_characters\tucanoil\data\80s_tanoa_tucanoil_suit_co.paa",
+            "",
+            "",
+            ""
+		};
+	};
 };

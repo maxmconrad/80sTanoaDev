@@ -42,6 +42,12 @@ class CfgFactionClasses
         priority=4;
         side=2;
     };
+    class 80s_tanoa_fc_tucanoil_civ
+    {
+        displayName="Tucan Oil (80s)";
+        priority=4;
+        side=3;
+    };
 };
 
 /////////////////////////
