@@ -262,4 +262,12 @@ class CfgVehicles
         scope=2;
         scopeArsenal=2;
 	};
+    class 80s_tanoa_tucanoil_civ_worker_suit_base: 80s_tanoa_tucanoil_worker_base
+    {
+        faction="80s_tanoa_fc_tucanoil_civ";
+        displayName="Tucan Oil Worker (Suit)";
+		side=3;
+        scope=2;
+        scopeArsenal=2;
+	};   
 };
