@@ -73,7 +73,15 @@ class gm_VehicleInsignias_Nations: gm_VehicleInsignias_base
         texture="\80s_tanoa\80s_tanoa_core\data\80s_tanoa_rfhi_national_insignia.paa";
         value="80s_tanoa_insignia_insurgents_01";
         picture="\80s_tanoa\80s_tanoa_core\data\80s_tanoa_rfhi_national_insignia.paa";
-    }
+    };
+    class 80s_tanoa_insignia_tucanoil_01
+    {
+        name="Tucan Oil";
+        author="quarren";
+        texture="\80s_tanoa\80s_tanoa_core\data\80s_tanoa_tucanoil_national_insignia_round.paa";
+        value="80s_tanoa_insignia_tucanoil_01";
+        picture="\80s_tanoa\80s_tanoa_core\data\80s_tanoa_tucanoil_national_insignia_round.paa";
+    };
 };
 
 class gm_VehicleInsignias_Recon : gm_VehicleInsignias_base 
