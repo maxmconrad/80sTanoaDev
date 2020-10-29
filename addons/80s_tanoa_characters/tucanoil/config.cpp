@@ -75,6 +75,13 @@ class CfgWeapons
         {
             uniformClass="80s_tanoa_tucanoil_civ_worker_base";
         };
+        hiddenSelectionsTextures[]=
+		{
+            "\80s_tanoa\80s_tanoa_characters\tucanoil\data\80s_tanoa_tucanoil_blouse_co.paa",
+            "",
+            "",
+            ""
+		};
 	};
 };
 
@@ -241,7 +248,7 @@ class CfgVehicles
 		};
         hiddenSelectionsTextures[]=
 		{
-            "\80s_tanoa\80s_tanoa_characters\tucanoil\data\80s_tanoa_tucanoil_suit_co.paa",
+            "\80s_tanoa\80s_tanoa_characters\tucanoil\data\80s_tanoa_tucanoil_blouse_co.paa",
             "",
             "",
             ""
