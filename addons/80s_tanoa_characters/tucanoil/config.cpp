@@ -203,6 +203,78 @@ class CfgVehicles
             ""
 		};
 	};
+    class 80s_tanoa_tucanoil_operator_g3a4: 80s_tanoa_tucanoil_worker_base
+    {
+        displayName="Security Operator (G3A4)";
+        scope=2;
+        scopeArsenal=2;
+		weapons[]=
+		{
+			"Throw",
+			"Put",
+			"gm_g3a4_blk"
+		};
+		respawnWeapons[]=
+		{
+			"Throw",
+			"Put",
+			"gm_g3a4_blk"
+		};
+		magazines[]=
+		{
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk"
+		};
+		respawnMagazines[]=
+		{
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk"
+		};
+	};
+    class 80s_tanoa_tucanoil_operator_mp5: 80s_tanoa_tucanoil_worker_blouse_base
+    {
+        displayName="Security Operator (MP5)";
+        scope=2;
+        scopeArsenal=2;
+		weapons[]=
+		{
+			"Throw",
+			"Put",
+			"gm_mp5a2_blk"
+		};
+		respawnWeapons[]=
+		{
+			"Throw",
+			"Put",
+			"gm_mp5a2_blk"
+		};
+		magazines[]=
+		{
+			"gm_30rnd_9x19mm_b_dm11_mp5_blk",
+			"gm_30rnd_9x19mm_b_dm11_mp5_blk",
+			"gm_30rnd_9x19mm_b_dm11_mp5_blk",
+			"gm_30rnd_9x19mm_b_dm11_mp5_blk",
+			"gm_30rnd_9x19mm_b_dm11_mp5_blk",
+			"gm_30rnd_9x19mm_b_dm11_mp5_blk"
+		};
+		respawnMagazines[]=
+		{
+			"gm_30rnd_9x19mm_b_dm11_mp5_blk",
+			"gm_30rnd_9x19mm_b_dm11_mp5_blk",
+			"gm_30rnd_9x19mm_b_dm11_mp5_blk",
+			"gm_30rnd_9x19mm_b_dm11_mp5_blk",
+			"gm_30rnd_9x19mm_b_dm11_mp5_blk",
+			"gm_30rnd_9x19mm_b_dm11_mp5_blk"
+		};
+	};
     class 80s_tanoa_tucanoil_pilot_p1: 80s_tanoa_tucanoil_worker_base
     {
         displayName="Pilot (P1)";
