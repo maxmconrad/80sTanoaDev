@@ -23,8 +23,8 @@ class CfgPatches
 class gm_texturesource_base;
 class CfgVehicles
 {
-    class class gm_ural375d_base;
-	class class gm_ural375d_refuel_base: gm_ural375d_base
+    class gm_ural375d_base;
+	class gm_ural375d_refuel_base: gm_ural375d_base
 	{
         class TextureSources
 		{
@@ -37,7 +37,7 @@ class CfgVehicles
 				displayname="Tucan Oil (Yellow)";
 				textures[]=
 				{
-					"#(rgb,8,8,3)color(0.25,0.25,0.25,1,CO)",
+					"\80s_tanoa\80s_tanoa_vehicles\tucanoil\ural\data\80s_tanoa_tucanoil_ural_refuel_ext_01_co.paa",
 					"\80s_tanoa\80s_tanoa_vehicles\tucanoil\ural\data\80s_tanoa_tucanoil_ural_refuel_ext_01_co.paa",
                     "\80s_tanoa\80s_tanoa_vehicles\tucanoil\ural\data\80s_tanoa_tucanoil_ural_refuel_ext_01_co.paa",
                     "\80s_tanoa\80s_tanoa_vehicles\tucanoil\ural\data\80s_tanoa_tucanoil_ural_refuel_ext_03_co.paa",
@@ -51,12 +51,12 @@ class CfgVehicles
 	{
 		side=2;
 		faction="80s_tanoa_fc_tucanoil";
-		gm_InsigniasDefaultNation="gm_insignia_none";
+		gm_InsigniasDefaultNation="80s_tanoa_insignia_tucanoil_01";
 		gm_LicensePlate="80s_tanoa_licenseplate";
 		gm_LicensePlateSelectionsDigits[]=
 		{
-			"LicensePlate_01",
-			"LicensePlate_02",
+			//"LicensePlate_01",
+			//"LicensePlate_02",
 			"LicensePlate_03",
 			"LicensePlate_04",
 			"LicensePlate_05",
@@ -67,7 +67,7 @@ class CfgVehicles
 		gm_TacticalSignsDefaultIcon="";
 		gm_TacticalNumbersFontNumbers="";
 		gm_TacticalNumbersDefaultNumber="##";
-		gm_LicensePlateDefaultDigits="########";
+		gm_LicensePlateDefaultDigits="######";
 		crew="80s_tanoa_tucanoil_worker_blouse_base";
         editorPreview="gm\gm_vehicles\gm_land\gm_wheeled\gm_ural375d\gm_gc_army_ural375d\data\ui\preview_gm_gc_army_ural375d_refuel.jpg";
         class TransportItems
@@ -106,7 +106,7 @@ class CfgVehicles
 		author="quarren";
 		hiddenSelectionsTextures[]=
 		{
-			"#(rgb,8,8,3)color(0.25,0.25,0.25,1,CO)",
+			"\80s_tanoa\80s_tanoa_vehicles\tucanoil\ural\data\80s_tanoa_tucanoil_ural_refuel_ext_01_co.paa",
 			"\80s_tanoa\80s_tanoa_vehicles\tucanoil\ural\data\80s_tanoa_tucanoil_ural_refuel_ext_01_co.paa",
             "\80s_tanoa\80s_tanoa_vehicles\tucanoil\ural\data\80s_tanoa_tucanoil_ural_refuel_ext_01_co.paa",
             "\80s_tanoa\80s_tanoa_vehicles\tucanoil\ural\data\80s_tanoa_tucanoil_ural_refuel_ext_03_co.paa",
@@ -122,6 +122,6 @@ class CfgVehicles
 		side=3;
         scope=2;
         scopeArsenal=2;
-        crew="80s_tanoa_tucanoil_civ_worker_blouse_base";
+        crew="80s_tanoa_tucanoil_civ_worker_base";
     };
 };
