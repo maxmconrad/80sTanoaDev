@@ -38,7 +38,7 @@ class CfgWeapons
         class ItemInfo: ItemInfo
         {
             uniformClass="80s_tanoa_tucanoil_worker_base";
-            containerClass="Supply60";
+            containerClass="Supply80";
         };
         hiddenSelectionsTextures[]=
 		{
@@ -75,7 +75,7 @@ class CfgWeapons
         class ItemInfo: ItemInfo
         {
             uniformClass="80s_tanoa_tucanoil_worker_blouse_base";
-            containerClass="Supply60";
+            containerClass="Supply80";
         };
         hiddenSelectionsTextures[]=
 		{
