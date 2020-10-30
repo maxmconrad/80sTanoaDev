@@ -38,6 +38,7 @@ class CfgWeapons
         class ItemInfo: ItemInfo
         {
             uniformClass="80s_tanoa_tucanoil_worker_base";
+            containerClass="Supply60";
         };
         hiddenSelectionsTextures[]=
 		{
@@ -74,6 +75,7 @@ class CfgWeapons
         class ItemInfo: ItemInfo
         {
             uniformClass="80s_tanoa_tucanoil_worker_blouse_base";
+            containerClass="Supply60";
         };
         hiddenSelectionsTextures[]=
 		{
@@ -248,13 +250,13 @@ class CfgVehicles
 		{
 			"Throw",
 			"Put",
-			"gm_mp5a2_blk"
+			"gm_mp5a3_blk"
 		};
 		respawnWeapons[]=
 		{
 			"Throw",
 			"Put",
-			"gm_mp5a2_blk"
+			"gm_mp5a3_blk"
 		};
 		magazines[]=
 		{
@@ -273,6 +275,42 @@ class CfgVehicles
 			"gm_30rnd_9x19mm_b_dm11_mp5_blk",
 			"gm_30rnd_9x19mm_b_dm11_mp5_blk",
 			"gm_30rnd_9x19mm_b_dm11_mp5_blk"
+		};
+	};
+    class 80s_tanoa_tucanoil_operator_akm: 80s_tanoa_tucanoil_worker_base
+    {
+        displayName="Security Operator (AKM)";
+        scope=2;
+        scopeArsenal=2;
+		weapons[]=
+		{
+			"Throw",
+			"Put",
+			"gm_akm_wud"
+		};
+		respawnWeapons[]=
+		{
+			"Throw",
+			"Put",
+			"gm_akm_wud"
+		};
+		magazines[]=
+		{
+			"gm_30rnd_762x39mm_b_m43_ak47_blk",
+			"gm_30rnd_762x39mm_b_m43_ak47_blk",
+			"gm_30rnd_762x39mm_b_m43_ak47_blk",
+			"gm_30rnd_762x39mm_b_m43_ak47_blk",
+			"gm_30rnd_762x39mm_b_m43_ak47_blk",
+			"gm_30rnd_762x39mm_b_m43_ak47_blk"
+		};
+		respawnMagazines[]=
+		{
+			"gm_30rnd_762x39mm_b_m43_ak47_blk",
+			"gm_30rnd_762x39mm_b_m43_ak47_blk",
+			"gm_30rnd_762x39mm_b_m43_ak47_blk",
+			"gm_30rnd_762x39mm_b_m43_ak47_blk",
+			"gm_30rnd_762x39mm_b_m43_ak47_blk",
+			"gm_30rnd_762x39mm_b_m43_ak47_blk"
 		};
 	};
     class 80s_tanoa_tucanoil_pilot_p1: 80s_tanoa_tucanoil_worker_base
