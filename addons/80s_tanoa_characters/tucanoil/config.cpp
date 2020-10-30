@@ -85,6 +85,18 @@ class CfgWeapons
             ""
 		};
 	};
+    class H_Construction_basic_base_F;
+    class 80s_tanoa_tucanoil_construction_hat: H_Construction_basic_base_F
+    {
+        scope=2;
+        scopeArsenal=2;
+		displayName="Hard Hat (Tucan Oil, 80s)";
+        picture="\A3\Characters_F_Orange\Headgear\Data\UI\icon_H_Construction_basic_white_F_CA.paa";
+        hiddenSelectionsTextures[]=
+		{
+            "\80s_tanoa\80s_tanoa_characters\tucanoil\data\80s_tanoa_tucanoil_construction_hat_co.paa"
+		}; 
+    };
 };
 
 /////////////////////////
