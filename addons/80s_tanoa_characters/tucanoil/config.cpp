@@ -243,7 +243,7 @@ class CfgVehicles
 	};
     class 80s_tanoa_tucanoil_operator_mp5: 80s_tanoa_tucanoil_worker_base
     {
-        displayName="Security Operator (MP5)";
+        displayName="Security Officer (MP5)";
         scope=2;
         scopeArsenal=2;
 		weapons[]=
