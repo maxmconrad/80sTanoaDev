@@ -42,7 +42,7 @@ class CfgVehicles
 					"\80s_tanoa\80s_tanoa_vehicles\tucanoil\unimog\data\80s_tanoa_tucanoil_unigmog_ext_01_co.paa",
                     "\80s_tanoa\80s_tanoa_vehicles\tucanoil\unimog\data\80s_tanoa_tucanoil_unigmog_ext_02_co.paa",
                     "\80s_tanoa\80s_tanoa_vehicles\tucanoil\unimog\data\80s_tanoa_tucanoil_unigmog_ext_02_co.paa",
-					"#(rgb,8,8,3)color(0.15,0.15,0.1,1,CO)"
+					"\80s_tanoa\80s_tanoa_vehicles\tucanoil\iltis\data\80s_tanoa_tucanoil_iltis_ext_02_co.paa"
 				};
 			};
 		};
@@ -128,7 +128,7 @@ class CfgVehicles
 			"\80s_tanoa\80s_tanoa_vehicles\tucanoil\unimog\data\80s_tanoa_tucanoil_unigmog_ext_01_co.paa",
             "\80s_tanoa\80s_tanoa_vehicles\tucanoil\unimog\data\80s_tanoa_tucanoil_unigmog_ext_02_co.paa",
             "\80s_tanoa\80s_tanoa_vehicles\tucanoil\unimog\data\80s_tanoa_tucanoil_unigmog_ext_02_co.paa",
-            "#(rgb,8,8,3)color(0.15,0.15,0.1,1,CO)"
+            "\80s_tanoa\80s_tanoa_vehicles\tucanoil\iltis\data\80s_tanoa_tucanoil_iltis_ext_02_co.paa"
 		};
 	};
     // Unarmed
@@ -150,7 +150,7 @@ class CfgVehicles
 					"\80s_tanoa\80s_tanoa_vehicles\tucanoil\unimog\data\80s_tanoa_tucanoil_unigmog_ext_01_co.paa",
                     "\80s_tanoa\80s_tanoa_vehicles\tucanoil\unimog\data\80s_tanoa_tucanoil_unigmog_ext_02_co.paa",
                     "\80s_tanoa\80s_tanoa_vehicles\tucanoil\unimog\data\80s_tanoa_tucanoil_unigmog_ext_02_co.paa",
-					"#(rgb,8,8,3)color(0.15,0.15,0.1,1,CO)"
+					"\80s_tanoa\80s_tanoa_vehicles\tucanoil\iltis\data\80s_tanoa_tucanoil_iltis_ext_02_co.paa"
 				};
 			};
 		};
@@ -231,7 +231,7 @@ class CfgVehicles
 			"\80s_tanoa\80s_tanoa_vehicles\tucanoil\unimog\data\80s_tanoa_tucanoil_unigmog_ext_01_co.paa",
             "\80s_tanoa\80s_tanoa_vehicles\tucanoil\unimog\data\80s_tanoa_tucanoil_unigmog_ext_02_co.paa",
             "\80s_tanoa\80s_tanoa_vehicles\tucanoil\unimog\data\80s_tanoa_tucanoil_unigmog_ext_02_co.paa",
-			"#(rgb,8,8,3)color(0.15,0.15,0.1,1,CO)"
+			"\80s_tanoa\80s_tanoa_vehicles\tucanoil\iltis\data\80s_tanoa_tucanoil_iltis_ext_02_co.paa"
 		};
 	};
     // Tucan Oil (Civilian)
