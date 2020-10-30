@@ -113,7 +113,7 @@ class CfgVehicles
             };
             class _xx_gm_30rnd_762x39mm_b_m43_ak47_blk
             {
-                magazine="_xx_gm_30rnd_762x39mm_b_m43_ak47_blk";
+                magazine="gm_30rnd_762x39mm_b_m43_ak47_blk";
                 count=2;
             };
             class _xx_gm_30rnd_9x19mm_b_dm11_mp5_blk
@@ -226,7 +226,7 @@ class CfgVehicles
             };
             class _xx_gm_30rnd_762x39mm_b_m43_ak47_blk
             {
-                magazine="_xx_gm_30rnd_762x39mm_b_m43_ak47_blk";
+                magazine="gm_30rnd_762x39mm_b_m43_ak47_blk";
                 count=2;
             };
             class _xx_gm_30rnd_9x19mm_b_dm11_mp5_blk
