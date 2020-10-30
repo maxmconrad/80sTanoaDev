@@ -253,5 +253,31 @@ class CfgVehicles
         scope=2;
         scopeArsenal=2;
         crew="80s_tanoa_tucanoil_civ_worker_base";
+        class TransportItems
+        {
+            class _xx_burnBandage
+            {
+                name="gm_ge_army_burnBandage";
+                count=2;
+            };
+            class _xx_gauzeBandage
+            {
+                name="gm_ge_army_gauzeBandage";
+                count=2;
+            };
+            class _xx_gm_repairkit_01
+            {
+                name="gm_repairkit_01";
+                count=1;
+            };
+        };
+        class TransportWeapons
+        {
+            class _xx_binoculars
+            {
+                weapon="gm_df7x40_grn";
+                count=1;
+            };
+        };
     };
 };
