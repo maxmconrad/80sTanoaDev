@@ -109,17 +109,22 @@ class CfgVehicles
             class _xx_gm_20Rnd_762x51mm_b_DM41_g3_blk
             {
                 magazine="gm_20Rnd_762x51mm_b_DM41_g3_blk";
+                count=2;
+            };
+            class _xx_gm_30rnd_762x39mm_b_m43_ak47_blk
+            {
+                magazine="_xx_gm_30rnd_762x39mm_b_m43_ak47_blk";
+                count=2;
+            };
+            class _xx_gm_30rnd_9x19mm_b_dm11_mp5_blk
+            {
+                magazine="gm_30rnd_9x19mm_b_dm11_mp5_blk";
                 count=4;
             };
             class _xx_gm_120Rnd_762x51mm_b_t_DM21A1_mg3_grn
             {
                 magazine="gm_120Rnd_762x51mm_b_t_DM21A1_mg3_grn";
                 count=2;
-            };
-            class _xx_gm_handGrenade_frag_rgd5
-            {
-                magazine="gm_handGrenade_frag_rgd5";
-                count=4;
             };
         };
 		hiddenSelectionsTextures[]=
@@ -219,10 +224,15 @@ class CfgVehicles
                 magazine="gm_20Rnd_762x51mm_b_DM41_g3_blk";
                 count=2;
             };
-            class _xx_gm_handGrenade_frag_rgd5
+            class _xx_gm_30rnd_762x39mm_b_m43_ak47_blk
             {
-                magazine="gm_handGrenade_frag_rgd5";
+                magazine="_xx_gm_30rnd_762x39mm_b_m43_ak47_blk";
                 count=2;
+            };
+            class _xx_gm_30rnd_9x19mm_b_dm11_mp5_blk
+            {
+                magazine="gm_30rnd_9x19mm_b_dm11_mp5_blk";
+                count=4;
             };
         };
 		hiddenSelectionsTextures[]=
