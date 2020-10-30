@@ -205,7 +205,7 @@ class CfgVehicles
             ""
 		};
 	};
-    class 80s_tanoa_tucanoil_operator_g3a4: 80s_tanoa_tucanoil_worker_base
+    class 80s_tanoa_tucanoil_operator_g3a4: 80s_tanoa_tucanoil_worker_blouse_base
     {
         displayName="Security Operator (G3A4)";
         scope=2;
@@ -241,7 +241,7 @@ class CfgVehicles
 			"gm_20rnd_762x51mm_b_dm41_g3_blk"
 		};
 	};
-    class 80s_tanoa_tucanoil_operator_mp5: 80s_tanoa_tucanoil_worker_blouse_base
+    class 80s_tanoa_tucanoil_operator_mp5: 80s_tanoa_tucanoil_worker_base
     {
         displayName="Security Operator (MP5)";
         scope=2;
@@ -277,7 +277,7 @@ class CfgVehicles
 			"gm_30rnd_9x19mm_b_dm11_mp5_blk"
 		};
 	};
-    class 80s_tanoa_tucanoil_operator_akm: 80s_tanoa_tucanoil_worker_base
+    class 80s_tanoa_tucanoil_operator_akm: 80s_tanoa_tucanoil_worker_blouse_base
     {
         displayName="Security Operator (AKM)";
         scope=2;
