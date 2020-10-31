@@ -99,6 +99,6 @@ class CfgVehicles
 		side=3;
         scope=2;
         scopeArsenal=2;
-        crew="80s_tanoa_tucanoil_worker_blouse_base";
+        crew="80s_tanoa_tucanoil_civ_worker_base";
     };
 };

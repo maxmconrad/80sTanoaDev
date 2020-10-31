@@ -109,7 +109,7 @@ class CfgVehicles
     class 80s_tanoa_tucanoil_worker_base: gm_ge_pol_officer_80_base
     {
         faction="80s_tanoa_fc_tucanoil";
-        displayName="Tucan Oil Worker (Unarmed)";
+        displayName="Worker (Unarmed)";
         uniformClass="80s_tanoa_tucanoil_uniform";
 		rankInsignias="army_wht";
         faceType="Man_A3";
@@ -165,7 +165,7 @@ class CfgVehicles
     class 80s_tanoa_tucanoil_worker_blouse_base: gm_ge_pol_patrol_80_blk
     {
         faction="80s_tanoa_fc_tucanoil";
-        displayName="Tucan Oil Worker (Blouse, Unarmed)";
+        displayName="Worker (Blouse, Unarmed)";
         uniformClass="80s_tanoa_tucanoil_blouse";
 		rankInsignias="army_wht";
         faceType="Man_A3";
@@ -253,7 +253,43 @@ class CfgVehicles
 			"gm_20rnd_762x51mm_b_dm41_g3_blk"
 		};
 	};
-    class 80s_tanoa_tucanoil_operator_mp5: 80s_tanoa_tucanoil_worker_base
+    class 80s_tanoa_tucanoil_officer_mp5: 80s_tanoa_tucanoil_worker_base
+    {
+        displayName="Security Officer (MP5)";
+        scope=2;
+        scopeArsenal=2;
+		weapons[]=
+		{
+			"Throw",
+			"Put",
+			"gm_mp5a3_blk"
+		};
+		respawnWeapons[]=
+		{
+			"Throw",
+			"Put",
+			"gm_mp5a3_blk"
+		};
+		magazines[]=
+		{
+			"gm_30rnd_9x19mm_b_dm11_mp5_blk",
+			"gm_30rnd_9x19mm_b_dm11_mp5_blk",
+			"gm_30rnd_9x19mm_b_dm11_mp5_blk",
+			"gm_30rnd_9x19mm_b_dm11_mp5_blk",
+			"gm_30rnd_9x19mm_b_dm11_mp5_blk",
+			"gm_30rnd_9x19mm_b_dm11_mp5_blk"
+		};
+		respawnMagazines[]=
+		{
+			"gm_30rnd_9x19mm_b_dm11_mp5_blk",
+			"gm_30rnd_9x19mm_b_dm11_mp5_blk",
+			"gm_30rnd_9x19mm_b_dm11_mp5_blk",
+			"gm_30rnd_9x19mm_b_dm11_mp5_blk",
+			"gm_30rnd_9x19mm_b_dm11_mp5_blk",
+			"gm_30rnd_9x19mm_b_dm11_mp5_blk"
+		};
+	};
+    class 80s_tanoa_tucanoil_operator_mp5: 80s_tanoa_tucanoil_worker_blouse_base
     {
         displayName="Security Officer (MP5)";
         scope=2;
@@ -379,7 +415,7 @@ class CfgVehicles
     class 80s_tanoa_tucanoil_civ_worker_base: 80s_tanoa_tucanoil_worker_blouse_base
     {
         faction="80s_tanoa_fc_tucanoil_civ";
-        displayName="Tucan Oil Worker";
+        displayName="Worker";
 		side=3;
         scope=2;
         scopeArsenal=2;
@@ -387,9 +423,29 @@ class CfgVehicles
     class 80s_tanoa_tucanoil_civ_worker_suit_base: 80s_tanoa_tucanoil_worker_base
     {
         faction="80s_tanoa_fc_tucanoil_civ";
-        displayName="Tucan Oil Worker (Suit)";
+        displayName="Worker (Suit)";
 		side=3;
         scope=2;
         scopeArsenal=2;
-	};   
+	};
+    class 80s_tanoa_tucanoil_civ_pilot: 80s_tanoa_tucanoil_civ_worker_base
+    {
+        displayName="Pilot";
+        linkedItems[]=
+		{
+			"gm_gc_compass_f73",
+			"ItemRadio",
+            "itemMap",
+            "gm_watch_kosei_80",
+            "80s_tanoa_gendarmerie_pilot_helmet",
+		};
+		respawnLinkedItems[]=
+		{
+			"gm_gc_compass_f73",
+			"ItemRadio",
+            "itemMap",
+            "gm_watch_kosei_80",
+            "80s_tanoa_gendarmerie_pilot_helmet",
+		};
+    };
 };
