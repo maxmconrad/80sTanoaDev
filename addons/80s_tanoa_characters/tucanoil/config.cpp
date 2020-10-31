@@ -122,6 +122,7 @@ class CfgVehicles
 		isgmContent=1;
 		dlc="gm";
         author="quarren";
+        editorPreview="\gm\gm_characters\gm_gc_characters\data\ui\editor\gm_gc_pol_officer_80_blu.jpg";
 		weapons[]=
 		{
 			"Throw",
@@ -291,7 +292,7 @@ class CfgVehicles
 	};
     class 80s_tanoa_tucanoil_operator_mp5: 80s_tanoa_tucanoil_worker_blouse_base
     {
-        displayName="Security Officer (MP5)";
+        displayName="Security Operator (MP5)";
         scope=2;
         scopeArsenal=2;
 		weapons[]=
