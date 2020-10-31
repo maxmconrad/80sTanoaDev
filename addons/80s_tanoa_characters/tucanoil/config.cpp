@@ -48,6 +48,7 @@ class CfgWeapons
             ""
 		};
 	};
+    // Military cap
     class gm_ge_headgear_hat_80_gry;
     class 80s_tanoa_tucanoil_hat: gm_ge_headgear_hat_80_gry
     {
@@ -85,12 +86,55 @@ class CfgWeapons
             ""
 		};
 	};
+    // CBRN Suit
+    class U_C_CBRN_Suit_01_White_F;
+    class 80s_tanoa_tucanoil_cbrn_suit: U_C_CBRN_Suit_01_White_F
+    {
+        scope=2;
+        scopeArsenal=2;
+		displayName="Tucan Oil CBRN Suit (80s)";
+        picture="\a3\Characters_F_Enoch\Uniforms\data\ui\icon_U_C_CBRN_Suit_01_White_F_ca.paa";
+        class ItemInfo: ItemInfo
+        {
+            uniformClass="80s_tanoa_tucanoil_worker_cbrn_base";
+            containerClass="Supply80";
+        };
+        hiddenSelectionsTextures[]=
+		{
+            "\80s_tanoa\80s_tanoa_characters\tucanoil\data\80s_tanoa_tucanoil_cbrn_suit_co.paa"
+		};
+    };
+    // Hard Hat
     class H_Construction_basic_base_F;
     class 80s_tanoa_tucanoil_construction_hat: H_Construction_basic_base_F
     {
         scope=2;
         scopeArsenal=2;
 		displayName="Hard Hat (Tucan Oil, 80s)";
+        picture="\A3\Characters_F_Orange\Headgear\Data\UI\icon_H_Construction_basic_white_F_CA.paa";
+        hiddenSelectionsTextures[]=
+		{
+            "\80s_tanoa\80s_tanoa_characters\tucanoil\data\80s_tanoa_tucanoil_construction_hat_co.paa"
+		}; 
+    };
+    class H_Construction_earprot_base_F;
+    class 80s_tanoa_tucanoil_construction_hat_earprot: H_Construction_earprot_base_F
+    {
+        scope=2;
+        scopeArsenal=2;
+		displayName="Hard Hat (Tucan Oil, 80s, Ear Protection)";
+        picture="\A3\Characters_F_Orange\Headgear\Data\UI\icon_H_Construction_basic_white_F_CA.paa";
+        hiddenSelectionsTextures[]=
+		{
+            "\80s_tanoa\80s_tanoa_characters\tucanoil\data\80s_tanoa_tucanoil_construction_hat_co.paa"
+		}; 
+    };
+    class H_Construction_headset_base_F;
+    class 80s_tanoa_tucanoil_construction_hat_headset: H_Construction_headset_base_F
+    {
+        scope=2;
+        scopeArsenal=2;
+		displayName="Hard Hat (Tucan Oil, 80s, Headset)";
         picture="\A3\Characters_F_Orange\Headgear\Data\UI\icon_H_Construction_basic_white_F_CA.paa";
         hiddenSelectionsTextures[]=
 		{
@@ -218,6 +262,61 @@ class CfgVehicles
             ""
 		};
 	};
+    class C_CBRN_Man_Oversuit_01_White_F;
+    class 80s_tanoa_tucanoil_worker_cbrn_base: C_CBRN_Man_Oversuit_01_White_F
+    {
+        faction="80s_tanoa_fc_tucanoil";
+        displayName="Worker (CBRN, Unarmed)";
+        uniformClass="80s_tanoa_tucanoil_cbrn_suit";
+		rankInsignias="army_wht";
+        faceType="Man_A3";
+		side=2;
+		genericNames="TanoanMen";
+		vehicleClass="Men";
+		editorSubcategory="gm_esc_men_80";
+        scope=2;
+        scopeArsenal=2;
+		isgmContent=1;
+		dlc="gm";
+        author="quarren";
+		weapons[]=
+		{
+			"Throw",
+			"Put",
+		};
+		respawnWeapons[]=
+		{
+			"Throw",
+			"Put",
+		};
+		linkedItems[]=
+		{
+			"gm_gc_compass_f73",
+			"ItemRadio",
+            "itemMap",
+            "gm_watch_kosei_80",
+            "gm_ge_facewear_m65",
+            "80s_tanoa_tucanoil_construction_hat"
+		};
+		respawnLinkedItems[]=
+		{
+			"gm_gc_compass_f73",
+			"ItemRadio",
+            "itemMap",
+            "gm_watch_kosei_80",
+            "gm_ge_facewear_m65",
+            "80s_tanoa_tucanoil_construction_hat"
+		};
+		identityTypes[]=
+		{
+			"LanguageENGFRE_F",
+			"Head_Tanoan",
+		};
+        hiddenSelectionsTextures[]=
+		{
+            "\80s_tanoa\80s_tanoa_characters\tucanoil\data\80s_tanoa_tucanoil_cbrn_suit_co.paa"
+		};
+    };
     class 80s_tanoa_tucanoil_operator_g3a4: 80s_tanoa_tucanoil_worker_blouse_base
     {
         displayName="Security Operator (G3A4)";
@@ -402,6 +501,7 @@ class CfgVehicles
             "itemMap",
             "gm_watch_kosei_80",
             "80s_tanoa_gendarmerie_pilot_helmet",
+            "G_Spectacles_tinted"
 		};
 		respawnLinkedItems[]=
 		{
@@ -410,6 +510,7 @@ class CfgVehicles
             "itemMap",
             "gm_watch_kosei_80",
             "80s_tanoa_gendarmerie_pilot_helmet",
+            "G_Spectacles_tinted"
 		};
 	};
     // Tucan Oil (Civilian)
@@ -445,6 +546,14 @@ class CfgVehicles
         scope=2;
         scopeArsenal=2;
 	};
+    class 80s_tanoa_tucanoil_civ_cbrn_base: 80s_tanoa_tucanoil_worker_cbrn_base
+    {
+        faction="80s_tanoa_fc_tucanoil_civ";
+        displayName="Worker (CBRN)";
+		side=3;
+        scope=2;
+        scopeArsenal=2;
+    };
     class 80s_tanoa_tucanoil_civ_pilot: 80s_tanoa_tucanoil_civ_worker_base
     {
         displayName="Pilot";
@@ -455,6 +564,7 @@ class CfgVehicles
             "itemMap",
             "gm_watch_kosei_80",
             "80s_tanoa_gendarmerie_pilot_helmet",
+            "G_Spectacles_tinted"
 		};
 		respawnLinkedItems[]=
 		{
@@ -463,6 +573,7 @@ class CfgVehicles
             "itemMap",
             "gm_watch_kosei_80",
             "80s_tanoa_gendarmerie_pilot_helmet",
+            "G_Spectacles_tinted"
 		};
     };
 };
