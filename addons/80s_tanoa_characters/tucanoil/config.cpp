@@ -87,7 +87,11 @@ class CfgWeapons
 		};
 	};
     // CBRN Suit
-    class U_C_CBRN_Suit_01_White_F;
+    class Uniform_Base;
+    class U_C_CBRN_Suit_01_White_F: Uniform_Base
+    {
+        class ItemInfo;
+    }
     class 80s_tanoa_tucanoil_cbrn_suit: U_C_CBRN_Suit_01_White_F
     {
         scope=2;
@@ -576,4 +580,50 @@ class CfgVehicles
             "G_Spectacles_tinted"
 		};
     };
+};
+// CfgGroups
+class CfgGroups
+{
+	class Indep
+	{
+		class 80s_tanoa_tucanoil_security
+		{
+			name="Tucan Oil Security Services(80s)";
+			class gm_infantry
+			{
+				name="Infantry";
+                class 80s_tanoa_tucanoil_response_team
+				{
+					name="Response Team";
+					side=2;
+					faction="80s_tanoa_fc_tucanoil";
+					icon="\A3\ui_f\data\map\markers\nato\b_inf.paa";
+					class Leader1
+					{
+						side=2;
+						vehicle="80s_tanoa_tucanoil_officer_mp5";
+						rank="SERGEANT";
+						position[]={0,0,0};
+					};
+					class Rifleman1: Leader1
+					{
+						vehicle="80s_tanoa_tucanoil_operator_akm";
+						rank="CORPORAL";
+						position[]={5,-5,0};
+					};
+					class Rifleman2: Rifleman1
+					{
+						vehicle="80s_tanoa_tucanoil_operator_mp5";
+						rank="PRIVATE";
+						position[]={-5,-5,0};
+					};
+					class Marksman: Rifleman1
+					{
+						vehicle="80s_tanoa_tucanoil_operator_mp5";
+						position[]={10,-10,0};
+					};
+				};
+			};
+		};
+	};
 };
