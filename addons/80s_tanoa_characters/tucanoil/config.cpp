@@ -4,10 +4,28 @@ class CfgPatches
 	{
 		units[]=
         {
-            "80s_tanoa_tucanoil_worker_base"
+            "80s_tanoa_tucanoil_worker_base",
+            "80s_tanoa_tucanoil_worker_blouse_base",
+            "80s_tanoa_tucanoil_worker_cbrn_base",
+            "80s_tanoa_tucanoil_operator_g3a4",
+            "80s_tanoa_tucanoil_officer_mp5",
+            "80s_tanoa_tucanoil_operator_mp5",
+            "80s_tanoa_tucanoil_operator_akm",
+            "80s_tanoa_tucanoil_pilot_p1",
+            "80s_tanoa_tucanoil_civ_worker_base",
+            "80s_tanoa_tucanoil_civ_worker_suit_base",
+            "80s_tanoa_tucanoil_civ_cbrn_base",
+            "80s_tanoa_tucanoil_civ_pilot"
         };
 		weapons[]=
         {
+            "80s_tanoa_tucanoil_uniform",
+            "80s_tanoa_tucanoil_hat",
+            "80s_tanoa_tucanoil_blouse",
+            "80s_tanoa_tucanoil_cbrn_suit",
+            "80s_tanoa_tucanoil_construction_hat",
+            "80s_tanoa_tucanoil_construction_hat_earprot",
+            "80s_tanoa_tucanoil_construction_hat_headset"
         };
 		requiredAddons[]=
 		{
