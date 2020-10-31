@@ -419,6 +419,22 @@ class CfgVehicles
 		side=3;
         scope=2;
         scopeArsenal=2;
+        linkedItems[]=
+		{
+			"gm_gc_compass_f73",
+			"ItemRadio",
+            "itemMap",
+            "gm_watch_kosei_80",
+            "80s_tanoa_tucanoil_construction_hat",
+		};
+		respawnLinkedItems[]=
+		{
+			"gm_gc_compass_f73",
+			"ItemRadio",
+            "itemMap",
+            "gm_watch_kosei_80",
+            "80s_tanoa_tucanoil_construction_hat",
+		};
 	};
     class 80s_tanoa_tucanoil_civ_worker_suit_base: 80s_tanoa_tucanoil_worker_base
     {
