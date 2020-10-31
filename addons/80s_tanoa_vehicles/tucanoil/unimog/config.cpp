@@ -281,3 +281,56 @@ class CfgVehicles
         };
     };
 };
+// CfgGroups
+class CfgGroups
+{
+	class Indep
+	{
+		class 80s_tanoa_tucanoil_security
+		{
+			name="Tucan Oil Security Services(80s)";
+			class gm_motorizedinfantry
+			{
+				name="Motorized Infantry";
+                class 80s_tanoa_hia_motorized_response_team_unimog_mg3
+				{
+					name="Motorized Response Team (Unimog, armed)";
+					side=2;
+					faction="80s_tanoa_fc_tucanoil";
+					icon="A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
+					class Vehicle1
+					{
+						side=2;
+						vehicle="80s_tanoa_tucanoil_unimog_armed";
+						rank="SERGEANT";
+						position[]={0,0,0};
+					};
+                    class Leader1: Vehicle1
+					{
+						side=2;
+						vehicle="80s_tanoa_tucanoil_officer_mp5";
+						rank="SERGEANT";
+						position[]={5,-5,0};
+					};
+					class Marksman1: Leader1
+					{
+						vehicle="80s_tanoa_tucanoil_operator_g3a4";
+						rank="CORPORAL";
+						position[]={-5,-5,0};
+					};
+					class Rifleman1: Leader1
+					{
+						vehicle="80s_tanoa_tucanoil_operator_mp5";
+						rank="PRIVATE";
+						position[]={10,-10,0};
+					};
+					class Rifleman2: Rifleman1
+					{
+						vehicle="80s_tanoa_tucanoil_operator_akm";
+						position[]={-10,-10,0};
+					};
+				};
+			};
+		};
+	};
+};
