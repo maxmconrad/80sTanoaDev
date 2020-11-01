@@ -52,8 +52,22 @@ class CfgVehicles
 		gm_TacticalSignsDefaultIcon="gm_insignia_none";
 		gm_TacticalNumbersFontNumbers="";
 		gm_TacticalNumbersDefaultNumber="";
-		gm_LicensePlateDefaultDigits="";
-        gm_LicensePlateDefaultDigits="";
+		gm_LicensePlate="80s_tanoa_licenseplate";
+		gm_LicensePlateSelectionsDigits[]=
+		{
+			//"LicensePlate_01",
+			//"LicensePlate_02",
+			"LicensePlate_03",
+			"LicensePlate_04",
+			"LicensePlate_05",
+			"LicensePlate_06",
+			"LicensePlate_07",
+			"LicensePlate_08"
+		};
+		gm_TacticalSignsDefaultIcon="";
+		gm_TacticalNumbersFontNumbers="";
+		gm_TacticalNumbersDefaultNumber="##";
+		gm_LicensePlateDefaultDigits="######";
 		crew="80s_tanoa_tucanoil_pilot_p1";
         editorPreview="gm\gm_vehicles\gm_air\gm_helicopters\gm_bo105\gm_ge_army_bo105\data\ui\preview_gm_ge_army_bo105m_vbh.jpg";
 	};
