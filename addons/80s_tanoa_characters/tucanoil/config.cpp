@@ -706,26 +706,10 @@ class CfgVehicles
     class 80s_tanoa_tucanoil_civ_cbrn_base: 80s_tanoa_tucanoil_worker_cbrn_base
     {
         faction="80s_tanoa_fc_tucanoil_civ";
-        displayName="Wiki Morilau";
+        displayName="Worker (CBRN)";
 		side=3;
         scope=2;
         scopeArsenal=2;
-        linkedItems[]=
-		{
-			"gm_gc_compass_f73",
-			"ItemRadio",
-            "itemMap",
-            "gm_watch_kosei_80",
-            "G_Spectacles_tinted"
-		};
-		respawnLinkedItems[]=
-		{
-			"gm_gc_compass_f73",
-			"ItemRadio",
-            "itemMap",
-            "gm_watch_kosei_80",
-            "G_Spectacles_tinted"
-		};
     };
     class 80s_tanoa_tucanoil_civ_pilot: 80s_tanoa_tucanoil_civ_worker_base
     {
@@ -749,9 +733,39 @@ class CfgVehicles
             "G_Spectacles_tinted"
 		};
     };
-    class 80s_tanoa_tucanoil_civ_ceo: 80s_tanoa_tucanoil_ceo_p1
+    class 80s_tanoa_tucanoil_civ_ceo: 80s_tanoa_tucanoil_ceo_mp5
     {
-        
+        faction="80s_tanoa_fc_tucanoil_civ";
+        displayName="Wiki Morilau";
+		side=3;
+        scope=2;
+        scopeArsenal=2;
+        weapons[]=
+		{
+			"Throw",
+			"Put"
+		};
+		respawnWeapons[]=
+		{
+			"Throw",
+			"Put"
+		};
+        linkedItems[]=
+		{
+			"gm_gc_compass_f73",
+			"ItemRadio",
+            "itemMap",
+            "gm_watch_kosei_80",
+            "G_Spectacles_tinted"
+		};
+		respawnLinkedItems[]=
+		{
+			"gm_gc_compass_f73",
+			"ItemRadio",
+            "itemMap",
+            "gm_watch_kosei_80",
+            "G_Spectacles_tinted"
+		};
     };
 };
 // CfgGroups
