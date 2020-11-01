@@ -36,6 +36,42 @@ class CfgPatches
 	};
 };
 
+class EventHandlers;
+
+/////////////////////////
+// Identities & Faces   /
+/////////////////////////
+class CfgFaces
+{
+    class Default;
+    class Man_A3: Default
+    {
+        class TanoanHead_A3_07;
+        class 80s_tanoa_face_tucanoil_ceo: TanoanHead_A3_07
+        {
+            author=quarren;
+            displayName="Wiki Morilau";
+            identityTypes[] = {"80s_tanoa_identity_tucanoil_ceo"};
+            texture = "\A3\Characters_F_Exp\Heads\Data\m_tanoan_07_co.paa";
+            material = "A3\Characters_F_Exp\Heads\Data\m_tanoan_07.rvmat";
+            materialWounded1 = "A3\Characters_F_Exp\Heads\Data\m_tanoan_07_injury.rvmat";
+            materialWounded2 = "A3\Characters_F_Exp\Heads\Data\m_tanoan_07_injury.rvmat";
+            DLC = "Expansion";
+        };
+    };
+};
+class CfgIdentities
+{
+    class 80s_tanoa_identity_tucanoil_ceo
+    {
+        face="TanoanHead_A3_07";
+        glasses="G_Spectacles_tinted";
+        name="Wiki Morilau";
+        pitch=0.9;
+        speaker="Male02ENGFRE";
+    };
+};
+
 /////////////////////////
 // Uniforms/Weapons     /
 /////////////////////////
@@ -598,6 +634,63 @@ class CfgVehicles
             "G_Spectacles_tinted"
 		};
     };
+    class 80s_tanoa_tucanoil_civ_ceo: gm_ge_pol_officer_80_base
+    {
+        faction="80s_tanoa_fc_tucanoil_civ";
+        displayName="Wiki Morilau";
+        uniformClass="80s_tanoa_tucanoil_uniform";
+		rankInsignias="army_wht";
+        faceType="Man_A3";
+		side=3;
+		genericNames="TanoanMen";
+		vehicleClass="Men";
+		editorSubcategory="EdSubcat_Personnel_Story";
+        scope=2;
+        scopeArsenal=2;
+		isgmContent=1;
+		dlc="gm";
+        author="quarren";
+        editorPreview="\gm\gm_characters\gm_gc_characters\data\ui\editor\gm_gc_pol_officer_80_blu.jpg";
+		weapons[]=
+		{
+			"Throw",
+			"Put",
+		};
+		respawnWeapons[]=
+		{
+			"Throw",
+			"Put",
+		};
+		linkedItems[]=
+		{
+			"gm_gc_compass_f73",
+			"ItemRadio",
+            "itemMap",
+            "gm_watch_kosei_80",
+		};
+		respawnLinkedItems[]=
+		{
+			"gm_gc_compass_f73",
+			"ItemRadio",
+            "itemMap",
+            "gm_watch_kosei_80",
+		};
+		identityTypes[]=
+		{
+			"80s_tanoa_identity_tucanoil_ceo"
+		};
+        hiddenSelectionsTextures[]=
+		{
+            "\80s_tanoa\80s_tanoa_characters\tucanoil\data\80s_tanoa_tucanoil_suit_ceo_co.paa",
+            "",
+            "",
+            ""
+		};
+        class EventHandlers: EventHandlers
+        {
+            init = "(_this select 0) setIdentity ""80s_tanoa_identity_tucanoil_ceo""";
+        };
+	};
 };
 // CfgGroups
 class CfgGroups
