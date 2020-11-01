@@ -64,7 +64,7 @@ class CfgIdentities
 {
     class 80s_tanoa_identity_tucanoil_ceo
     {
-        face="TanoanHead_A3_07";
+        face="80s_tanoa_face_tucanoil_ceo";
         glasses="G_Spectacles_tinted";
         name="Wiki Morilau";
         pitch=0.9;
@@ -688,7 +688,7 @@ class CfgVehicles
 		};
         class EventHandlers: EventHandlers
         {
-            init = "(_this select 0) setIdentity ""80s_tanoa_identity_tucanoil_ceo""";
+            init="(_this select 0) setIdentity ""80s_tanoa_identity_tucanoil_ceo""";
         };
 	};
 };
