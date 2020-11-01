@@ -102,6 +102,26 @@ class CfgWeapons
             ""
 		};
 	};
+    // CEO Suit (Wiki Morilau)
+    class 80s_tanoa_tucanoil_ceo_uniform: gm_ge_uniform_suit_80_base
+	{
+		scope=2;
+        scopeArsenal=2;
+		displayName="Tucan Oil CEO Suit (80s)";
+        picture="\gm\gm_characters\gm_ge_characters\data\ui\picture_gm_ge_dbp_uniform_suit_80_blu_ca";
+        class ItemInfo: ItemInfo
+        {
+            uniformClass="80s_tanoa_tucanoil_ceo_p1";
+            containerClass="Supply80";
+        };
+        hiddenSelectionsTextures[]=
+		{
+            "\80s_tanoa\80s_tanoa_characters\tucanoil\data\80s_tanoa_tucanoil_suit_ceo_co.paa",
+            "",
+            "",
+            ""
+		};
+	};
     // Military cap
     class gm_ge_headgear_hat_80_gry;
     class 80s_tanoa_tucanoil_hat: gm_ge_headgear_hat_80_gry
@@ -375,6 +395,85 @@ class CfgVehicles
             "\80s_tanoa\80s_tanoa_characters\tucanoil\data\80s_tanoa_tucanoil_cbrn_suit_co.paa"
 		};
     };
+    class 80s_tanoa_tucanoil_ceo_mp5: gm_ge_pol_officer_80_base
+    {
+        faction="80s_tanoa_fc_tucanoil";
+        displayName="Wiki Morilau";
+        uniformClass="80s_tanoa_tucanoil_ceo_uniform";
+		rankInsignias="army_wht";
+        faceType="Man_A3";
+		side=2;
+		genericNames="TanoanMen";
+		vehicleClass="Men";
+		editorSubcategory="EdSubcat_Personnel_Story";
+        scope=2;
+        scopeArsenal=2;
+		isgmContent=1;
+		dlc="gm";
+        author="quarren";
+        editorPreview="\gm\gm_characters\gm_gc_characters\data\ui\editor\gm_gc_pol_officer_80_blu.jpg";
+		weapons[]=
+		{
+			"Throw",
+			"Put",
+			"gm_mp5a3_blk"
+		};
+		respawnWeapons[]=
+		{
+			"Throw",
+			"Put",
+			"gm_mp5a3_blk"
+		};
+		magazines[]=
+		{
+			"gm_30rnd_9x19mm_b_dm11_mp5_blk",
+			"gm_30rnd_9x19mm_b_dm11_mp5_blk",
+			"gm_30rnd_9x19mm_b_dm11_mp5_blk",
+			"gm_30rnd_9x19mm_b_dm11_mp5_blk",
+			"gm_30rnd_9x19mm_b_dm11_mp5_blk",
+			"gm_30rnd_9x19mm_b_dm11_mp5_blk"
+		};
+		respawnMagazines[]=
+		{
+			"gm_30rnd_9x19mm_b_dm11_mp5_blk",
+			"gm_30rnd_9x19mm_b_dm11_mp5_blk",
+			"gm_30rnd_9x19mm_b_dm11_mp5_blk",
+			"gm_30rnd_9x19mm_b_dm11_mp5_blk",
+			"gm_30rnd_9x19mm_b_dm11_mp5_blk",
+			"gm_30rnd_9x19mm_b_dm11_mp5_blk"
+		};
+        linkedItems[]=
+		{
+			"gm_gc_compass_f73",
+			"ItemRadio",
+            "itemMap",
+            "gm_watch_kosei_80",
+            "G_Spectacles_tinted"
+		};
+		respawnLinkedItems[]=
+		{
+			"gm_gc_compass_f73",
+			"ItemRadio",
+            "itemMap",
+            "gm_watch_kosei_80",
+            "G_Spectacles_tinted"
+		};
+		identityTypes[]=
+		{
+			"80s_tanoa_identity_tucanoil_ceo"
+		};
+        hiddenSelectionsTextures[]=
+		{
+            "\80s_tanoa\80s_tanoa_characters\tucanoil\data\80s_tanoa_tucanoil_suit_ceo_co.paa",
+            "",
+            "",
+            ""
+		};
+        class EventHandlers: EventHandlers
+        {
+            init="(_this select 0) setIdentity ""80s_tanoa_identity_tucanoil_ceo""";
+        };
+	};
     class 80s_tanoa_tucanoil_operator_g3a4: 80s_tanoa_tucanoil_worker_blouse_base
     {
         displayName="Security Operator (G3A4)";
@@ -607,10 +706,26 @@ class CfgVehicles
     class 80s_tanoa_tucanoil_civ_cbrn_base: 80s_tanoa_tucanoil_worker_cbrn_base
     {
         faction="80s_tanoa_fc_tucanoil_civ";
-        displayName="Worker (CBRN)";
+        displayName="Wiki Morilau";
 		side=3;
         scope=2;
         scopeArsenal=2;
+        linkedItems[]=
+		{
+			"gm_gc_compass_f73",
+			"ItemRadio",
+            "itemMap",
+            "gm_watch_kosei_80",
+            "G_Spectacles_tinted"
+		};
+		respawnLinkedItems[]=
+		{
+			"gm_gc_compass_f73",
+			"ItemRadio",
+            "itemMap",
+            "gm_watch_kosei_80",
+            "G_Spectacles_tinted"
+		};
     };
     class 80s_tanoa_tucanoil_civ_pilot: 80s_tanoa_tucanoil_civ_worker_base
     {
@@ -634,63 +749,10 @@ class CfgVehicles
             "G_Spectacles_tinted"
 		};
     };
-    class 80s_tanoa_tucanoil_civ_ceo: gm_ge_pol_officer_80_base
+    class 80s_tanoa_tucanoil_civ_ceo: 80s_tanoa_tucanoil_ceo_p1
     {
-        faction="80s_tanoa_fc_tucanoil_civ";
-        displayName="Wiki Morilau";
-        uniformClass="80s_tanoa_tucanoil_uniform";
-		rankInsignias="army_wht";
-        faceType="Man_A3";
-		side=3;
-		genericNames="TanoanMen";
-		vehicleClass="Men";
-		editorSubcategory="EdSubcat_Personnel_Story";
-        scope=2;
-        scopeArsenal=2;
-		isgmContent=1;
-		dlc="gm";
-        author="quarren";
-        editorPreview="\gm\gm_characters\gm_gc_characters\data\ui\editor\gm_gc_pol_officer_80_blu.jpg";
-		weapons[]=
-		{
-			"Throw",
-			"Put",
-		};
-		respawnWeapons[]=
-		{
-			"Throw",
-			"Put",
-		};
-		linkedItems[]=
-		{
-			"gm_gc_compass_f73",
-			"ItemRadio",
-            "itemMap",
-            "gm_watch_kosei_80",
-		};
-		respawnLinkedItems[]=
-		{
-			"gm_gc_compass_f73",
-			"ItemRadio",
-            "itemMap",
-            "gm_watch_kosei_80",
-		};
-		identityTypes[]=
-		{
-			"80s_tanoa_identity_tucanoil_ceo"
-		};
-        hiddenSelectionsTextures[]=
-		{
-            "\80s_tanoa\80s_tanoa_characters\tucanoil\data\80s_tanoa_tucanoil_suit_ceo_co.paa",
-            "",
-            "",
-            ""
-		};
-        class EventHandlers: EventHandlers
-        {
-            init="(_this select 0) setIdentity ""80s_tanoa_identity_tucanoil_ceo""";
-        };
-	};
+        
+    };
 };
 // CfgGroups
 class CfgGroups
