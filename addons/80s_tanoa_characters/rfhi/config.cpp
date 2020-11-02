@@ -1913,7 +1913,7 @@ class CfgVehicles
     class gm_gc_civ_man_01_80_base;
     class 80s_tanoa_rfhi_miner_base: gm_gc_civ_man_01_80_base
     {
-        faction="80s_tanoa_fc_civ";
+        faction="80s_tanoa_insurgents";
         displayName="Miner";
         uniformClass="80s_tanoa_civ_uniform_miner";
 		rankInsignias="army_wht";
