@@ -1918,7 +1918,7 @@ class CfgVehicles
         uniformClass="80s_tanoa_civ_uniform_miner";
 		rankInsignias="army_wht";
         faceType="Man_A3";
-		side=3;
+		side=0;
 		genericNames="TanoanMen";
 		vehicleClass="Men";
 		editorSubcategory="80s_tanoa_esc_miners_union";
