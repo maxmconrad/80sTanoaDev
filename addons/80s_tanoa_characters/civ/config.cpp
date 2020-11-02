@@ -45,6 +45,24 @@ class CfgWeapons
             "\80s_tanoa\80s_tanoa_characters\civ\data\80s_tanoa_civ_outfit_miner_co.paa"
 		};
 	};
+    // Mine worker (Daltgreen)
+	class 80s_tanoa_civ_uniform_miner_grn: gm_gc_civ_uniform_man_01_80_base
+	{
+		scope=2;
+        scopeArsenal=2;
+		displayName="Miner Clothes (Daltgreen, 80s)";
+        picture="\gm\gm_characters\gm_xx_characters\data\ui\picture_gm_gc_civ_uniform_man_01_80_blu_ca";
+        class ItemInfo: ItemInfo
+        {
+            uniformClass="80s_tanoa_civ_miner_daltgreen_base";
+            containerClass="Supply80";
+        };
+        hiddenSelectionsTextures[]=
+		{
+            "\80s_tanoa\80s_tanoa_characters\civ\data\80s_tanoa_civ_outfit_miner_grn_co.paa",
+            "\80s_tanoa\80s_tanoa_characters\civ\data\80s_tanoa_civ_outfit_miner_grn_co.paa"
+		};
+	};
     // Crocodile hunter
     class 80s_tanoa_civ_uniform_hunter: gm_gc_civ_uniform_man_01_80_base
 	{
@@ -63,6 +81,19 @@ class CfgWeapons
             "\80s_tanoa\80s_tanoa_characters\civ\data\80s_tanoa_civ_outfit_hunter_co.paa"
 		};
 	};
+    // Headgear
+    class H_Construction_basic_base_F;
+    class 80s_tanoa_civ_construction_hat_grn: H_Construction_basic_base_F
+    {
+        scope=2;
+        scopeArsenal=2;
+		displayName="Hard Hat (Daltgreen)";
+        picture="\A3\Characters_F_Orange\Headgear\Data\UI\icon_H_Construction_basic_white_F_CA.paa";
+        hiddenSelectionsTextures[]=
+		{
+            "\80s_tanoa\80s_tanoa_characters\civ\data\80s_tanoa_civ_helmet_miner_grn_co.paa"
+		}; 
+    };
 };
 
 /////////////////////////
@@ -114,6 +145,61 @@ class CfgVehicles
             "itemMap",
             "gm_watch_kosei_80",
             "H_Construction_basic_white_F"
+		};
+		identityTypes[]=
+		{
+			"LanguageENGFRE_F",
+			"Head_Tanoan",
+		};
+        hiddenSelectionsTextures[]=
+		{
+            "\80s_tanoa\80s_tanoa_characters\civ\data\80s_tanoa_civ_outfit_miner_co.paa",
+            "\80s_tanoa\80s_tanoa_characters\civ\data\80s_tanoa_civ_outfit_miner_co.paa"
+		};
+	};
+    // Miner (Daltgreen)
+    class 80s_tanoa_civ_miner_daltgreen_base: gm_gc_civ_man_01_80_base
+    {
+        faction="80s_tanoa_fc_civ";
+        displayName="Miner (Daltgreen)";
+        uniformClass="80s_tanoa_civ_uniform_miner_grn";
+		rankInsignias="army_wht";
+        faceType="Man_A3";
+		side=3;
+		genericNames="TanoanMen";
+		vehicleClass="Men";
+		editorSubcategory="gm_esc_men_80";
+        scope=2;
+        scopeArsenal=2;
+		isgmContent=1;
+		dlc="gm";
+        author="quarren";
+        editorPreview="\gm\gm_characters\gm_xx_characters\gm_gc_civilians\data\ui\editor\gm_gc_civ_man_01_80_blu.jpg";
+		weapons[]=
+		{
+			"Throw",
+			"Put"
+		};
+		respawnWeapons[]=
+		{
+			"Throw",
+			"Put"
+		};
+		linkedItems[]=
+		{
+			"gm_gc_compass_f73",
+			"ItemRadio",
+            "itemMap",
+            "gm_watch_kosei_80",
+            "80s_tanoa_civ_construction_hat_grn"
+		};
+		respawnLinkedItems[]=
+		{
+			"gm_gc_compass_f73",
+			"ItemRadio",
+            "itemMap",
+            "gm_watch_kosei_80",
+            "80s_tanoa_civ_construction_hat_grn"
 		};
 		identityTypes[]=
 		{
