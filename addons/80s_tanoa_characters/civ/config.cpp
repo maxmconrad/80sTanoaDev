@@ -177,6 +177,7 @@ class CfgVehicles
 			"ItemRadio",
             "itemMap",
             "gm_watch_kosei_80",
+            "G_Aviator",
             "H_Hat_Safari_olive_F"
 		};
 		respawnLinkedItems[]=
@@ -185,6 +186,7 @@ class CfgVehicles
 			"ItemRadio",
             "itemMap",
             "gm_watch_kosei_80",
+            "G_Aviator",
             "H_Hat_Safari_olive_F"
 		};
 		identityTypes[]=
