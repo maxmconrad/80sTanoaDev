@@ -48,6 +48,12 @@ class CfgFactionClasses
         priority=4;
         side=3;
     };
+    class 80s_tanoa_fc_civ
+    {
+        displayName="Civilians (80s Tanoa)";
+        priority=5;
+        side=3;
+    };
 };
 
 /////////////////////////
