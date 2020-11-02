@@ -196,8 +196,8 @@ class CfgVehicles
 		};
         hiddenSelectionsTextures[]=
 		{
-            "\80s_tanoa\80s_tanoa_characters\civ\data\80s_tanoa_civ_outfit_miner_co.paa",
-            "\80s_tanoa\80s_tanoa_characters\civ\data\80s_tanoa_civ_outfit_miner_co.paa"
+            "\80s_tanoa\80s_tanoa_characters\civ\data\80s_tanoa_civ_outfit_hunter_co.paa",
+            "\80s_tanoa\80s_tanoa_characters\civ\data\80s_tanoa_civ_outfit_hunter_co.paa"
 		};
 	};
 };
