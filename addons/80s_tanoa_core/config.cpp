@@ -127,3 +127,12 @@ class gm_licenseplates
 		value="80s_tanoa_licenseplate";
 	};
 };
+
+// Editor Subcategories
+class CfgEditorSubcategories
+{
+    class 80s_tanoa_esc_miners_union
+    {
+        displayName="Tanoan Miners' Union (80s)";
+    };
+};

@@ -170,6 +170,18 @@ class CfgWeapons
 			uniformModel="\A3\Characters_F\Common\woolhat";
 		};
 	};
+    class gm_ge_headgear_hat_80_gry;
+    class 80s_tanoa_rfhi_headgear_miner_blu: gm_ge_headgear_hat_80_gry
+    {
+        scope=2;
+        scopeArsenal=2;
+		displayName="Miner Cap (80s)";
+        picture="\gm\gm_characters\gm_ge_characters\data\ui\picture_gm_ge_headgear_hat_80_gry_ca";
+        hiddenSelectionsTextures[]=
+		{
+            "\80s_tanoa\80s_tanoa_characters\rfhi\data\80s_tanoa_rfhi_miner_hat_co.paa"
+		};
+    };
     // Weapons
     class gm_mpiaks74n_brn;
     class 80s_tanoa_aks74n_zfk: gm_mpiaks74n_brn
@@ -1895,6 +1907,143 @@ class CfgVehicles
             "gm_ge_headgear_beret_blk",
             "gm_df7x40_blk",
             "gm_dk_army_vest_54_rifleman"
+		};
+    };
+    // Miners' Union
+    class gm_gc_civ_man_01_80_base;
+    class 80s_tanoa_rfhi_miner_base: gm_gc_civ_man_01_80_base
+    {
+        faction="80s_tanoa_fc_civ";
+        displayName="Miner";
+        uniformClass="80s_tanoa_civ_uniform_miner";
+		rankInsignias="army_wht";
+        faceType="Man_A3";
+		side=3;
+		genericNames="TanoanMen";
+		vehicleClass="Men";
+		editorSubcategory="80s_tanoa_esc_miners_union";
+        scope=1;
+        scopeArsenal=0;
+		isgmContent=1;
+		dlc="gm";
+        author="quarren";
+        editorPreview="\gm\gm_characters\gm_xx_characters\gm_gc_civilians\data\ui\editor\gm_gc_civ_man_01_80_blu.jpg";
+		weapons[]=
+		{
+			"Throw",
+			"Put"
+		};
+		respawnWeapons[]=
+		{
+			"Throw",
+			"Put"
+		};
+		linkedItems[]=
+		{
+			"gm_gc_compass_f73",
+			"ItemRadio",
+            "itemMap",
+            "gm_watch_kosei_80",
+            "80s_tanoa_rfhi_headgear_miner_blu"
+		};
+		respawnLinkedItems[]=
+		{
+			"gm_gc_compass_f73",
+			"ItemRadio",
+            "itemMap",
+            "gm_watch_kosei_80",
+            "80s_tanoa_rfhi_headgear_miner_blu"
+		};
+		identityTypes[]=
+		{
+			"LanguageENGFRE_F",
+			"Head_Tanoan",
+		};
+        hiddenSelectionsTextures[]=
+		{
+            "\80s_tanoa\80s_tanoa_characters\civ\data\80s_tanoa_civ_outfit_miner_co.paa",
+            "\80s_tanoa\80s_tanoa_characters\civ\data\80s_tanoa_civ_outfit_miner_co.paa"
+		};
+	};
+    // Units
+    class 80s_tanoa_rfhi_miner_akm: 80s_tanoa_rfhi_miner_base
+    {
+        displayName="Miner (AKM)";
+        scope=2;
+		scopeCurator=2;
+        weapons[]=
+		{
+			"Throw",
+			"Put",
+			"gm_akm_wud"
+		};
+		respawnWeapons[]=
+		{
+			"Throw",
+			"Put",
+			"gm_akm_wud"
+		};
+		magazines[]=
+		{
+			"gm_30rnd_762x39mm_b_m43_ak47_blk",
+			"gm_30rnd_762x39mm_b_m43_ak47_blk",
+			"gm_30rnd_762x39mm_b_m43_ak47_blk",
+			"gm_30rnd_762x39mm_b_m43_ak47_blk",
+			"gm_30rnd_762x39mm_b_m43_ak47_blk",
+			"gm_30rnd_762x39mm_b_m43_ak47_blk",
+			"gm_handGrenade_frag_rgd5",
+            "gm_handGrenade_frag_rgd5"
+		};
+		respawnMagazines[]=
+		{
+			"gm_30rnd_762x39mm_b_m43_ak47_blk",
+			"gm_30rnd_762x39mm_b_m43_ak47_blk",
+			"gm_30rnd_762x39mm_b_m43_ak47_blk",
+			"gm_30rnd_762x39mm_b_m43_ak47_blk",
+			"gm_30rnd_762x39mm_b_m43_ak47_blk",
+			"gm_30rnd_762x39mm_b_m43_ak47_blk",
+			"gm_handGrenade_frag_rgd5",
+            "gm_handGrenade_frag_rgd5"
+		};
+    };
+    class 80s_tanoa_rfhi_miner_uzi: 80s_tanoa_rfhi_miner_base
+    {
+        displayName="Miner (Uzi)";
+        scope=2;
+		scopeCurator=2;
+        weapons[]=
+		{
+			"Throw",
+			"Put",
+			"gm_mp2a1_blk"
+		};
+		respawnWeapons[]=
+		{
+			"Throw",
+			"Put",
+			"gm_mp2a1_blk"
+		};
+		magazines[]=
+		{
+			"gm_32rnd_9x19mm_b_dm51_mp2_blk",
+			"gm_32rnd_9x19mm_b_dm51_mp2_blk",
+			"gm_32rnd_9x19mm_b_dm51_mp2_blk",
+			"gm_32rnd_9x19mm_b_dm51_mp2_blk",
+			"gm_32rnd_9x19mm_b_dm51_mp2_blk",
+			"gm_32rnd_9x19mm_b_dm51_mp2_blk",
+			"gm_handGrenade_frag_rgd5",
+			"gm_handGrenade_frag_rgd5"
+		};
+		respawnMagazines[]=
+		{
+			"gm_32rnd_9x19mm_b_dm51_mp2_blk",
+			"gm_32rnd_9x19mm_b_dm51_mp2_blk",
+			"gm_32rnd_9x19mm_b_dm51_mp2_blk",
+			"gm_32rnd_9x19mm_b_dm51_mp2_blk",
+			"gm_32rnd_9x19mm_b_dm51_mp2_blk",
+			"gm_32rnd_9x19mm_b_dm51_mp2_blk",
+			"gm_handGrenade_frag_rgd5",
+			"gm_handGrenade_frag_rgd5"
 		};
     };
 };
