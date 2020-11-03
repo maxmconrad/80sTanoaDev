@@ -94,6 +94,14 @@ class gm_VehicleInsignias_Nations: gm_VehicleInsignias_base
         value="80s_tanoa_insignia_tucanoil_01";
         picture="\80s_tanoa\80s_tanoa_core\data\80s_tanoa_tucanoil_national_insignia_round.paa";
     };
+    class 80s_tanoa_insignia_daltgreen_01
+    {
+        name="Daltgreen";
+        author="quarren";
+        texture="\80s_tanoa\80s_tanoa_core\data\80s_tanoa_daltgreen_national_insignia_round.paa";
+        value="80s_tanoa_insignia_daltgreen_01";
+        picture="\80s_tanoa\80s_tanoa_core\data\80s_tanoa_daltgreen_national_insignia_round.paa";
+    };
 };
 
 class gm_VehicleInsignias_Recon : gm_VehicleInsignias_base 
