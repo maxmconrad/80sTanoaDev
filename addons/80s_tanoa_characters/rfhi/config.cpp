@@ -37,6 +37,9 @@ class CfgPatches
 	};
 };
 
+// EventHandlers for headgear randomization
+class EventHandlers;
+
 /////////////////////////
 // Uniforms/Weapons     /
 /////////////////////////
@@ -595,7 +598,8 @@ class CfgVehicles
             "\A3\Characters_F_Exp\Syndikat\Data\U_I_C_Soldier_Para_5_F_2_co.paa"
 		};
     };
-    class 80s_tanoa_insurgents_type04: I_C_Soldier_Para_2_F
+    class gm_gc_civ_man_01_80_base;
+    class 80s_tanoa_insurgents_type04: gm_gc_civ_man_01_80_base
     {
         faction="80s_tanoa_insurgents";
         displayName="Insurgent (Type 4)";
@@ -616,7 +620,7 @@ class CfgVehicles
         picture="";
         role="Rifleman";
         headgearList[] = {"",1,"gm_gc_army_headgear_m56_net",2,"gm_gc_army_headgear_m56",2,"H_Beret_blk",1,"H_Bandanna_gry",1,"H_Bandanna_cbr",1,"H_Bandanna_khk",1,"H_Bandanna_sgg",1,"H_Bandanna_sand",1,"H_Bandanna_surfer_blk",1,"H_Bandanna_camo",1,"H_Booniehat_khk",1,"H_Booniehat_oli",1,"H_Booniehat_tan",1};
-        uniformClass="80s_tanoa_insurgents_uniform04";
+        uniformClass="80s_tanoa_civ_uniform_hunter";
         textSingular="$STR_A3_nameSound_veh_infantry_s";
 		textPlural="$STR_A3_nameSound_veh_infantry_p";
 		nameSound="veh_infantry_s";
@@ -679,6 +683,15 @@ class CfgVehicles
 			"LanguageFRE_F",
 			"Head_Tanoan",
 		};
+        hiddenSelectionsTextures[]=
+		{
+            "\80s_tanoa\80s_tanoa_characters\civ\data\80s_tanoa_civ_outfit_hunter_co.paa",
+            "\80s_tanoa\80s_tanoa_characters\civ\data\80s_tanoa_civ_outfit_hunter_co.paa"
+		};
+        class EventHandlers: EventHandlers
+        {
+            init = "if (local (_this select 0)) then {[(_this select 0), [], []] call BIS_fnc_unitHeadgear;};";
+        };
     };
     class 80s_tanoa_insurgents_rifleman_akm: 80s_tanoa_insurgents_type04
     {
