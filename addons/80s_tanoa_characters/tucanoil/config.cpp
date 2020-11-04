@@ -111,7 +111,7 @@ class CfgWeapons
         picture="\gm\gm_characters\gm_ge_characters\data\ui\picture_gm_ge_dbp_uniform_suit_80_blu_ca";
         class ItemInfo: ItemInfo
         {
-            uniformClass="80s_tanoa_tucanoil_ceo_p1";
+            uniformClass="80s_tanoa_tucanoil_ceo_mp5";
             containerClass="Supply80";
         };
         hiddenSelectionsTextures[]=
