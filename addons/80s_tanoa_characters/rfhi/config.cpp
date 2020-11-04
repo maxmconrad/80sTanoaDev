@@ -1944,6 +1944,7 @@ class CfgVehicles
 			"ItemRadio",
             "itemMap",
             "gm_watch_kosei_80",
+            "G_Bandanna_blk",
             "80s_tanoa_rfhi_headgear_miner_blu"
 		};
 		respawnLinkedItems[]=
@@ -1952,6 +1953,7 @@ class CfgVehicles
 			"ItemRadio",
             "itemMap",
             "gm_watch_kosei_80",
+            "G_Bandanna_blk",
             "80s_tanoa_rfhi_headgear_miner_blu"
 		};
 		identityTypes[]=
