@@ -114,6 +114,29 @@ class CfgWeapons
             uniformClass="80s_tanoa_insurgents_elite_base";
         };
     };
+    // Miner's Union
+    class gm_xx_civ_uniform_man_01_base;
+    class gm_gc_civ_uniform_man_01_80_base: gm_xx_civ_uniform_man_01_base
+    {
+        class ItemInfo;
+    };
+	class 80s_tanoa_insurgents_uniform_miner: gm_gc_civ_uniform_man_01_80_base
+	{
+		scope=2;
+        scopeArsenal=2;
+		displayName="Miner Clothes (Tanoa, 80s)";
+        picture="\gm\gm_characters\gm_xx_characters\data\ui\picture_gm_gc_civ_uniform_man_01_80_blu_ca";
+        class ItemInfo: ItemInfo
+        {
+            uniformClass="80s_tanoa_rfhi_miner_base";
+            containerClass="Supply80";
+        };
+        hiddenSelectionsTextures[]=
+		{
+            "\80s_tanoa\80s_tanoa_characters\civ\data\80s_tanoa_civ_outfit_miner_co.paa",
+            "\80s_tanoa\80s_tanoa_characters\civ\data\80s_tanoa_civ_outfit_miner_co.paa"
+		};
+	};
     // Headgear
     class gm_ge_headgear_beret_blk;
     class 80s_tanoa_rfhi_headgear_beret_blk: gm_ge_headgear_beret_blk
@@ -1928,7 +1951,7 @@ class CfgVehicles
     {
         faction="80s_tanoa_insurgents";
         displayName="Miner";
-        uniformClass="80s_tanoa_civ_uniform_miner";
+        uniformClass="80s_tanoa_insurgents_uniform_miner";
 		rankInsignias="army_wht";
         faceType="Man_A3";
 		side=0;
