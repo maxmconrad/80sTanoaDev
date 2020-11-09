@@ -4,9 +4,35 @@ class CfgPatches
 	{
 		units[]=
         {
+            "80s_tanoa_civ_miner_base",
+            "80s_tanoa_civ_miner_daltgreen_base",
+            "80s_tanoa_civ_hunter_base",
+            "80s_tanoa_civ_man_shorts_trq",
+            "80s_tanoa_civ_man_shorts_hawaiian_blk",
+            "80s_tanoa_civ_man_shorts_hawaiian_trq",
+            "80s_tanoa_civ_man_shorts_hawaiian_red",
+            "80s_tanoa_civ_man_casual_hawaiian_blk",
+            "80s_tanoa_civ_man_casual_flowers_grn",
+            "80s_tanoa_civ_man_blouse_grn",
+            "80s_tanoa_civ_man_blouse_brn",
+            "80s_tanoa_civ_private_investigator_pm",
+            "80s_tanoa_civ_man_manager_wht"
         };
 		weapons[]=
         {
+            "80s_tanoa_civ_uniform_miner",
+            "80s_tanoa_civ_uniform_miner_grn",
+            "80s_tanoa_civ_uniform_hunter",
+            "80s_tanoa_civ_construction_hat_grn",
+            "80s_tanoa_civ_uniform_shorts_trq",
+            "80s_tanoa_civ_uniform_shorts_hawaiian_blk",
+            "80s_tanoa_civ_uniform_shorts_hawaiian_trq",
+            "80s_tanoa_civ_uniform_shorts_hawaiian_red",
+            "80s_tanoa_civ_uniform_casual_hawaiian_blk",
+            "80s_tanoa_civ_uniform_casual_flowers_grn",
+            "80s_tanoa_civ_uniform_blouse_grn",
+            "80s_tanoa_civ_uniform_blouse_brn",
+            "80s_tanoa_civ_uniform_suit_wht"
         };
 		requiredAddons[]=
 		{
