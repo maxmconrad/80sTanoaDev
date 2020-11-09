@@ -63,7 +63,7 @@ class CfgWeapons
 		};
 	};
     // SIU 2
-    class Uniform_Base
+    class Uniform_Base;
     class U_C_Man_casual_2_F: Uniform_Base
     {
         class ItemInfo;
@@ -387,12 +387,14 @@ class CfgVehicles
             "80s_tanoa_gendarmerie_vest"
 		};
 	};
+    // Special Investigation Unit
     class 80s_tanoa_gendarmerie_siu_blouse_brn_p1: 80s_tanoa_gendarme_base
     {
         displayName="Agent (P1)";
         scope=2;
         scopeArsenal=2;
         uniformClass="80s_tanoa_gendarmerie_uniform_blouse_brn";
+        editorSubcategory="80s_tanoa_esc_siu";
         weapons[]=
 		{
 			"Throw",
@@ -508,7 +510,7 @@ class CfgVehicles
 		side=1;
 		genericNames="TanoanMen";
 		vehicleClass="Men";
-		editorSubcategory="gm_esc_men_80";
+		editorSubcategory="80s_tanoa_esc_siu";
         scope=2;
         scopeArsenal=2;
 		isgmContent=1;
