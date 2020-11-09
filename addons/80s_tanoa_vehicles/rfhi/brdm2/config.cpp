@@ -64,7 +64,7 @@ class CfgVehicles
 		gm_TacticalNumbersDefaultNumber="##";
 		gm_LicensePlateDefaultDigits="########";
 		crew="80s_tanoa_insurgents_rifleman_uzi";
-        editorPreview="gm\gm_vehicles\gm_land\gm_wheeled\gm_brdm2\gm_gc_army_brdm2\data\ui\preview_gm_gc_army_brdm2.jpg";
+        editorPreview="\80s_tanoa\80s_tanoa_vehicles\rfhi\brdm2\data\editorpreview\80s_tanoa_rfhi_brdm2.jpg";
 	};
     class 80s_tanoa_rfhi_brdm2: 80s_tanoa_rfhi_brdm2_base
     {
@@ -73,6 +73,7 @@ class CfgVehicles
 		scopeCurator=2;
         scopeArsenal=2;
 		author="quarren";
+        editorPreview="\80s_tanoa\80s_tanoa_vehicles\rfhi\brdm2\data\editorpreview\80s_tanoa_rfhi_brdm2.jpg";
         class TransportItems
         {
             class _xx_burnBandage

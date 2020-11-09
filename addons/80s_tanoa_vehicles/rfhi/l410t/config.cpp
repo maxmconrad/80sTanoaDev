@@ -54,7 +54,7 @@ class CfgVehicles
 		gm_TacticalNumbersFontNumbers="";
 		gm_TacticalNumbersDefaultNumber="##";
 		crew="80s_tanoa_insurgents_rifleman_uzi";
-        editorPreview="gm\gm_vehicles\gm_air\gm_planes\gm_l410\gm_gc_airforce_l410\data\ui\preview_gm_gc_airforce_l410t.jpg";
+        editorPreview="\80s_tanoa\80s_tanoa_vehicles\rfhi\l410t\data\editorpreview\80s_tanoa_rfhi_l410t.jpg";
 	};
     class 80s_tanoa_rfhi_l410t: 80s_tanoa_rfhi_l410t_base
     {
@@ -63,6 +63,7 @@ class CfgVehicles
 		scopeCurator=2;
         scopeArsenal=2;
 		author="quarren";
+        editorPreview="\80s_tanoa\80s_tanoa_vehicles\rfhi\l410t\data\editorpreview\80s_tanoa_rfhi_l410t.jpg";
         class TransportItems
         {
             class _xx_burnBandage

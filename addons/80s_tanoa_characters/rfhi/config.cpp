@@ -721,6 +721,7 @@ class CfgVehicles
         displayName="Insurgent (AKM)";
         scope=2;
 		scopeCurator=2;
+        editorPreview="\80s_tanoa\80s_tanoa_characters\rfhi\data\editorpreview\80s_tanoa_insurgents_rifleman_akm.jpg";
         weapons[]=
 		{
 			"Throw",
@@ -759,6 +760,7 @@ class CfgVehicles
         displayName="Insurgent (Uzi)";
         scope=2;
 		scopeCurator=2;
+        editorPreview="\80s_tanoa\80s_tanoa_characters\rfhi\data\editorpreview\80s_tanoa_insurgents_rifleman_uzi.jpg";
         weapons[]=
 		{
 			"Throw",
@@ -799,6 +801,7 @@ class CfgVehicles
         displayName="Insurgent (G3A3)";
         scope=2;
 		scopeCurator=2;
+        editorPreview="\80s_tanoa\80s_tanoa_characters\rfhi\data\editorpreview\80s_tanoa_insurgents_rifleman_g3a3.jpg";
         weapons[]=
 		{
 			"Throw",
@@ -839,6 +842,7 @@ class CfgVehicles
         displayName="Insurgent (AKS-74U)";
         scope=2;
 		scopeCurator=2;
+        editorPreview="\80s_tanoa\80s_tanoa_characters\rfhi\data\editorpreview\80s_tanoa_insurgents_rifleman_aks74u.jpg";
         weapons[]=
 		{
 			"Throw",
@@ -879,6 +883,7 @@ class CfgVehicles
         displayName="Insurgent Sharpshooter (SVD)";
         scope=2;
 		scopeCurator=2;
+        editorPreview="\80s_tanoa\80s_tanoa_characters\rfhi\data\editorpreview\80s_tanoa_insurgents_sharpshooter_svd.jpg";
         role="Marksman";
         headgearList[] = {};
         textSingular="$STR_A3_nameSound_veh_infantry_sniper_s";
@@ -952,6 +957,7 @@ class CfgVehicles
         displayName="Insurgent Machinegunner (PKM)";
         scope=2;
 		scopeCurator=2;
+        editorPreview="\80s_tanoa\80s_tanoa_characters\rfhi\data\editorpreview\80s_tanoa_insurgents_machinegunner_pkm.jpg";
         icon="iconManMG";
 		role="MachineGunner";
         backpack="80s_tanoa_backpack_insurgent_ammo";
@@ -1004,6 +1010,7 @@ class CfgVehicles
         displayName="Insurgent AT (RPG-7 & AKS-74U)";
         scope=2;
 		scopeCurator=2;
+        editorPreview="\80s_tanoa\80s_tanoa_characters\rfhi\data\editorpreview\80s_tanoa_insurgents_at_rpg7_aks74u.jpg";
         icon="iconManAT";
 		role="MissileSpecialist";
         backpack="80s_tanoa_backpack_insurgent_at";
@@ -1076,6 +1083,7 @@ class CfgVehicles
         displayName="Insurgent AT Assistant (AKM)";
         scope=2;
 		scopeCurator=2;
+        editorPreview="\80s_tanoa\80s_tanoa_characters\rfhi\data\editorpreview\80s_tanoa_insurgents_at_assistant_akm.jpg";
         backpack="80s_tanoa_backpack_insurgent_at";
         weapons[]=
 		{
@@ -1131,6 +1139,7 @@ class CfgVehicles
         displayName="Insurgent Medic (AKM)";
         scope=2;
 		scopeCurator=2;
+        editorPreview="\80s_tanoa\80s_tanoa_characters\rfhi\data\editorpreview\80s_tanoa_insurgents_medic_akm.jpg";
         icon="iconManMedic";
 		role="CombatLifeSaver";
         picture="pictureHeal";
@@ -1190,6 +1199,7 @@ class CfgVehicles
         displayName="Insurgent Ammo Bearer (AKM)";
         scope=2;
 		scopeCurator=2;
+        editorPreview="\80s_tanoa\80s_tanoa_characters\rfhi\data\editorpreview\80s_tanoa_insurgents_ammobearer_akm.jpg";
         role="Rifleman";
         backpack="80s_tanoa_backpack_insurgent_ammo";
         weapons[]=
@@ -1242,6 +1252,7 @@ class CfgVehicles
         displayName="Insurgent Saboteur (PLNP Charge)";
         scope=2;
 		scopeCurator=2;
+        editorPreview="\80s_tanoa\80s_tanoa_characters\rfhi\data\editorpreview\80s_tanoa_insurgents_saboteur_plnp_akm.jpg";
         Icon="iconManExplosive";
 		role="Sapper";
 		picture="pictureExplosive";
@@ -1310,6 +1321,7 @@ class CfgVehicles
         scope=2;
         scopeArsenal=2;
 		scopeCurator=0;
+        editorPreview="\80s_tanoa\80s_tanoa_characters\rfhi\data\editorpreview\80s_tanoa_insurgents_elite_base.jpg";
 		isgmContent=1;
 		dlc="gm";
         author="quarren";
@@ -1379,6 +1391,7 @@ class CfgVehicles
         displayName="Elite Rifleman (AKS-74)";
         scope=2;
 		scopeCurator=2;
+        editorPreview="\80s_tanoa\80s_tanoa_characters\rfhi\data\editorpreview\80s_tanoa_insurgents_elite_rifleman_ak74s.jpg";
         weapons[]=
 		{
 			"Throw",
@@ -1439,6 +1452,7 @@ class CfgVehicles
         displayName="Elite AT (RPG-7)";
         scope=2;
 		scopeCurator=2;
+        editorPreview="\80s_tanoa\80s_tanoa_characters\rfhi\data\editorpreview\80s_tanoa_insurgents_elite_at_ak74s.jpg";
         icon="iconManAT";
 		role="MissileSpecialist";
         backpack="80s_tanoa_backpack_insurgent_at";
@@ -1519,6 +1533,7 @@ class CfgVehicles
         displayName="Elite Marksman(AKS-74)";
         scope=2;
 		scopeCurator=2;
+        editorPreview="\80s_tanoa\80s_tanoa_characters\rfhi\data\editorpreview\80s_tanoa_insurgents_elite_marksman_aks74.jpg";
         weapons[]=
 		{
 			"Throw",
@@ -1579,6 +1594,7 @@ class CfgVehicles
         displayName="Elite Sharpshooter (SVD)";
         scope=2;
 		scopeCurator=2;
+        editorPreview="\80s_tanoa\80s_tanoa_characters\rfhi\data\editorpreview\80s_tanoa_insurgents_elite_sharpshooter_svd.jpg";
         role="Marksman";
         cost=250000;
         textSingular="$STR_A3_nameSound_veh_infantry_sniper_s";
@@ -1656,6 +1672,7 @@ class CfgVehicles
         displayName="Elite Demolition (PM-63)";
         scope=2;
 		scopeCurator=2;
+        editorPreview="\80s_tanoa\80s_tanoa_characters\rfhi\data\editorpreview\80s_tanoa_insurgents_elite_demolition_pm63.jpg";
         Icon="iconManExplosive";
 		role="Sapper";
 		picture="pictureExplosive";
@@ -1720,6 +1737,7 @@ class CfgVehicles
         displayName="Elite Shock Trooper (PM-63)";
         scope=2;
 		scopeCurator=2;
+        editorPreview="\80s_tanoa\80s_tanoa_characters\rfhi\data\editorpreview\80s_tanoa_insurgents_elite_shocktrooper_pm63.jpg";
         weapons[]=
 		{
 			"Throw",
@@ -1780,6 +1798,7 @@ class CfgVehicles
         displayName="Elite Squadleader (PM-63)";
         scope=2;
 		scopeCurator=2;
+        editorPreview="\80s_tanoa\80s_tanoa_characters\rfhi\data\editorpreview\80s_tanoa_insurgents_elite_squadleader_pm63.jpg";
         icon="iconManLeader";
 		role="Rifleman";
         textSingular="$STR_A3_nameSound_veh_infantry_officer_s";
@@ -1862,6 +1881,7 @@ class CfgVehicles
         displayName="Elite Squadleader (AKS-74U)";
         scope=2;
 		scopeCurator=2;
+        editorPreview="\80s_tanoa\80s_tanoa_characters\rfhi\data\editorpreview\80s_tanoa_insurgents_elite_squadleader_aks74u.jpg";
         icon="iconManLeader";
 		role="Rifleman";
         textSingular="$STR_A3_nameSound_veh_infantry_officer_s";
@@ -2009,6 +2029,7 @@ class CfgVehicles
         displayName="Miner (AKM)";
         scope=2;
 		scopeCurator=2;
+        editorPreview="\80s_tanoa\80s_tanoa_characters\rfhi\data\editorpreview\80s_tanoa_rfhi_miner_akm.jpg";
         weapons[]=
 		{
 			"Throw",
@@ -2049,6 +2070,7 @@ class CfgVehicles
         displayName="Miner (Uzi)";
         scope=2;
 		scopeCurator=2;
+        editorPreview="\80s_tanoa\80s_tanoa_characters\rfhi\data\editorpreview\80s_tanoa_rfhi_miner_uzi.jpg";
         weapons[]=
 		{
 			"Throw",
