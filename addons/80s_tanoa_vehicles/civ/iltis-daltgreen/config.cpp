@@ -72,7 +72,6 @@ class CfgVehicles
 		gm_TacticalNumbersDefaultNumber="##";
 		gm_LicensePlateDefaultDigits="########";
 		crew="80s_tanoa_civ_miner_daltgreen_base";
-        editorPreview="gm\gm_vehicles\gm_land\gm_wheeled\gm_iltis\gm_ge_army_iltis\data\ui\preview_gm_ge_army_iltis_cargo.jpg";
         class TransportItems
         {
             class _xx_burnBandage
@@ -107,6 +106,7 @@ class CfgVehicles
 		scopeCurator=2;
         scopeArsenal=2;
 		author="quarren";
+        editorPreview="\80s_tanoa\80s_tanoa_vehicles\civ\iltis-daltgreen\data\editorpreview\80s_tanoa_civ_daltgreen_iltis_cargo.jpg";
 		hiddenSelectionsTextures[]=
 		{
 			"\80s_tanoa\80s_tanoa_vehicles\civ\iltis-daltgreen\data\80s_tanoa_civ_daltgreen_rims_ext_01_co.paa",
