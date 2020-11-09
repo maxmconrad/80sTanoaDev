@@ -73,7 +73,7 @@ class CfgVehicles
 		gm_TacticalNumbersDefaultNumber="##";
 		gm_LicensePlateDefaultDigits="########";
 		crew="80s_tanoa_gendarme_p1";
-        editorPreview="";   
+        editorPreview="\80s_tanoa\80s_tanoa_vehicles\gendarmerie\beetle\data\editorpreview\80s_tanoa_gendarmerie_beetle.jpg";  
 	};
 	class 80s_tanoa_gendarmerie_beetle: 80s_tanoa_gendarmerie_beetle_base
 	{
@@ -82,6 +82,7 @@ class CfgVehicles
 		scopeCurator=2;
         scopeArsenal=2;
 		author="quarren";
+        editorPreview="\80s_tanoa\80s_tanoa_vehicles\gendarmerie\beetle\data\editorpreview\80s_tanoa_gendarmerie_beetle.jpg";
         class TransportItems
         {
             class _xx_burnBandage

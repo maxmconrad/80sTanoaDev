@@ -68,7 +68,7 @@ class CfgVehicles
 		gm_TacticalNumbersDefaultNumber="##";
 		gm_LicensePlateDefaultDigits="########";
 		crew="80s_tanoa_gendarme_p1";
-        editorPreview="gm\gm_vehicles\gm_land\gm_wheeled\gm_u1300l\gm_ge_army_u1300l\data\ui\preview_gm_ge_army_u1300l_cargo.jpg";
+        editorPreview="\80s_tanoa\80s_tanoa_vehicles\gendarmerie\unimog\data\editorpreview\80s_tanoa_gendarmerie_unimog_container.jpg";
 	};
 	class 80s_tanoa_gendarmerie_unimog_container: 80s_tanoa_gendarmerie_unimog_container_base
 	{
@@ -77,6 +77,7 @@ class CfgVehicles
 		scopeCurator=2;
         scopeArsenal=2;
 		author="quarren";
+        editorPreview="\80s_tanoa\80s_tanoa_vehicles\gendarmerie\unimog\data\editorpreview\80s_tanoa_gendarmerie_unimog_container.jpg";
         class TransportItems
         {
             class _xx_burnBandage

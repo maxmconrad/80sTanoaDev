@@ -158,6 +158,7 @@ class CfgVehicles
 		isgmContent=1;
 		dlc="gm";
         author="quarren";
+        editorPreview="\80s_tanoa\80s_tanoa_characters\gendarmerie\data\editorpreview\80s_tanoa_gendarme_base.jpg";
 		weapons[]=
 		{
 			"Throw",
@@ -202,6 +203,7 @@ class CfgVehicles
         displayName="Gendarme (P1)";
         scope=2;
         scopeArsenal=2;
+        editorPreview="\80s_tanoa\80s_tanoa_characters\gendarmerie\data\editorpreview\80s_tanoa_gendarme_base.jpg";
 		weapons[]=
 		{
 			"Throw",
@@ -236,6 +238,7 @@ class CfgVehicles
         displayName="Gendarme (MP5, Gear)";
         scope=2;
         scopeArsenal=2;
+        editorPreview="\80s_tanoa\80s_tanoa_characters\gendarmerie\data\editorpreview\80s_tanoa_gendarme_mp5_gear.jpg";
 		weapons[]=
 		{
 			"Throw",
@@ -290,6 +293,7 @@ class CfgVehicles
         displayName="Gendarme (M16A1, Gear)";
         scope=2;
         scopeArsenal=2;
+        editorPreview="\80s_tanoa\80s_tanoa_characters\gendarmerie\data\editorpreview\80s_tanoa_gendarme_m16a1_gear.jpg";
 		weapons[]=
 		{
 			"Throw",
@@ -344,6 +348,7 @@ class CfgVehicles
         displayName="Pilot (P1)";
         scope=2;
         scopeArsenal=2;
+        editorPreview="\80s_tanoa\80s_tanoa_characters\gendarmerie\data\editorpreview\80s_tanoa_gendarme_pilot_p1.jpg";
 		weapons[]=
 		{
 			"Throw",
@@ -399,6 +404,7 @@ class CfgVehicles
         scopeArsenal=2;
         uniformClass="80s_tanoa_gendarmerie_uniform_blouse_brn";
         editorSubcategory="80s_tanoa_esc_siu";
+        editorPreview="\80s_tanoa\80s_tanoa_characters\gendarmerie\data\editorpreview\80s_tanoa_gendarmerie_siu_blouse_brn_p1.jpg";
         weapons[]=
 		{
 			"Throw",
@@ -456,6 +462,7 @@ class CfgVehicles
         displayName="Agent (Blouse, MP5)";
         scope=2;
         scopeArsenal=2;
+        editorPreview="\80s_tanoa\80s_tanoa_characters\gendarmerie\data\editorpreview\80s_tanoa_gendarmerie_siu_blouse_brn_mp5.jpg";
         weapons[]=
 		{
 			"Throw",
@@ -520,6 +527,7 @@ class CfgVehicles
 		isgmContent=1;
 		dlc="gm";
         author="quarren";
+        editorPreview="\80s_tanoa\80s_tanoa_characters\gendarmerie\data\editorpreview\80s_tanoa_gendarmerie_siu_casual_hawaiian_blk_mp5.jpg";
 		weapons[]=
 		{
 			"Throw",
