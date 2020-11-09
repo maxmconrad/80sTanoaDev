@@ -471,7 +471,7 @@ class CfgVehicles
     class 80s_tanoa_civ_man_shorts_trq: C_man_polo_1_F
     {
         faction="80s_tanoa_fc_civ";
-        displayName="Civilian (Shorts, Turqoise)";
+        displayName="Civilian (Shorts)";
         uniformClass="80s_tanoa_civ_uniform_shorts_trq";
 		rankInsignias="army_wht";
         faceType="Man_A3";
@@ -530,7 +530,7 @@ class CfgVehicles
     class 80s_tanoa_civ_man_shorts_hawaiian_blk: C_man_polo_1_F
     {
         faction="80s_tanoa_fc_civ";
-        displayName="Civilian (Shorts, Hawaiian - Black)";
+        displayName="Civilian (Shorts)";
         uniformClass="80s_tanoa_civ_uniform_shorts_hawaiian_blk";
 		rankInsignias="army_wht";
         faceType="Man_A3";
@@ -589,7 +589,7 @@ class CfgVehicles
     class 80s_tanoa_civ_man_shorts_hawaiian_trq: C_man_polo_1_F
     {
         faction="80s_tanoa_fc_civ";
-        displayName="Civilian (Shorts, Hawaiian - Turqoise)";
+        displayName="Civilian (Shorts)";
         uniformClass="80s_tanoa_civ_uniform_shorts_hawaiian_trq";
 		rankInsignias="army_wht";
         faceType="Man_A3";
@@ -648,7 +648,7 @@ class CfgVehicles
     class 80s_tanoa_civ_man_shorts_hawaiian_red: C_man_polo_1_F
     {
         faction="80s_tanoa_fc_civ";
-        displayName="Civilian (Shorts, Hawaiian - Red)";
+        displayName="Civilian (Shorts)";
         uniformClass="80s_tanoa_civ_uniform_shorts_hawaiian_red";
 		rankInsignias="army_wht";
         faceType="Man_A3";
@@ -708,7 +708,7 @@ class CfgVehicles
     class 80s_tanoa_civ_man_casual_hawaiian_blk: C_Man_casual_2_F
     {
         faction="80s_tanoa_fc_civ";
-        displayName="Civilian (Casual, Hawaiian - Black)";
+        displayName="Civilian (Casual)";
         uniformClass="80s_tanoa_civ_uniform_casual_hawaiian_blk";
 		rankInsignias="army_wht";
         faceType="Man_A3";
@@ -762,7 +762,7 @@ class CfgVehicles
     class 80s_tanoa_civ_man_casual_flowers_grn: C_Man_casual_2_F
     {
         faction="80s_tanoa_fc_civ";
-        displayName="Civilian (Casual, Flowers - Green)";
+        displayName="Civilian (Casual)";
         uniformClass="80s_tanoa_civ_uniform_casual_flowers_grn";
 		rankInsignias="army_wht";
         faceType="Man_A3";
@@ -815,7 +815,7 @@ class CfgVehicles
     class 80s_tanoa_civ_man_blouse_grn: gm_ge_pol_patrol_80_blk
     {
         faction="80s_tanoa_fc_civ";
-        displayName="Civilian (Jacket - Green)";
+        displayName="Civilian (Jacket)";
         uniformClass="80s_tanoa_civ_uniform_blouse_grn";
 		rankInsignias="army_wht";
         faceType="Man_A3";
@@ -870,7 +870,7 @@ class CfgVehicles
     class 80s_tanoa_civ_man_blouse_brn: gm_ge_pol_patrol_80_blk
     {
         faction="80s_tanoa_fc_civ";
-        displayName="Civilian (Jacket - Brown)";
+        displayName="Civilian (Jacket)";
         uniformClass="80s_tanoa_civ_uniform_blouse_brn";
 		rankInsignias="army_wht";
         faceType="Man_A3";
