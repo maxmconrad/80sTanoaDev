@@ -48,7 +48,7 @@ class CfgVehicles
 		side=2;
 		faction="80s_tanoa_fc_tucanoil";
 		crew="80s_tanoa_tucanoil_operator_akm";
-        editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\C_Boat_Civil_01_F.jpg";
+        editorPreview="\80s_tanoa\80s_tanoa_vehicles\tucanoil\motorboat\data\editorpreview\80s_tanoa_tucanoil_motorboat.jpg";
         animationList[] = {"hidePolice",1,"HideRescueSigns",1,"HidePoliceSigns",1};
         textureList[]={"80s_tanoa_tucanoil_ylw",1};
         class TransportItems
@@ -85,6 +85,7 @@ class CfgVehicles
 		scopeCurator=2;
         scopeArsenal=2;
 		author="quarren";
+        editorPreview="\80s_tanoa\80s_tanoa_vehicles\tucanoil\motorboat\data\editorpreview\80s_tanoa_tucanoil_motorboat.jpg";
 		hiddenSelectionsTextures[]=
 		{
 			"\80s_tanoa\80s_tanoa_vehicles\tucanoil\motorboat\data\80s_tanoa_tucanoil_boat_civil_01_ext_co.paa",
@@ -100,5 +101,6 @@ class CfgVehicles
         scope=2;
         scopeArsenal=2;
         crew="80s_tanoa_tucanoil_civ_worker_base";
+        editorPreview="\80s_tanoa\80s_tanoa_vehicles\tucanoil\motorboat\data\editorpreview\80s_tanoa_tucanoil_motorboat.jpg";
     };
 };

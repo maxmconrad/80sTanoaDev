@@ -69,7 +69,7 @@ class CfgVehicles
 		gm_TacticalNumbersDefaultNumber="##";
 		gm_LicensePlateDefaultDigits="######";
 		crew="80s_tanoa_tucanoil_worker_blouse_base";
-        editorPreview="gm\gm_vehicles\gm_land\gm_wheeled\gm_ural375d\gm_gc_army_ural375d\data\ui\preview_gm_gc_army_ural375d_refuel.jpg";
+        editorPreview="\80s_tanoa\80s_tanoa_vehicles\tucanoil\ural\data\editorpreview\80s_tanoa_tucanoil_ural_refuel.jpg";
         class TransportItems
         {
             class _xx_burnBandage
@@ -104,6 +104,7 @@ class CfgVehicles
 		scopeCurator=2;
         scopeArsenal=2;
 		author="quarren";
+        editorPreview="\80s_tanoa\80s_tanoa_vehicles\tucanoil\ural\data\editorpreview\80s_tanoa_tucanoil_ural_refuel.jpg";
 		hiddenSelectionsTextures[]=
 		{
 			"\80s_tanoa\80s_tanoa_vehicles\tucanoil\ural\data\80s_tanoa_tucanoil_ural_refuel_ext_01_co.paa",
@@ -123,5 +124,6 @@ class CfgVehicles
         scope=2;
         scopeArsenal=2;
         crew="80s_tanoa_tucanoil_civ_worker_base";
+        editorPreview="\80s_tanoa\80s_tanoa_vehicles\tucanoil\ural\data\editorpreview\80s_tanoa_tucanoil_ural_refuel.jpg";
     };
 };

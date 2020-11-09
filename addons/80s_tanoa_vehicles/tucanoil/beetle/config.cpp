@@ -67,7 +67,7 @@ class CfgVehicles
 		gm_TacticalNumbersDefaultNumber="##";
 		gm_LicensePlateDefaultDigits="########";
 		crew="80s_tanoa_tucanoil_worker_base";
-        editorPreview="";   
+        editorPreview="\80s_tanoa\80s_tanoa_vehicles\tucanoil\beetle\data\editorpreview\80s_tanoa_tucanoil_beetle.jpg";  
 	};
 	class 80s_tanoa_tucanoil_beetle: 80s_tanoa_tucanoil_beetle_base
 	{
@@ -76,6 +76,7 @@ class CfgVehicles
 		scopeCurator=2;
         scopeArsenal=2;
 		author="quarren";
+        editorPreview="\80s_tanoa\80s_tanoa_vehicles\tucanoil\beetle\data\editorpreview\80s_tanoa_tucanoil_beetle.jpg"; 
         class TransportItems
         {
             class _xx_burnBandage
@@ -110,5 +111,6 @@ class CfgVehicles
         scope=2;
         scopeArsenal=2;
         crew="80s_tanoa_tucanoil_civ_worker_base";
+        editorPreview="\80s_tanoa\80s_tanoa_vehicles\tucanoil\beetle\data\editorpreview\80s_tanoa_tucanoil_beetle.jpg"; 
     };
 };

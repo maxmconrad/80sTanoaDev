@@ -69,7 +69,7 @@ class CfgVehicles
 		gm_TacticalNumbersDefaultNumber="##";
 		gm_LicensePlateDefaultDigits="########";
 		crew="80s_tanoa_tucanoil_worker_base";
-        editorPreview="gm\gm_vehicles\gm_land\gm_wheeled\gm_iltis\gm_ge_army_iltis\data\ui\preview_gm_ge_army_iltis_cargo.jpg";
+        editorPreview="\80s_tanoa\80s_tanoa_vehicles\tucanoil\iltis\data\editorpreview\80s_tanoa_tucanoil_iltis_cargo.jpg"; 
         class TransportItems
         {
             class _xx_burnBandage
@@ -104,6 +104,7 @@ class CfgVehicles
 		scopeCurator=2;
         scopeArsenal=2;
 		author="quarren";
+        editorPreview="\80s_tanoa\80s_tanoa_vehicles\tucanoil\iltis\data\editorpreview\80s_tanoa_tucanoil_iltis_cargo.jpg";
 		hiddenSelectionsTextures[]=
 		{
 			"#(rgb,8,8,3)color(0.25,0.25,0.25,1,CO)",
@@ -127,5 +128,6 @@ class CfgVehicles
         scope=2;
         scopeArsenal=2;
         crew="80s_tanoa_tucanoil_civ_worker_base";
+        editorPreview="\80s_tanoa\80s_tanoa_vehicles\tucanoil\iltis\data\editorpreview\80s_tanoa_tucanoil_iltis_cargo.jpg";
     };
 };
