@@ -143,4 +143,8 @@ class CfgEditorSubcategories
     {
         displayName="Tanoan Miners' Union (80s)";
     };
+    class 80s_tanoa_esc_siu
+    {
+        displayName="Special Investigation Unit (80s)";
+    };
 };
