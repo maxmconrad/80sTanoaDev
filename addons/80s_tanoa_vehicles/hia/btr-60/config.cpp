@@ -68,7 +68,7 @@ class CfgVehicles
 		gm_TacticalNumbersDefaultNumber="##";
 		gm_LicensePlateDefaultDigits="########";
 		crew="80s_tanoa_hia_crew_mp5";
-        editorPreview="gm\gm_vehicles\gm_land\gm_wheeled\gm_btr60\gm_gc_army_btr60\data\ui\preview_gm_gc_army_btr60pa.jpg";
+        editorPreview="\80s_tanoa\80s_tanoa_vehicles\hia\btr-60\data\editorpreview\80s_tanoa_hia_btr60pa.jpg";
 	};
 	class 80s_tanoa_hia_btr60pa: 80s_tanoa_hia_btr60pa_base
 	{
@@ -77,6 +77,7 @@ class CfgVehicles
 		scopeCurator=2;
         scopeArsenal=2;
 		author="quarren";
+        editorPreview="\80s_tanoa\80s_tanoa_vehicles\hia\btr-60\data\editorpreview\80s_tanoa_hia_btr60pa.jpg";
         class TransportItems
         {
             class _xx_burnBandage
@@ -188,7 +189,7 @@ class CfgVehicles
 		gm_TacticalNumbersDefaultNumber="##";
 		gm_LicensePlateDefaultDigits="########";
 		crew="80s_tanoa_hia_crew_mp5";
-        editorPreview="gm\gm_vehicles\gm_land\gm_wheeled\gm_btr60\gm_gc_army_btr60\data\ui\preview_gm_gc_army_btr60pa.jpg";
+        editorPreview="\80s_tanoa\80s_tanoa_vehicles\hia\btr-60\data\editorpreview\80s_tanoa_hia_btr60pb.jpg";
 	};
 	class 80s_tanoa_hia_btr60pb: 80s_tanoa_hia_btr60pb_base
 	{
@@ -197,6 +198,7 @@ class CfgVehicles
 		scopeCurator=2;
         scopeArsenal=2;
 		author="quarren";
+        editorPreview="\80s_tanoa\80s_tanoa_vehicles\hia\btr-60\data\editorpreview\80s_tanoa_hia_btr60pb.jpg";
         class TransportItems
         {
             class _xx_burnBandage

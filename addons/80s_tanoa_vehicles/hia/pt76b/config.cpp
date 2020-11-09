@@ -65,7 +65,7 @@ class CfgVehicles
 		gm_TacticalNumbersDefaultNumber="##";
 		gm_LicensePlateDefaultDigits="  ######";
 		crew="80s_tanoa_hia_crew_mp5";
-        editorPreview="gm\gm_vehicles\gm_land\gm_tracked\gm_pt76\gm_gc_army_pt76\data\ui\preview_gm_gc_army_pt76b.jpg";
+        editorPreview="\80s_tanoa\80s_tanoa_vehicles\hia\pt76b\data\editorpreview\80s_tanoa_hia_pt76b.jpg";
 	};
 	class 80s_tanoa_hia_pt76b: 80s_tanoa_hia_pt76b_base
 	{
@@ -74,6 +74,7 @@ class CfgVehicles
 		scopeCurator=2;
         scopeArsenal=2;
 		author="quarren";
+        editorPreview="\80s_tanoa\80s_tanoa_vehicles\hia\pt76b\data\editorpreview\80s_tanoa_hia_pt76b.jpg";
         class TransportItems
         {
             class _xx_burnBandage

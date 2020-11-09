@@ -66,7 +66,7 @@ class CfgVehicles
 		gm_TacticalNumbersDefaultNumber="##";
 		gm_LicensePlateDefaultDigits="########";
 		crew="80s_tanoa_hia_motorcycle_scout_m16a1";
-        editorPreview="gm\gm_vehicles\gm_land\gm_wheeled\gm_k125\gm_ge_army_k125\data\ui\preview_gm_ge_army_k125.jpg";
+        editorPreview="\80s_tanoa\80s_tanoa_vehicles\hia\k125\data\editorpreview\80s_tanoa_hia_motorbike.jpg";
 	};
     class 80s_tanoa_hia_motorbike: 80s_tanoa_hia_motorbike_base
     {
@@ -75,6 +75,7 @@ class CfgVehicles
 		scopeCurator=2;
         scopeArsenal=2;
 		author="quarren";
+        editorPreview="\80s_tanoa\80s_tanoa_vehicles\hia\k125\data\editorpreview\80s_tanoa_hia_motorbike.jpg";
         class TransportItems
         {
             class _xx_burnBandage

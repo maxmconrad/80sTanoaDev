@@ -74,7 +74,7 @@ class CfgVehicles
 		gm_TacticalNumbersDefaultNumber="##";
 		gm_LicensePlateDefaultDigits="########";
 		crew="80s_tanoa_hia_rifleman_m16a1";
-        editorPreview="gm\gm_vehicles\gm_land\gm_wheeled\gm_iltis\gm_ge_army_iltis\data\ui\preview_gm_ge_army_iltis_cargo.jpg";
+        editorPreview="\80s_tanoa\80s_tanoa_vehicles\hia\iltis\data\editorpreview\80s_tanoa_hia_iltis_cargo_green_covered.jpg";
         class TransportItems
         {
             class _xx_burnBandage
@@ -109,6 +109,7 @@ class CfgVehicles
 		scopeCurator=2;
         scopeArsenal=2;
 		author="quarren";
+        editorPreview="\80s_tanoa\80s_tanoa_vehicles\hia\iltis\data\editorpreview\80s_tanoa_hia_iltis_cargo_green_nocover.jpg";
 		hiddenSelectionsTextures[]=
 		{
 			"\gm\gm_vehicles\gm_land\gm_wheeled\gm_iltis\gm_ge_army_iltis\data\oli\gm_ge_army_iltis_rim_01_oli_co.paa",
@@ -138,6 +139,7 @@ class CfgVehicles
 		scopeCurator=2;
         scopeArsenal=2;
 		author="quarren";
+        editorPreview="\80s_tanoa\80s_tanoa_vehicles\hia\iltis\data\editorpreview\80s_tanoa_hia_iltis_cargo_green_covered.jpg";
 		hiddenSelectionsTextures[]=
 		{
 			"\gm\gm_vehicles\gm_land\gm_wheeled\gm_iltis\gm_ge_army_iltis\data\oli\gm_ge_army_iltis_rim_01_oli_co.paa",
@@ -195,7 +197,7 @@ class CfgVehicles
 		gm_TacticalNumbersDefaultNumber="##";
 		gm_LicensePlateDefaultDigits="########";
 		crew="80s_tanoa_hia_rifleman_g3a4";
-        editorPreview="gm\gm_vehicles\gm_land\gm_wheeled\gm_iltis\gm_ge_army_iltis\data\ui\preview_gm_ge_army_iltis_milan.jpg";
+        editorPreview="\80s_tanoa\80s_tanoa_vehicles\hia\iltis\data\editorpreview\80s_tanoa_hia_iltis_latgm.jpg";
 	};
     class 80s_tanoa_hia_iltis_latgm: 80s_tanoa_hia_iltis_latgm_base
 	{
@@ -204,6 +206,7 @@ class CfgVehicles
 		scopeCurator=2;
         scopeArsenal=2;
 		author="quarren";
+        editorPreview="\80s_tanoa\80s_tanoa_vehicles\hia\iltis\data\editorpreview\80s_tanoa_hia_iltis_latgm.jpg";
         class TransportItems
         {
             class _xx_burnBandage

@@ -73,7 +73,7 @@ class CfgVehicles
 		gm_TacticalNumbersDefaultNumber="##";
 		gm_LicensePlateDefaultDigits="######";
 		crew="80s_tanoa_hia_rifleman_m16a1";
-        editorPreview="gm\gm_vehicles\gm_land\gm_wheeled\gm_ural4320\gm_gc_army_ural4320\data\ui\preview_gm_gc_army_ural4320_cargo.jpg";
+        editorPreview="\80s_tanoa\80s_tanoa_vehicles\hia\ural\data\editorpreview\80s_tanoa_hia_ural_cargo.jpg";
 	};
     class 80s_tanoa_hia_ural_cargo: 80s_tanoa_hia_ural_cargo_base
     {
@@ -82,6 +82,7 @@ class CfgVehicles
 		scopeCurator=2;
         scopeArsenal=2;
 		author="quarren";
+        editorPreview="\80s_tanoa\80s_tanoa_vehicles\hia\ural\data\editorpreview\80s_tanoa_hia_ural_cargo.jpg";
         class TransportItems
         {
             class _xx_burnBandage
@@ -180,7 +181,7 @@ class CfgVehicles
 		gm_TacticalNumbersDefaultNumber="##";
 		gm_LicensePlateDefaultDigits="######";
 		crew="80s_tanoa_hia_rifleman_m16a1";
-        editorPreview="gm\gm_vehicles\gm_land\gm_wheeled\gm_ural4320\gm_gc_army_ural4320\data\ui\preview_gm_gc_army_ural4320_cargo.jpg";
+        editorPreview="\80s_tanoa\80s_tanoa_vehicles\hia\ural\data\editorpreview\80s_tanoa_hia_ural_ammo.jpg";
 	};
     class 80s_tanoa_hia_ural_ammo: 80s_tanoa_hia_ural_ammo_base
     {
@@ -189,6 +190,7 @@ class CfgVehicles
 		scopeCurator=2;
         scopeArsenal=2;
 		author="quarren";
+        editorPreview="\80s_tanoa\80s_tanoa_vehicles\hia\ural\data\editorpreview\80s_tanoa_hia_ural_ammo.jpg";
         class TransportItems
         {
             class _xx_burnBandage
@@ -287,7 +289,7 @@ class CfgVehicles
 		gm_TacticalNumbersDefaultNumber="##";
 		gm_LicensePlateDefaultDigits="######";
 		crew="80s_tanoa_hia_rifleman_m16a1";
-        editorPreview="gm\gm_vehicles\gm_land\gm_wheeled\gm_ural375d\gm_gc_army_ural375d\data\ui\preview_gm_gc_army_ural375d_refuel.jpg";
+        editorPreview="\80s_tanoa\80s_tanoa_vehicles\hia\ural\data\editorpreview\80s_tanoa_hia_ural_fuel.jpg";
 	};
     class 80s_tanoa_hia_ural_fuel: 80s_tanoa_hia_ural_fuel_base
     {
@@ -296,6 +298,7 @@ class CfgVehicles
 		scopeCurator=2;
         scopeArsenal=2;
 		author="quarren";
+        editorPreview="\80s_tanoa\80s_tanoa_vehicles\hia\ural\data\editorpreview\80s_tanoa_hia_ural_fuel.jpg";
         class TransportItems
         {
             class _xx_burnBandage
@@ -394,7 +397,7 @@ class CfgVehicles
 		gm_TacticalNumbersDefaultNumber="##";
 		gm_LicensePlateDefaultDigits="######";
 		crew="80s_tanoa_hia_rifleman_m16a1";
-        editorPreview="gm\gm_vehicles\gm_land\gm_wheeled\gm_ural375d\gm_gc_army_ural375d\data\ui\preview_gm_gc_army_ural375d_medic.jpg";
+        editorPreview="\80s_tanoa\80s_tanoa_vehicles\hia\ural\data\editorpreview\80s_tanoa_hia_ural_medical.jpg";
 	};
     class 80s_tanoa_hia_ural_medical: 80s_tanoa_hia_ural_medical_base
     {
@@ -403,6 +406,7 @@ class CfgVehicles
 		scopeCurator=2;
         scopeArsenal=2;
 		author="quarren";
+        editorPreview="\80s_tanoa\80s_tanoa_vehicles\hia\ural\data\editorpreview\80s_tanoa_hia_ural_medical.jpg";
         class TransportItems
         {
             class _xx_burnBandage
@@ -501,7 +505,7 @@ class CfgVehicles
 		gm_TacticalNumbersDefaultNumber="##";
 		gm_LicensePlateDefaultDigits="######";
 		crew="80s_tanoa_hia_rifleman_m16a1";
-        editorPreview="gm\gm_vehicles\gm_land\gm_wheeled\gm_ural4320\gm_gc_army_ural4320\data\ui\preview_gm_gc_army_ural4320_repair.jpg";
+        editorPreview="\80s_tanoa\80s_tanoa_vehicles\hia\ural\data\editorpreview\80s_tanoa_hia_ural_repair.jpg";
 	};
     class 80s_tanoa_hia_ural_repair: 80s_tanoa_hia_ural_repair_base
     {
@@ -510,6 +514,7 @@ class CfgVehicles
 		scopeCurator=2;
         scopeArsenal=2;
 		author="quarren";
+        editorPreview="\80s_tanoa\80s_tanoa_vehicles\hia\ural\data\editorpreview\80s_tanoa_hia_ural_repair.jpg";
         class TransportItems
         {
             class _xx_burnBandage

@@ -65,7 +65,7 @@ class CfgVehicles
 		gm_TacticalNumbersDefaultNumber="##";
 		gm_LicensePlateDefaultDigits="######";
 		crew="80s_tanoa_hia_pilot_p1";
-        editorPreview="gm\gm_vehicles\gm_air\gm_helicopters\gm_bo105\gm_ge_army_bo105\data\ui\preview_gm_ge_army_bo105m_vbh.jpg";
+        editorPreview="\80s_tanoa\80s_tanoa_vehicles\hia\bo105\data\editorpreview\80s_tanoa_hia_bo105.jpg";
 	};
     class 80s_tanoa_hia_bo105: 80s_tanoa_hia_bo105_base
     {
@@ -74,6 +74,7 @@ class CfgVehicles
 		scopeCurator=2;
         scopeArsenal=2;
 		author="quarren";
+        editorPreview="\80s_tanoa\80s_tanoa_vehicles\hia\bo105\data\editorpreview\80s_tanoa_hia_bo105.jpg";
         class TransportItems
         {
             class _xx_burnBandage
