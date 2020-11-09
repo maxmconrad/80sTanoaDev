@@ -244,7 +244,7 @@ class CfgVehicles
 		isgmContent=1;
 		dlc="gm";
         author="quarren";
-        editorPreview="\gm\gm_characters\gm_gc_characters\data\ui\editor\gm_gc_pol_officer_80_blu.jpg";
+        editorPreview="\80s_tanoa\80s_tanoa_characters\tucanoil\data\editorpreview\80s_tanoa_tucanoil_worker_base.jpg";
 		weapons[]=
 		{
 			"Throw",
@@ -301,6 +301,7 @@ class CfgVehicles
 		isgmContent=1;
 		dlc="gm";
         author="quarren";
+        editorPreview="\80s_tanoa\80s_tanoa_characters\tucanoil\data\editorpreview\80s_tanoa_tucanoil_worker_blouse_base.jpg";
 		weapons[]=
 		{
 			"Throw",
@@ -357,6 +358,7 @@ class CfgVehicles
 		isgmContent=1;
 		dlc="gm";
         author="quarren";
+        editorPreview="\80s_tanoa\80s_tanoa_characters\tucanoil\data\editorpreview\80s_tanoa_tucanoil_worker_cbrn_base.jpg";
 		weapons[]=
 		{
 			"Throw",
@@ -411,7 +413,7 @@ class CfgVehicles
 		isgmContent=1;
 		dlc="gm";
         author="quarren";
-        editorPreview="\gm\gm_characters\gm_gc_characters\data\ui\editor\gm_gc_pol_officer_80_blu.jpg";
+        editorPreview="\80s_tanoa\80s_tanoa_characters\tucanoil\data\editorpreview\80s_tanoa_tucanoil_ceo_mp5.jpg";
 		weapons[]=
 		{
 			"Throw",
@@ -479,6 +481,7 @@ class CfgVehicles
         displayName="Security Operator (G3A4)";
         scope=2;
         scopeArsenal=2;
+        editorPreview="\80s_tanoa\80s_tanoa_characters\tucanoil\data\editorpreview\80s_tanoa_tucanoil_operator_g3a4.jpg";
 		weapons[]=
 		{
 			"Throw",
@@ -515,6 +518,7 @@ class CfgVehicles
         displayName="Security Officer (MP5)";
         scope=2;
         scopeArsenal=2;
+        editorPreview="\80s_tanoa\80s_tanoa_characters\tucanoil\data\editorpreview\80s_tanoa_tucanoil_officer_mp5.jpg";
 		weapons[]=
 		{
 			"Throw",
@@ -551,6 +555,7 @@ class CfgVehicles
         displayName="Security Operator (MP5)";
         scope=2;
         scopeArsenal=2;
+        editorPreview="\80s_tanoa\80s_tanoa_characters\tucanoil\data\editorpreview\80s_tanoa_tucanoil_operator_mp5.jpg";
 		weapons[]=
 		{
 			"Throw",
@@ -587,6 +592,7 @@ class CfgVehicles
         displayName="Security Operator (AKM)";
         scope=2;
         scopeArsenal=2;
+        editorPreview="\80s_tanoa\80s_tanoa_characters\tucanoil\data\editorpreview\80s_tanoa_tucanoil_operator_akm.jpg";
 		weapons[]=
 		{
 			"Throw",
@@ -623,6 +629,7 @@ class CfgVehicles
         displayName="Pilot (P1)";
         scope=2;
         scopeArsenal=2;
+        editorPreview="\80s_tanoa\80s_tanoa_characters\tucanoil\data\editorpreview\80s_tanoa_tucanoil_pilot_p1.jpg";
 		weapons[]=
 		{
 			"Throw",
@@ -678,6 +685,7 @@ class CfgVehicles
 		side=3;
         scope=2;
         scopeArsenal=2;
+        editorPreview="\80s_tanoa\80s_tanoa_characters\tucanoil\data\editorpreview\80s_tanoa_tucanoil_civ_worker_base.jpg";
         linkedItems[]=
 		{
 			"gm_gc_compass_f73",
@@ -699,6 +707,7 @@ class CfgVehicles
     {
         faction="80s_tanoa_fc_tucanoil_civ";
         displayName="Worker (Suit)";
+        editorPreview="\80s_tanoa\80s_tanoa_characters\tucanoil\data\editorpreview\80s_tanoa_tucanoil_civ_worker_suit_base.jpg";
 		side=3;
         scope=2;
         scopeArsenal=2;
@@ -707,6 +716,7 @@ class CfgVehicles
     {
         faction="80s_tanoa_fc_tucanoil_civ";
         displayName="Worker (CBRN)";
+        editorPreview="\80s_tanoa\80s_tanoa_characters\tucanoil\data\editorpreview\80s_tanoa_tucanoil_civ_cbrn_base.jpg";
 		side=3;
         scope=2;
         scopeArsenal=2;
@@ -714,6 +724,7 @@ class CfgVehicles
     class 80s_tanoa_tucanoil_civ_pilot: 80s_tanoa_tucanoil_civ_worker_base
     {
         displayName="Pilot";
+        editorPreview="\80s_tanoa\80s_tanoa_characters\tucanoil\data\editorpreview\80s_tanoa_tucanoil_civ_pilot.jpg";
         linkedItems[]=
 		{
 			"gm_gc_compass_f73",
@@ -740,6 +751,7 @@ class CfgVehicles
 		side=3;
         scope=2;
         scopeArsenal=2;
+        editorPreview="\80s_tanoa\80s_tanoa_characters\tucanoil\data\editorpreview\80s_tanoa_tucanoil_civ_ceo.jpg";
         weapons[]=
 		{
 			"Throw",
