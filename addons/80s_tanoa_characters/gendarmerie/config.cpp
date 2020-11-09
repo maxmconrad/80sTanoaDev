@@ -7,7 +7,11 @@ class CfgPatches
             "80s_tanoa_gendarme_base",
             "80s_tanoa_gendarme_p1",
             "80s_tanoa_gendarme_mp5_gear",
-            "80s_tanoa_gendarme_mp16a1_gear"        
+            "80s_tanoa_gendarme_mp16a1_gear",
+            "80s_tanoa_gendarme_pilot_p1",
+            "80s_tanoa_gendarmerie_siu_blouse_brn_p1",
+            "80s_tanoa_gendarmerie_siu_blouse_brn_mp5",
+            "80s_tanoa_gendarmerie_siu_casual_hawaiian_blk_mp5"
         };
 		weapons[]=
         {
