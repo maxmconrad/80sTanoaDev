@@ -235,6 +235,7 @@ class CfgVehicles
 		isgmContent=1;
 		dlc="gm";
         author="quarren";
+        editorPreview="\80s_tanoa\80s_tanoa_characters\hia\data\editorpreview\80s_tanoa_hia_soldier_base.jpg";
 		armbands[]=
 		{
 			""
@@ -299,6 +300,7 @@ class CfgVehicles
 		isgmContent=1;
 		dlc="gm";
         author="quarren";
+        editorPreview="\80s_tanoa\80s_tanoa_characters\hia\data\editorpreview\80s_tanoa_hia_soldier_base_longsleeve.jpg";
 		armbands[]=
 		{
 			""
@@ -351,6 +353,7 @@ class CfgVehicles
         scope=2;
 		scopeCurator=2;
         role="Rifleman";
+        editorPreview="\80s_tanoa\80s_tanoa_characters\hia\data\editorpreview\80s_tanoa_hia_rifleman_m16a1.jpg";
         weapons[]=
 		{
 			"Throw",
@@ -410,6 +413,7 @@ class CfgVehicles
         scope=2;
 		scopeCurator=2;
         role="Rifleman";
+        editorPreview="\80s_tanoa\80s_tanoa_characters\hia\data\editorpreview\80s_tanoa_hia_rifleman_light_m16a1.jpg";
         weapons[]=
 		{
 			"Throw",
@@ -469,6 +473,7 @@ class CfgVehicles
         scope=2;
 		scopeCurator=2;
         role="Rifleman";
+        editorPreview="\80s_tanoa\80s_tanoa_characters\hia\data\editorpreview\80s_tanoa_hia_rifleman_g3a4.jpg";
         weapons[]=
 		{
 			"Throw",
@@ -528,6 +533,7 @@ class CfgVehicles
         scope=2;
 		scopeCurator=2;
         role="Rifleman";
+        editorPreview="\80s_tanoa\80s_tanoa_characters\hia\data\editorpreview\80s_tanoa_hia_rifleman_light_g3a4.jpg";
         weapons[]=
 		{
 			"Throw",
@@ -587,6 +593,7 @@ class CfgVehicles
         scope=2;
 		scopeCurator=2;
         role="Marksman";
+        editorPreview="\80s_tanoa\80s_tanoa_characters\hia\data\editorpreview\80s_tanoa_hia_marksman_g3a3.jpg";
         cost=250000;
         textSingular="$STR_A3_nameSound_veh_infantry_sniper_s";
 		textPlural="$STR_A3_nameSound_veh_infantry_sniper_p";
@@ -664,6 +671,7 @@ class CfgVehicles
         scope=2;
 		scopeCurator=2;
         role="Marksman";
+        editorPreview="\80s_tanoa\80s_tanoa_characters\hia\data\editorpreview\80s_tanoa_hia_sharpshooter_svd.jpg";
         cost=250000;
         textSingular="$STR_A3_nameSound_veh_infantry_sniper_s";
 		textPlural="$STR_A3_nameSound_veh_infantry_sniper_p";
@@ -740,6 +748,7 @@ class CfgVehicles
 		scopeCurator=2;
         icon="iconManMG";
         role="MachineGunner";
+        editorPreview="\80s_tanoa\80s_tanoa_characters\hia\data\editorpreview\80s_tanoa_hia_autorifleman_mg3.jpg";
         textSingular="$STR_A3_nameSound_veh_infantry_MG_s";
 		textPlural="$STR_A3_nameSound_veh_infantry_MG_p";
 		nameSound="veh_infantry_MG_s";
@@ -808,6 +817,7 @@ class CfgVehicles
         scope=2;
 		scopeCurator=2;
         role="Rifleman";
+        editorPreview="\80s_tanoa\80s_tanoa_characters\hia\data\editorpreview\80s_tanoa_hia_autorifleman_assistant_g3a4.jpg";
         backpack="80s_tanoa_hia_backpack_mg3_ammo";
         weapons[]=
 		{
@@ -869,6 +879,7 @@ class CfgVehicles
 		scopeCurator=2;
         icon="iconManAT";
 		role="MissileSpecialist";
+        editorPreview="\80s_tanoa\80s_tanoa_characters\hia\data\editorpreview\80s_tanoa_hia_at_rpg7_g3a4.jpg";
         backpack="80s_tanoa_hia_backpack_at";
         textSingular="$STR_A3_nameSound_veh_infantry_AT_s";
 		textPlural="$STR_A3_nameSound_veh_infantry_AT_p";
@@ -946,6 +957,7 @@ class CfgVehicles
         scope=2;
 		scopeCurator=2;
 		role="Rifleman";
+        editorPreview="\80s_tanoa\80s_tanoa_characters\hia\data\editorpreview\80s_tanoa_hia_at_assistant_g3a4.jpg";
         backpack="80s_tanoa_hia_backpack_at";
         weapons[]=
 		{
@@ -1007,6 +1019,7 @@ class CfgVehicles
 		scopeCurator=2;
         icon="iconManMedic";
 		role="CombatLifeSaver";
+        editorPreview="\80s_tanoa\80s_tanoa_characters\hia\data\editorpreview\80s_tanoa_hia_medic_g3a4.jpg";
         picture="pictureHeal";
         cost=450000;
         backpack="80s_tanoa_hia_backpack_satchel_80_san";
@@ -1086,6 +1099,7 @@ class CfgVehicles
         scope=2;
 		scopeCurator=2;
         role="Rifleman";
+        editorPreview="\80s_tanoa\80s_tanoa_characters\hia\data\editorpreview\80s_tanoa_hia_hitman_mp5sd3.jpg";
         headgearList[] = {"H_Booniehat_oli", 1, "gm_ge_headgear_hat_boonie_oli", 1};
         class EventHandlers
 		{
@@ -1151,6 +1165,7 @@ class CfgVehicles
 		scopeCurator=2;
         icon="iconManLeader";
 		role="Rifleman";
+        editorPreview="\80s_tanoa\80s_tanoa_characters\hia\data\editorpreview\80s_tanoa_hia_squadlead_m16a1.jpg";
         textSingular="$STR_A3_nameSound_veh_infantry_officer_s";
 		textPlural="$STR_A3_nameSound_veh_infantry_officer_p";
 		nameSound="veh_infantry_officer_s";
@@ -1238,6 +1253,7 @@ class CfgVehicles
 		scopeCurator=2;
         icon="iconManOfficer";
 		role="Officer";
+        editorPreview="\80s_tanoa\80s_tanoa_characters\hia\data\editorpreview\80s_tanoa_hia_officer_p1.jpg";
         textSingular="$STR_A3_nameSound_veh_infantry_officer_s";
 		textPlural="$STR_A3_nameSound_veh_infantry_officer_p";
 		nameSound="veh_infantry_officer_s";
@@ -1314,6 +1330,7 @@ class CfgVehicles
         scope=2;
 		scopeCurator=2;
         role="Rifleman";
+        editorPreview="\80s_tanoa\80s_tanoa_characters\hia\data\editorpreview\80s_tanoa_hia_crew_mp5.jpg";
         weapons[]=
 		{
 			"Throw",
@@ -1369,6 +1386,7 @@ class CfgVehicles
         scope=2;
 		scopeCurator=2;
         role="Rifleman";
+        editorPreview="\80s_tanoa\80s_tanoa_characters\hia\data\editorpreview\80s_tanoa_hia_pilot_p1.jpg";
         weapons[]=
 		{
 			"Throw",
@@ -1424,6 +1442,7 @@ class CfgVehicles
         scope=2;
 		scopeCurator=2;
         role="Rifleman";
+        editorPreview="\80s_tanoa\80s_tanoa_characters\hia\data\editorpreview\80s_tanoa_hia_motorcycle_scout_m16a1.jpg";
         backpack="gm_dk_army_backpack_73_oli";
         weapons[]=
 		{
@@ -1500,6 +1519,7 @@ class CfgVehicles
 		isgmContent=1;
 		dlc="gm";
         author="quarren";
+        editorPreview="\80s_tanoa\80s_tanoa_characters\hia\data\editorpreview\80s_tanoa_hia_specops_base.jpg";
 		armbands[]=
 		{
 			""
@@ -1563,6 +1583,7 @@ class CfgVehicles
 		isgmContent=1;
 		dlc="gm";
         author="quarren";
+        editorPreview="\80s_tanoa\80s_tanoa_characters\hia\data\editorpreview\80s_tanoa_hia_specops_longsleeve_base.jpg";
 		armbands[]=
 		{
 			""
@@ -1616,6 +1637,7 @@ class CfgVehicles
 		scopeCurator=2;
         icon="iconMan";
 		role="Rifleman";
+        editorPreview="\80s_tanoa\80s_tanoa_characters\hia\data\editorpreview\80s_tanoa_hia_specops_rifleman_m16a1.jpg";
         backpack="gm_dk_army_backpack_73_oli";
         weapons[]=
 		{
@@ -1678,6 +1700,7 @@ class CfgVehicles
         scope=2;
 		scopeCurator=2;
         role="Marksman";
+        editorPreview="\80s_tanoa\80s_tanoa_characters\hia\data\editorpreview\80s_tanoa_hia_specops_marksman_g3a4.jpg";
         cost=250000;
         textSingular="$STR_A3_nameSound_veh_infantry_sniper_s";
 		textPlural="$STR_A3_nameSound_veh_infantry_sniper_p";
@@ -1759,6 +1782,7 @@ class CfgVehicles
 		scopeCurator=2;
         icon="iconManAT";
 		role="MissileSpecialist";
+        editorPreview="\80s_tanoa\80s_tanoa_characters\hia\data\editorpreview\80s_tanoa_hia_specops_at_rpg7_m16a1.jpg";
         backpack="80s_tanoa_hia_backpack_at";
         textSingular="$STR_A3_nameSound_veh_infantry_AT_s";
 		textPlural="$STR_A3_nameSound_veh_infantry_AT_p";
@@ -1848,6 +1872,7 @@ class CfgVehicles
 		scopeCurator=2;
         Icon="iconManExplosive";
 		role="Sapper";
+        editorPreview="\80s_tanoa\80s_tanoa_characters\hia\data\editorpreview\80s_tanoa_hia_specops_demolition_mp5sd3.jpg";
 		picture="pictureExplosive";
 		cost=115000;
 		canDeactivateMines=1;
@@ -1914,6 +1939,7 @@ class CfgVehicles
 		scopeCurator=2;
         icon="iconManLeader";
 		role="Rifleman";
+        editorPreview="\80s_tanoa\80s_tanoa_characters\hia\data\editorpreview\80s_tanoa_hia_specops_squadlead_mp5sd3.jpg";
         textSingular="$STR_A3_nameSound_veh_infantry_officer_s";
 		textPlural="$STR_A3_nameSound_veh_infantry_officer_p";
 		nameSound="veh_infantry_officer_s";
@@ -2004,6 +2030,7 @@ class CfgVehicles
 		scopeCurator=2;
         icon="iconManLeader";
 		role="Rifleman";
+        editorPreview="\80s_tanoa\80s_tanoa_characters\hia\data\editorpreview\80s_tanoa_hia_specops_squadlead_m16a1.jpg";
         textSingular="$STR_A3_nameSound_veh_infantry_officer_s";
 		textPlural="$STR_A3_nameSound_veh_infantry_officer_p";
 		nameSound="veh_infantry_officer_s";
