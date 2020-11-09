@@ -500,7 +500,7 @@ class CfgVehicles
 		};
     };
     class C_Man_casual_2_F;
-    class 80s_tanoa_civ_man_casual_hawaiian_blk: C_Man_casual_2_F
+    class 80s_tanoa_gendarmerie_siu_casual_hawaiian_blk_mp5: C_Man_casual_2_F
     {
         displayName="Agent (MP5)";
         uniformClass="80s_tanoa_gendarmerie_uniform_casual_hawaiian_blk";
