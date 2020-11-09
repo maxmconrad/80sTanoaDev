@@ -300,7 +300,7 @@ class CfgVehicles
 		isgmContent=1;
 		dlc="gm";
         author="quarren";
-        editorPreview="\gm\gm_characters\gm_xx_characters\gm_gc_civilians\data\ui\editor\gm_gc_civ_man_01_80_blu.jpg";
+        editorPreview="\80s_tanoa\80s_tanoa_characters\civ\data\editorpreview\80s_tanoa_civ_miner_base.jpg";
 		weapons[]=
 		{
 			"Throw",
@@ -355,7 +355,7 @@ class CfgVehicles
 		isgmContent=1;
 		dlc="gm";
         author="quarren";
-        editorPreview="\gm\gm_characters\gm_xx_characters\gm_gc_civilians\data\ui\editor\gm_gc_civ_man_01_80_blu.jpg";
+        editorPreview="\80s_tanoa\80s_tanoa_characters\civ\data\editorpreview\80s_tanoa_civ_miner_daltgreen_base.jpg";
 		weapons[]=
 		{
 			"Throw",
@@ -410,7 +410,7 @@ class CfgVehicles
 		isgmContent=1;
 		dlc="gm";
         author="quarren";
-        editorPreview="\gm\gm_characters\gm_xx_characters\gm_gc_civilians\data\ui\editor\gm_gc_civ_man_01_80_blu.jpg";
+        editorPreview="\80s_tanoa\80s_tanoa_characters\civ\data\editorpreview\80s_tanoa_civ_hunter_base.jpg";
 		weapons[]=
 		{
 			"Throw",
@@ -484,7 +484,7 @@ class CfgVehicles
 		isgmContent=1;
 		dlc="gm";
         author="quarren";
-        editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\C_man_polo_1_F.jpg";
+        editorPreview="\80s_tanoa\80s_tanoa_characters\civ\data\editorpreview\80s_tanoa_civ_man_shorts_trq.jpg";
 		weapons[]=
 		{
 			"Throw",
@@ -543,7 +543,7 @@ class CfgVehicles
 		isgmContent=1;
 		dlc="gm";
         author="quarren";
-        editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\C_man_polo_1_F.jpg";
+        editorPreview="\80s_tanoa\80s_tanoa_characters\civ\data\editorpreview\80s_tanoa_civ_man_shorts_hawaiian_blk.jpg";
 		weapons[]=
 		{
 			"Throw",
@@ -602,7 +602,7 @@ class CfgVehicles
 		isgmContent=1;
 		dlc="gm";
         author="quarren";
-        editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\C_man_polo_1_F.jpg";
+        editorPreview="\80s_tanoa\80s_tanoa_characters\civ\data\editorpreview\80s_tanoa_civ_man_shorts_hawaiian_trq.jpg";
 		weapons[]=
 		{
 			"Throw",
@@ -644,7 +644,7 @@ class CfgVehicles
                 init="";
         };
 	};
-    // Civilian (Shorts, Hawaiian, Turqoise)
+    // Civilian (Shorts, Hawaiian, Red)
     class 80s_tanoa_civ_man_shorts_hawaiian_red: C_man_polo_1_F
     {
         faction="80s_tanoa_fc_civ";
@@ -661,7 +661,7 @@ class CfgVehicles
 		isgmContent=1;
 		dlc="gm";
         author="quarren";
-        editorPreview="\A3\EditorPreviews_F\Data\CfgVehicles\C_man_polo_1_F.jpg";
+        editorPreview="\80s_tanoa\80s_tanoa_characters\civ\data\editorpreview\80s_tanoa_civ_man_shorts_hawaiian_red.jpg";
 		weapons[]=
 		{
 			"Throw",
@@ -721,7 +721,7 @@ class CfgVehicles
 		isgmContent=1;
 		dlc="gm";
         author="quarren";
-        editorPreview="\A3\EditorPreviews_F_Exp\Data\CfgVehicles\C_Man_casual_2_F_tanoan.jpg";
+        editorPreview="\80s_tanoa\80s_tanoa_characters\civ\data\editorpreview\80s_tanoa_civ_man_casual_hawaiian_blk.jpg";
 		weapons[]=
 		{
 			"Throw",
@@ -759,7 +759,7 @@ class CfgVehicles
 		};
 	};
     // Civilian (Casual, Flowers - Green)
-    class 80s_tanoa_civ_man_casual_flowern_grn: C_Man_casual_2_F
+    class 80s_tanoa_civ_man_casual_flowers_grn: C_Man_casual_2_F
     {
         faction="80s_tanoa_fc_civ";
         displayName="Civilian (Casual, Flowers - Green)";
@@ -775,7 +775,7 @@ class CfgVehicles
 		isgmContent=1;
 		dlc="gm";
         author="quarren";
-        editorPreview="\A3\EditorPreviews_F_Exp\Data\CfgVehicles\C_Man_casual_2_F_tanoan.jpg";
+        editorPreview="\80s_tanoa\80s_tanoa_characters\civ\data\editorpreview\80s_tanoa_civ_man_casual_flowers_grn.jpg";
 		weapons[]=
 		{
 			"Throw",
@@ -828,7 +828,7 @@ class CfgVehicles
 		isgmContent=1;
 		dlc="gm";
         author="quarren";
-        editorPreview="\A3\EditorPreviews_F_Exp\Data\CfgVehicles\C_Man_casual_2_F_tanoan.jpg";
+        editorPreview="\80s_tanoa\80s_tanoa_characters\civ\data\editorpreview\80s_tanoa_civ_man_blouse_grn.jpg";
 		weapons[]=
 		{
 			"Throw",
@@ -883,7 +883,7 @@ class CfgVehicles
 		isgmContent=1;
 		dlc="gm";
         author="quarren";
-        editorPreview="\A3\EditorPreviews_F_Exp\Data\CfgVehicles\C_Man_casual_2_F_tanoan.jpg";
+        editorPreview="\80s_tanoa\80s_tanoa_characters\civ\data\editorpreview\80s_tanoa_civ_man_blouse_brn.jpg";
 		weapons[]=
 		{
 			"Throw",
@@ -924,7 +924,8 @@ class CfgVehicles
     // Private investigator
     class 80s_tanoa_civ_private_investigator_pm: 80s_tanoa_civ_man_blouse_brn
     {
-        displayName="Private Investigator";
+        displayName="Private Investigator (Makarov)";
+        editorPreview="\80s_tanoa\80s_tanoa_characters\civ\data\editorpreview\80s_tanoa_civ_private_investigator_pm.jpg";
         weapons[]=
 		{
 			"Throw",
@@ -986,7 +987,7 @@ class CfgVehicles
 		isgmContent=1;
 		dlc="gm";
         author="quarren";
-        editorPreview="\gm\gm_characters\gm_gc_characters\data\ui\editor\gm_gc_pol_officer_80_blu.jpg";
+        editorPreview="\80s_tanoa\80s_tanoa_characters\civ\data\editorpreview\80s_tanoa_civ_man_manager_wht.jpg";
 		weapons[]=
 		{
 			"Throw",
