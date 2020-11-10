@@ -605,7 +605,7 @@ class CfgVehicles
     class 80s_tanoa_gendarmerie_siu_casual_flowers_grn_mp5: 80s_tanoa_gendarmerie_siu_casual_hawaiian_blk_mp5
     {
         uniformClass="80s_tanoa_gendarmerie_uniform_casual_flowers_grn";
-        editorPreview="\80s_tanoa\80s_tanoa_characters\gendarmerie\data\editorpreview\80s_tanoa_gendarmerie_siu_casual_hawaiian_blk_mp5.jpg";
+        editorPreview="\80s_tanoa\80s_tanoa_characters\gendarmerie\data\editorpreview\80s_tanoa_gendarmerie_siu_casual_flowers_grn_mp5.jpg";
         linkedItems[]=
 		{
 			"gm_gc_compass_f73",
