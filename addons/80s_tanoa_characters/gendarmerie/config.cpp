@@ -88,6 +88,22 @@ class CfgWeapons
             "\80s_tanoa\80s_tanoa_characters\civ\data\80s_tanoa_civ_outfit_casual_hawaiian_co.paa"
 		};
     };
+    class 80s_tanoa_gendarmerie_uniform_casual_flowers_grn: U_C_Man_casual_2_F
+    {
+        scope=2;
+        scopeArsenal=2;
+		displayName="SIU Clothes (Casual)";
+        picture="\A3\characters_f_exp\Civil\data\ui\icon_U_C_Man_casual_2_F_ca.paa";
+        class ItemInfo: ItemInfo
+        {
+            uniformClass="80s_tanoa_gendarmerie_siu_casual_flowers_grn_mp5";
+            containerClass="Supply40";
+        };
+        hiddenSelectionsTextures[]=
+		{
+            "\80s_tanoa\80s_tanoa_characters\civ\data\80s_tanoa_civ_outfit_casual_flowers_co.paa"
+		};
+    };
     class gm_ge_vest_80_mp_base;
     class 80s_tanoa_gendarmerie_vest: gm_ge_vest_80_mp_base
     {
@@ -584,6 +600,35 @@ class CfgVehicles
         hiddenSelectionsTextures[]=
 		{
             "\80s_tanoa\80s_tanoa_characters\civ\data\80s_tanoa_civ_outfit_casual_hawaiian_co.paa"
+		};
+    };
+    class 80s_tanoa_gendarmerie_siu_casual_flowers_grn_mp5: 80s_tanoa_gendarmerie_siu_casual_hawaiian_blk_mp5
+    {
+        uniformClass="80s_tanoa_gendarmerie_uniform_casual_flowers_grn";
+        editorPreview="\80s_tanoa\80s_tanoa_characters\gendarmerie\data\editorpreview\80s_tanoa_gendarmerie_siu_casual_hawaiian_blk_mp5.jpg";
+        linkedItems[]=
+		{
+			"gm_gc_compass_f73",
+			"ItemRadio",
+            "itemMap",
+            "gm_watch_kosei_80",
+            "H_Beret_gen_F",
+            "G_Spectacles_tinted",
+            "gm_ge_bgs_vest_80_rifleman"
+		};
+		respawnLinkedItems[]=
+		{
+			"gm_gc_compass_f73",
+			"ItemRadio",
+            "itemMap",
+            "gm_watch_kosei_80",
+            "H_Beret_gen_F",
+            "G_Spectacles_tinted",
+            "gm_ge_bgs_vest_80_rifleman"
+		};
+        hiddenSelectionsTextures[]=
+		{
+            "\80s_tanoa\80s_tanoa_characters\civ\data\80s_tanoa_civ_outfit_casual_flowers_co.paa"
 		};
     };
 };
