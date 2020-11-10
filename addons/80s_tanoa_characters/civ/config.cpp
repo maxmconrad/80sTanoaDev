@@ -544,7 +544,7 @@ class CfgVehicles
 		};
         hiddenSelectionsTextures[]=
 		{
-            "\80s_tanoa\80s_tanoa_characters\civ\data\80s_tanoa_civ_outfit_short_trq_co.paa"
+            "\80s_tanoa\80s_tanoa_characters\civ\data\80s_tanoa_civ_outfit_shorts_trq_co.paa"
 		};
         // Remove EventHandlers to disable Randomization
         class EventHandlers
