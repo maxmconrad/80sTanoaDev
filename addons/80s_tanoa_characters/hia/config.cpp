@@ -2183,7 +2183,7 @@ class CfgVehicles
 		side=2;
 		genericNames="TanoanMen";
 		vehicleClass="Men";
-		editorSubcategory="gm_esc_men_special_80";
+		editorSubcategory="80s_tanoa_esc_mcorps";
         scope=2;
         scopeArsenal=2;
 		isgmContent=1;
@@ -2247,7 +2247,7 @@ class CfgVehicles
 		side=2;
 		genericNames="TanoanMen";
 		vehicleClass="Men";
-		editorSubcategory="gm_esc_men_special_80";
+		editorSubcategory="80s_tanoa_esc_mcorps";
         scope=2;
         scopeArsenal=2;
 		isgmContent=1;
@@ -2281,12 +2281,14 @@ class CfgVehicles
 		linkedItems[]=
 		{
 			"gm_gc_compass_f73",
-			"ItemRadio"
+			"ItemRadio",
+            "itemMap"
 		};
 		respawnLinkedItems[]=
 		{
 			"gm_gc_compass_f73",
-			"ItemRadio"
+			"ItemRadio",
+            "itemMap"
 		};
 		identityTypes[]=
 		{
