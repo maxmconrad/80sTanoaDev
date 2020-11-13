@@ -2325,13 +2325,13 @@ class CfgVehicles
 		{
 			"Throw",
 			"Put",
-			"80s_tanoa_m16a1_blk_suppressor"
+			"gm_m16a1_blk"
 		};
 		respawnWeapons[]=
 		{
 			"Throw",
 			"Put",
-			"80s_tanoa_m16a1_blk_suppressor"
+			"gm_m16a1_blk"
 		};
 		magazines[]=
 		{
@@ -2386,13 +2386,13 @@ class CfgVehicles
 		{
 			"Throw",
 			"Put",
-			"gm_g3a4_blk"
+			"gm_g3a4_grn"
 		};
 		respawnWeapons[]=
 		{
 			"Throw",
 			"Put",
-			"gm_g3a4_blk"
+			"gm_g3a4_grn"
 		};
 		magazines[]=
 		{
