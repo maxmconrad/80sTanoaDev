@@ -147,4 +147,8 @@ class CfgEditorSubcategories
     {
         displayName="Special Investigation Unit (80s)";
     };
+    class 80s_tanoa_esc_mcorps
+    {
+        displayName="Marines (80s)";
+    };
 };
