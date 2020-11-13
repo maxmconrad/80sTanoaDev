@@ -79,6 +79,23 @@ class CfgWeapons
             uniformClass="80s_tanoa_hia_specops_base";
         };
 	};
+    class 80s_tanoa_hia_uniform_mcorps: gm_ge_army_uniform_soldier_bdu_rolled_80_wdl
+	{
+		scope=2;
+        scopeArsenal=2;
+		displayName="HIA Marine Corps (Rolled)";
+        picture="\gm\gm_characters\gm_ge_characters\data\ui\picture_gm_ge_uniform_soldier_bdu_rolled_80_wdl_ca";
+        class ItemInfo: ItemInfo
+        {
+            uniformClass="80s_tanoa_hia_mcorps_base";
+        };
+        hiddenSelectionsTextures[]=
+		{
+			//"#(rgb,8,8,3)color(0.199,0.230,0.171,1,CO)",
+            "\80s_tanoa\80s_tanoa_characters\hia\data\80s_tanoa_hia_mcorps_bdu_lzrd_co.paa",
+            "\80s_tanoa\80s_tanoa_characters\hia\data\80s_tanoa_bdu_overlay_flag.paa"
+		};
+	};
     class gm_ge_uniform_soldier_bdu_80_wdl: gm_ge_army_uniform_soldier_bdu_80_base
     {
         class ItemInfo;
@@ -105,6 +122,24 @@ class CfgWeapons
             uniformClass="80s_tanoa_hia_specops_longsleeve_base";
         };
 	};
+    class 80s_tanoa_hia_uniform_mcorps_longsleeve: gm_ge_uniform_soldier_bdu_80_wdl
+	{
+		scope=2;
+        scopeArsenal=2;
+		displayName="HIA Marine Corps";
+        picture="\gm\gm_characters\gm_ge_characters\data\ui\picture_gm_ge_uniform_soldier_bdu_80_wdl_ca";
+        class ItemInfo: ItemInfo
+        {
+            uniformClass="80s_tanoa_hia_mcorps_longsleeve_base";
+        };
+        hiddenSelectionsTextures[]=
+		{
+			//"#(rgb,8,8,3)color(0.199,0.230,0.171,1,CO)",
+            "\80s_tanoa\80s_tanoa_characters\hia\data\80s_tanoa_hia_mcorps_bdu_lzrd_co.paa",
+            "\80s_tanoa\80s_tanoa_characters\hia\data\80s_tanoa_bdu_overlay_flag.paa"
+		};
+	};
+    // Headgear
     class gm_ge_headgear_hat_boonie_base;
     class 80s_tanoa_hia_specops_boonie: gm_ge_headgear_hat_boonie_base
     {
@@ -114,6 +149,28 @@ class CfgWeapons
         picture="\gm\gm_characters\gm_ge_characters\data\ui\picture_gm_ge_headgear_hat_boonie_oli_ca";
         hiddenSelectionsTextures[]={"\80s_tanoa\80s_tanoa_vehicles\rfhi\data\80s_tanoa_rfhi_tigerstripe01.paa"};
     };
+    class 80s_tanoa_hia_mcorps_boonie_lzrd: gm_ge_headgear_hat_boonie_base
+    {
+        displayName="HIA Marine Corps Boonie";
+        scope=2;
+        scopeArsenal=2;
+        picture="\gm\gm_characters\gm_ge_characters\data\ui\picture_gm_ge_headgear_hat_boonie_oli_ca";
+        hiddenSelectionsTextures[]={"\80s_tanoa\80s_tanoa_characters\hia\data\80s_tanoa_hia_mcorps_m62_lzrd_co.paa"};
+    };
+    class gm_ge_headgear_m62_cover_base;
+    class 80s_tanoa_hia_mcorps_m62_lzrd: gm_ge_headgear_m62_cover_base
+    {
+        displayName="HIA Marine Corps M62";
+        scope=2;
+        scopeArsenal=2;
+        picture="\gm\gm_characters\gm_ge_characters\data\ui\picture_gm_ge_headgear_hat_boonie_oli_ca";
+        hiddenSelectionsTextures[]=
+        {
+            "\gm\gm_characters\gm_ge_characters\data\headgear\gm_ge_headgear_m62_co",
+            "\80s_tanoa\80s_tanoa_characters\hia\data\80s_tanoa_hia_mcorps_m62_lzrd_co.paa"
+        };
+    };
+    // Weapons
     class gm_g3a3_grn;
     class 80s_tanoa_g3a3_grn_feroz24: gm_g3a3_grn
     {
@@ -2112,6 +2169,135 @@ class CfgVehicles
 			"gm_ge_headgear_beret_blk",
             "G_Bandanna_oli",
 			"gm_ge_army_vest_80_leader"
+		};
+    };
+    // Marine Corps
+    class 80s_tanoa_hia_mcorps_base: gm_ge_army_rifleman_rolled_80_wdl
+    {
+        faction="80s_tanoa_hia";
+        displayName="Marine Corps (Unarmed)";
+        uniformClass="80s_tanoa_hia_uniform_mcorps";
+		serviceBranch="";
+		rankInsignias="army_yel";
+        faceType="Man_A3";
+		side=2;
+		genericNames="TanoanMen";
+		vehicleClass="Men";
+		editorSubcategory="gm_esc_men_special_80";
+        scope=2;
+        scopeArsenal=2;
+		isgmContent=1;
+		dlc="gm";
+        author="quarren";
+        editorPreview="\80s_tanoa\80s_tanoa_characters\hia\data\editorpreview\80s_tanoa_hia_specops_base.jpg";
+		armbands[]=
+		{
+			""
+		};
+		weapons[]=
+		{
+			"Throw",
+			"Put",
+		};
+		respawnWeapons[]=
+		{
+			"Throw",
+			"Put",
+		};
+		Items[]=
+		{
+			"gm_gc_army_gauzeBandage",
+			"gm_gc_army_medkit"
+		};
+		RespawnItems[]=
+		{
+			"gm_gc_army_gauzeBandage",
+			"gm_gc_army_medkit"
+		};
+		linkedItems[]=
+		{
+			"gm_gc_compass_f73",
+			"ItemRadio"
+		};
+		respawnLinkedItems[]=
+		{
+			"gm_gc_compass_f73",
+			"ItemRadio"
+		};
+		identityTypes[]=
+		{
+			"LanguageENGFRE_F",
+			"Head_Tanoan",
+		};
+        hiddenSelectionsTextures[]=
+		{
+			//"#(rgb,8,8,3)color(0.199,0.230,0.171,1,CO)",
+            "\80s_tanoa\80s_tanoa_characters\hia\data\80s_tanoa_hia_mcorps_bdu_lzrd_co.paa",
+            "\80s_tanoa\80s_tanoa_characters\hia\data\80s_tanoa_bdu_overlay_flag.paa"
+		};
+	};
+    class 80s_tanoa_hia_mcorps_longsleeve_base: gm_ge_army_rifleman_80_wdl
+    {
+        faction="80s_tanoa_hia";
+        displayName="Marine Corps (Longsleeve, Unarmed)";
+        uniformClass="80s_tanoa_hia_uniform_mcorps_longsleeve";
+		serviceBranch="";
+		rankInsignias="army_yel";
+        faceType="Man_A3";
+		side=2;
+		genericNames="TanoanMen";
+		vehicleClass="Men";
+		editorSubcategory="gm_esc_men_special_80";
+        scope=2;
+        scopeArsenal=2;
+		isgmContent=1;
+		dlc="gm";
+        author="quarren";
+        editorPreview="\80s_tanoa\80s_tanoa_characters\hia\data\editorpreview\80s_tanoa_hia_specops_longsleeve_base.jpg";
+		armbands[]=
+		{
+			""
+		};
+		weapons[]=
+		{
+			"Throw",
+			"Put",
+		};
+		respawnWeapons[]=
+		{
+			"Throw",
+			"Put",
+		};
+		Items[]=
+		{
+			"gm_gc_army_gauzeBandage",
+			"gm_gc_army_medkit"
+		};
+		RespawnItems[]=
+		{
+			"gm_gc_army_gauzeBandage",
+			"gm_gc_army_medkit"
+		};
+		linkedItems[]=
+		{
+			"gm_gc_compass_f73",
+			"ItemRadio"
+		};
+		respawnLinkedItems[]=
+		{
+			"gm_gc_compass_f73",
+			"ItemRadio"
+		};
+		identityTypes[]=
+		{
+			"LanguageENGFRE_F",
+			"Head_Tanoan",
+		};
+        hiddenSelectionsTextures[]=
+		{
+			//"#(rgb,8,8,3)color(0.199,0.230,0.171,1,CO)",
+            "\80s_tanoa\80s_tanoa_characters\hia\data\80s_tanoa_hia_mcorps_bdu_lzrd_co.paa",
+            "\80s_tanoa\80s_tanoa_characters\hia\data\80s_tanoa_bdu_overlay_flag.paa"
 		};
     };
 };
