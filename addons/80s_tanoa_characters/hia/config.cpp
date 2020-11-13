@@ -170,6 +170,17 @@ class CfgWeapons
             "\80s_tanoa\80s_tanoa_characters\hia\data\80s_tanoa_hia_mcorps_m62_lzrd_co.paa"
         };
     };
+    class H_Beret_blk;
+    class 80s_tanoa_hia_mcorps_beret_grn: H_Beret_blk
+    {
+        displayName="HIA Marine Corps Beret";
+        scope=2;
+        scopeArsenal=2;
+        hiddenSelectionsTextures[]=
+        {
+            "\80s_tanoa\80s_tanoa_characters\hia\data\80s_tanoa_hia_mcorps_beret_grn_co.paa"
+        };
+    };
     // Weapons
     class gm_g3a3_grn;
     class 80s_tanoa_g3a3_grn_feroz24: gm_g3a3_grn
@@ -2300,6 +2311,128 @@ class CfgVehicles
 			//"#(rgb,8,8,3)color(0.199,0.230,0.171,1,CO)",
             "\80s_tanoa\80s_tanoa_characters\hia\data\80s_tanoa_hia_mcorps_bdu_lzrd_co.paa",
             "\80s_tanoa\80s_tanoa_characters\hia\data\80s_tanoa_bdu_overlay_flag.paa"
+		};
+    };
+    class 80s_tanoa_hia_mcorps_rifleman_m16a1: 80s_tanoa_hia_mcorps_longsleeve_base
+    {
+        displayName="Rifleman (M16A1)";
+        scope=2;
+		scopeCurator=2;
+        icon="iconMan";
+		role="Rifleman";
+        editorPreview="\80s_tanoa\80s_tanoa_characters\hia\data\editorpreview\80s_tanoa_hia_specops_rifleman_m16a1.jpg";
+        weapons[]=
+		{
+			"Throw",
+			"Put",
+			"80s_tanoa_m16a1_blk_suppressor"
+		};
+		respawnWeapons[]=
+		{
+			"Throw",
+			"Put",
+			"80s_tanoa_m16a1_blk_suppressor"
+		};
+		magazines[]=
+		{
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_handGrenade_frag_rgd5",
+			"gm_handGrenade_frag_rgd5"
+		};
+		respawnMagazines[]=
+		{
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_handGrenade_frag_rgd5",
+			"gm_handGrenade_frag_rgd5"
+		};
+		linkedItems[]=
+		{
+			"gm_gc_compass_f73",
+			"ItemRadio",
+			"itemMap",
+			"gm_watch_kosei_80",
+			"80s_tanoa_hia_mcorps_m62_lzrd",
+			"gm_ge_bgs_vest_80_rifleman"
+		};
+		respawnLinkedItems[]=
+		{
+			"gm_gc_compass_f73",
+			"ItemRadio",
+			"itemMap",
+			"gm_watch_kosei_80",
+			"80s_tanoa_hia_mcorps_m62_lzrd",
+			"gm_ge_bgs_vest_80_rifleman"
+		};
+    };
+    class 80s_tanoa_hia_mcorps_rifleman_g3a4: 80s_tanoa_hia_mcorps_longsleeve_base
+    {
+        displayName="Guard (G3A4)";
+        scope=2;
+		scopeCurator=2;
+        icon="iconMan";
+		role="Rifleman";
+        editorPreview="\80s_tanoa\80s_tanoa_characters\hia\data\editorpreview\80s_tanoa_hia_specops_rifleman_m16a1.jpg";
+        weapons[]=
+		{
+			"Throw",
+			"Put",
+			"gm_g3a4_blk"
+		};
+		respawnWeapons[]=
+		{
+			"Throw",
+			"Put",
+			"gm_g3a4_blk"
+		};
+		magazines[]=
+		{
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_handGrenade_frag_rgd5",
+			"gm_handGrenade_frag_rgd5"
+		};
+		respawnMagazines[]=
+		{
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_20rnd_762x51mm_b_dm41_g3_blk",
+			"gm_handGrenade_frag_rgd5",
+			"gm_handGrenade_frag_rgd5"
+		};
+		linkedItems[]=
+		{
+			"gm_gc_compass_f73",
+			"ItemRadio",
+			"itemMap",
+			"ItemWatch",
+			"80s_tanoa_hia_mcorps_beret_grn",
+			"gm_ge_bgs_vest_80_rifleman"
+		};
+		respawnLinkedItems[]=
+		{
+			"gm_gc_compass_f73",
+			"ItemRadio",
+			"itemMap",
+			"ItemWatch",
+			"80s_tanoa_hia_mcorps_beret_grn",
+			"gm_ge_bgs_vest_80_rifleman"
 		};
     };
 };
