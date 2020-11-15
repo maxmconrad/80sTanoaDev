@@ -2496,6 +2496,77 @@ class CfgVehicles
 			"gm_ge_bgs_vest_80_rifleman"
 		};
     };
+    class 80s_tanoa_hia_mcorps_autorifleman_mg3: 80s_tanoa_hia_mcorps_longsleeve_base
+    {
+        displayName="Machinegunner";
+        scope=2;
+		scopeCurator=2;
+        icon="iconManMG";
+        role="MachineGunner";
+        editorPreview="\80s_tanoa\80s_tanoa_characters\hia\data\editorpreview\80s_tanoa_hia_autorifleman_mg3.jpg";
+        textSingular="$STR_A3_nameSound_veh_infantry_MG_s";
+		textPlural="$STR_A3_nameSound_veh_infantry_MG_p";
+		nameSound="veh_infantry_MG_s";
+        backpack="80s_tanoa_hia_backpack_mg3_ammo";
+        class SpeechVariants
+		{
+			class Default
+			{
+				speechSingular[]=
+				{
+					"veh_infantry_MG_s"
+				};
+				speechPlural[]=
+				{
+					"veh_infantry_MG_p"
+				};
+			};
+		};
+        weapons[]=
+		{
+			"Throw",
+			"Put",
+			"gm_mg3_blk"
+		};
+		respawnWeapons[]=
+		{
+			"Throw",
+			"Put",
+			"gm_mg3_blk"
+		};
+		magazines[]=
+		{
+			"gm_120rnd_762x51mm_b_t_dm21_mg3_grn",
+			"gm_120rnd_762x51mm_b_t_dm21_mg3_grn",
+			"gm_handGrenade_frag_rgd5",
+			"gm_handGrenade_frag_rgd5"
+		};
+		respawnMagazines[]=
+		{
+			"gm_120rnd_762x51mm_b_t_dm21_mg3_grn",
+			"gm_120rnd_762x51mm_b_t_dm21_mg3_grn",
+			"gm_handGrenade_frag_rgd5",
+			"gm_handGrenade_frag_rgd5"
+		};
+		linkedItems[]=
+		{
+			"gm_gc_compass_f73",
+			"ItemRadio",
+			"itemMap",
+			"ItemWatch",
+            "80s_tanoa_hia_mcorps_m62_lzrd",
+			"gm_ge_bgs_vest_80_rifleman"
+		};
+		respawnLinkedItems[]=
+		{
+			"gm_gc_compass_f73",
+			"ItemRadio",
+			"itemMap",
+			"ItemWatch",
+            "80s_tanoa_hia_mcorps_m62_lzrd",
+			"gm_ge_bgs_vest_80_rifleman"
+		};
+    };
 };
 // CfgGroups
 class CfgGroups
