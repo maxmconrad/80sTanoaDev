@@ -149,6 +149,6 @@ class CfgEditorSubcategories
     };
     class 80s_tanoa_esc_mcorps
     {
-        displayName="Marines (80s)";
+        displayName="Naval Infantry (80s)";
     };
 };
