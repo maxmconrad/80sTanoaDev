@@ -2455,6 +2455,67 @@ class CfgVehicles
 			"gm_ge_bgs_vest_80_rifleman"
 		};
     };
+    class 80s_tanoa_hia_mcorps_rifleman_light_uzi: 80s_tanoa_hia_mcorps_longsleeve_base
+    {
+        displayName="Rifleman (Light, Uzi)";
+        scope=2;
+		scopeCurator=2;
+        icon="iconMan";
+		role="Rifleman";
+        editorPreview="\80s_tanoa\80s_tanoa_characters\hia\data\editorpreview\80s_tanoa_hia_specops_rifleman_m16a1.jpg";
+        weapons[]=
+		{
+			"Throw",
+			"Put",
+			"gm_mp2a1_blk"
+		};
+		respawnWeapons[]=
+		{
+			"Throw",
+			"Put",
+			"gm_mp2a1_blk"
+		};
+		magazines[]=
+		{
+			"gm_32rnd_9x19mm_b_dm11_mp2_blk",
+			"gm_32rnd_9x19mm_b_dm11_mp2_blk",
+			"gm_32rnd_9x19mm_b_dm11_mp2_blk",
+			"gm_32rnd_9x19mm_b_dm11_mp2_blk",
+			"gm_32rnd_9x19mm_b_dm11_mp2_blk",
+			"gm_32rnd_9x19mm_b_dm11_mp2_blk",
+			"gm_handGrenade_frag_rgd5",
+			"gm_handGrenade_frag_rgd5"
+		};
+		respawnMagazines[]=
+		{
+			"gm_32rnd_9x19mm_b_dm11_mp2_blk",
+			"gm_32rnd_9x19mm_b_dm11_mp2_blk",
+			"gm_32rnd_9x19mm_b_dm11_mp2_blk",
+			"gm_32rnd_9x19mm_b_dm11_mp2_blk",
+			"gm_32rnd_9x19mm_b_dm11_mp2_blk",
+			"gm_32rnd_9x19mm_b_dm11_mp2_blk",
+			"gm_handGrenade_frag_rgd5",
+			"gm_handGrenade_frag_rgd5"
+		};
+		linkedItems[]=
+		{
+			"gm_gc_compass_f73",
+			"ItemRadio",
+			"itemMap",
+			"gm_watch_kosei_80",
+			"80s_tanoa_hia_mcorps_beret_grn",
+			"gm_ge_bgs_vest_80_rifleman"
+		};
+		respawnLinkedItems[]=
+		{
+			"gm_gc_compass_f73",
+			"ItemRadio",
+			"itemMap",
+			"gm_watch_kosei_80",
+			"80s_tanoa_hia_mcorps_beret_grn",
+			"gm_ge_bgs_vest_80_rifleman"
+		};
+    };
     class 80s_tanoa_hia_mcorps_rifleman_g3a4: 80s_tanoa_hia_mcorps_longsleeve_base
     {
         displayName="Guard";
@@ -2513,6 +2574,84 @@ class CfgVehicles
 			"itemMap",
 			"ItemWatch",
 			"80s_tanoa_hia_mcorps_beret_grn",
+			"gm_ge_bgs_vest_80_rifleman"
+		};
+    };
+    class 80s_tanoa_hia_mcorps_marksman_g3a3: 80s_tanoa_hia_mcorps_longsleeve_base
+    {
+        displayName="Marksman";
+        scope=2;
+		scopeCurator=2;
+        role="Marksman";
+        editorPreview="\80s_tanoa\80s_tanoa_characters\hia\data\editorpreview\80s_tanoa_hia_marksman_g3a3.jpg";
+        cost=250000;
+        textSingular="$STR_A3_nameSound_veh_infantry_sniper_s";
+		textPlural="$STR_A3_nameSound_veh_infantry_sniper_p";
+        nameSound="veh_infantry_sniper_s";
+        class SpeechVariants
+		{
+			class Default
+			{
+				speechSingular[]=
+				{
+					"veh_infantry_sniper_s"
+				};
+				speechPlural[]=
+				{
+					"veh_infantry_sniper_p"
+				};
+			};
+		};
+        weapons[]=
+		{
+			"Throw",
+			"Put",
+			"80s_tanoa_g3a3_grn_feroz24"
+		};
+		respawnWeapons[]=
+		{
+			"Throw",
+			"Put",
+			"80s_tanoa_g3a3_grn_feroz24"
+		};
+		magazines[]=
+		{
+			"gm_20Rnd_762x51mm_b_DM41_g3_blk",
+			"gm_20Rnd_762x51mm_b_DM41_g3_blk",
+			"gm_20Rnd_762x51mm_b_DM41_g3_blk",
+			"gm_20Rnd_762x51mm_b_DM41_g3_blk",
+			"gm_20Rnd_762x51mm_b_DM41_g3_blk",
+			"gm_20Rnd_762x51mm_b_DM41_g3_blk",
+			"gm_handGrenade_frag_rgd5",
+			"gm_handGrenade_frag_rgd5"
+		};
+		respawnMagazines[]=
+		{
+			"gm_20Rnd_762x51mm_b_DM41_g3_blk",
+			"gm_20Rnd_762x51mm_b_DM41_g3_blk",
+			"gm_20Rnd_762x51mm_b_DM41_g3_blk",
+			"gm_20Rnd_762x51mm_b_DM41_g3_blk",
+			"gm_20Rnd_762x51mm_b_DM41_g3_blk",
+			"gm_20Rnd_762x51mm_b_DM41_g3_blk",
+			"gm_handGrenade_frag_rgd5",
+			"gm_handGrenade_frag_rgd5"
+		};
+		linkedItems[]=
+		{
+			"gm_gc_compass_f73",
+			"ItemRadio",
+			"itemMap",
+			"ItemWatch",
+            "80s_tanoa_hia_mcorps_beret_grn",
+			"gm_ge_bgs_vest_80_rifleman"
+		};
+		respawnLinkedItems[]=
+		{
+			"gm_gc_compass_f73",
+			"ItemRadio",
+			"itemMap",
+			"ItemWatch",
+            "80s_tanoa_hia_mcorps_beret_grn",
 			"gm_ge_bgs_vest_80_rifleman"
 		};
     };
@@ -2732,6 +2871,152 @@ class CfgVehicles
 			"itemMap",
 			"gm_watch_kosei_80",
 			"80s_tanoa_hia_mcorps_beret_grn",
+			"gm_ge_bgs_vest_80_rifleman"
+		};
+    };
+    class 80s_tanoa_hia_mcorps_medic_m16a1: 80s_tanoa_hia_mcorps_longsleeve_base
+    {
+        displayName="Medic";
+        scope=2;
+		scopeCurator=2;
+        icon="iconManMedic";
+		role="CombatLifeSaver";
+        editorPreview="\80s_tanoa\80s_tanoa_characters\hia\data\editorpreview\80s_tanoa_hia_medic_g3a4.jpg";
+        picture="pictureHeal";
+        cost=450000;
+        backpack="80s_tanoa_hia_backpack_satchel_80_san";
+        textSingular="$STR_A3_nameSound_veh_infantry_medic_s";
+		textPlural="$STR_A3_nameSound_veh_infantry_medic_p";
+		nameSound="veh_infantry_medic_s";
+        class SpeechVariants
+		{
+			class Default
+			{
+				speechSingular[]=
+				{
+					"veh_infantry_medic_s"
+				};
+				speechPlural[]=
+				{
+					"veh_infantry_medic_p"
+				};
+			};
+		};
+        weapons[]=
+		{
+			"Throw",
+			"Put",
+			"gm_m16a1_blk"
+		};
+		respawnWeapons[]=
+		{
+			"Throw",
+			"Put",
+			"gm_m16a1_blk"
+		};
+		magazines[]=
+		{
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_handGrenade_frag_rgd5",
+			"gm_handGrenade_frag_rgd5"
+		};
+		respawnMagazines[]=
+		{
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_handGrenade_frag_rgd5",
+			"gm_handGrenade_frag_rgd5"
+		};
+		linkedItems[]=
+		{
+			"gm_gc_compass_f73",
+			"ItemRadio",
+			"itemMap",
+			"gm_watch_kosei_80",
+			"80s_tanoa_hia_mcorps_m62_lzrd",
+			"gm_ge_bgs_vest_80_rifleman"
+		};
+		respawnLinkedItems[]=
+		{
+			"gm_gc_compass_f73",
+			"ItemRadio",
+			"itemMap",
+			"gm_watch_kosei_80",
+			"80s_tanoa_hia_mcorps_m62_lzrd",
+			"gm_ge_bgs_vest_80_rifleman"
+		};
+    };
+    class 80s_tanoa_hia_mcorps_demolition_uzi: 80s_tanoa_hia_mcorps_longsleeve_base
+    {
+        displayName="Demolition";
+        scope=2;
+		scopeCurator=2;
+        Icon="iconManExplosive";
+		role="Sapper";
+        editorPreview="\80s_tanoa\80s_tanoa_characters\hia\data\editorpreview\80s_tanoa_hia_specops_demolition_mp5sd3.jpg";
+		picture="pictureExplosive";
+		cost=115000;
+		canDeactivateMines=1;
+        backpack="80s_tanoa_hia_backpack_demolitions";
+        weapons[]=
+		{
+			"Throw",
+			"Put",
+			"gm_mp2a1_blk"
+		};
+		respawnWeapons[]=
+		{
+			"Throw",
+			"Put",
+			"gm_mp2a1_blk"
+		};
+		magazines[]=
+		{
+			"gm_32rnd_9x19mm_b_dm11_mp2_blk",
+			"gm_32rnd_9x19mm_b_dm11_mp2_blk",
+			"gm_32rnd_9x19mm_b_dm11_mp2_blk",
+			"gm_32rnd_9x19mm_b_dm11_mp2_blk",
+			"gm_32rnd_9x19mm_b_dm11_mp2_blk",
+			"gm_32rnd_9x19mm_b_dm11_mp2_blk",
+			"gm_handGrenade_frag_rgd5",
+			"gm_handGrenade_frag_rgd5"
+		};
+		respawnMagazines[]=
+		{
+			"gm_32rnd_9x19mm_b_dm11_mp2_blk",
+			"gm_32rnd_9x19mm_b_dm11_mp2_blk",
+			"gm_32rnd_9x19mm_b_dm11_mp2_blk",
+			"gm_32rnd_9x19mm_b_dm11_mp2_blk",
+			"gm_32rnd_9x19mm_b_dm11_mp2_blk",
+			"gm_32rnd_9x19mm_b_dm11_mp2_blk",
+			"gm_handGrenade_frag_rgd5",
+			"gm_handGrenade_frag_rgd5"
+		};
+		linkedItems[]=
+		{
+			"gm_gc_compass_f73",
+			"ItemRadio",
+			"itemMap",
+			"gm_watch_kosei_80",
+			"80s_tanoa_rfhi_headgear_beanie_blk",
+			"gm_ge_bgs_vest_80_rifleman"
+		};
+		respawnLinkedItems[]=
+		{
+			"gm_gc_compass_f73",
+			"ItemRadio",
+			"itemMap",
+			"gm_watch_kosei_80",
+			"80s_tanoa_rfhi_headgear_beanie_blk",
 			"gm_ge_bgs_vest_80_rifleman"
 		};
     };
