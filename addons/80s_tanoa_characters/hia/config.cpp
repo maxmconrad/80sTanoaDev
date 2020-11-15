@@ -140,8 +140,8 @@ class CfgWeapons
 		};
 	};
     // Vests
-    class gm_ge_vest_80_base;
-    class 80s_tanoa_hia_mcorps_vest_leader_brn: gm_ge_vest_80_base
+    class gm_ge_army_vest_80_leader;
+    class 80s_tanoa_hia_mcorps_vest_leader_brn: gm_ge_army_vest_80_leader
     {
         scope=2;
         scopeArsenal=2;
@@ -150,10 +150,12 @@ class CfgWeapons
         picture="\gm\gm_characters\gm_ge_characters\data\ui\picture_gm_ge_army_vest_80_leader_ca";
         hiddenSelectionsMaterials[]=
         {
-            "\gm\gm_characters\gm_ge_characters\data\vest\gm_ge_vest_80"
+            //"\gm\gm_characters\gm_ge_characters\data\vest\gm_ge_vest_80"
+            ""
         };
         hiddenSelectionsTextures[]=
         {
+            "\80s_tanoa\80s_tanoa_characters\hia\data\80s_tanoa_hia_mcorps_vest_brn_co.paa",
             "\80s_tanoa\80s_tanoa_characters\hia\data\80s_tanoa_hia_mcorps_vest_brn_co.paa"
         };
     };
@@ -2721,7 +2723,7 @@ class CfgVehicles
 			"itemMap",
 			"gm_watch_kosei_80",
 			"80s_tanoa_hia_mcorps_beret_grn",            
-			"80s_tanoa_hia_mcorps_vest_leader_brn"
+			"gm_ge_bgs_vest_80_rifleman"
 		};
 		respawnLinkedItems[]=
 		{
@@ -2730,7 +2732,7 @@ class CfgVehicles
 			"itemMap",
 			"gm_watch_kosei_80",
 			"80s_tanoa_hia_mcorps_beret_grn",
-			"80s_tanoa_hia_mcorps_vest_leader_brn"
+			"gm_ge_bgs_vest_80_rifleman"
 		};
     };
 };
