@@ -139,6 +139,24 @@ class CfgWeapons
             "\80s_tanoa\80s_tanoa_characters\hia\data\80s_tanoa_bdu_overlay_flag.paa"
 		};
 	};
+    // Vests
+    class gm_ge_vest_80_base;
+    class 80s_tanoa_hia_mcorps_vest_leader_brn: gm_ge_vest_80_base
+    {
+        scope=2;
+        scopeArsenal=2;
+        displayName="Gear (Leader, Marines)";
+        model="\gm\gm_characters\gm_ge_characters\gm_ge_vest_80_leader";
+        picture="\gm\gm_characters\gm_ge_characters\data\ui\picture_gm_ge_army_vest_80_leader_ca";
+        hiddenSelectionsMaterials[]=
+        {
+            "\gm\gm_characters\gm_ge_characters\data\vest\gm_ge_vest_80"
+        };
+        hiddenSelectionsTextures[]=
+        {
+            "\80s_tanoa\80s_tanoa_characters\hia\data\80s_tanoa_hia_mcorps_vest_brn_co.paa"
+        };
+    };
     // Headgear
     class gm_ge_headgear_hat_boonie_base;
     class 80s_tanoa_hia_specops_boonie: gm_ge_headgear_hat_boonie_base
@@ -2507,7 +2525,6 @@ class CfgVehicles
         textSingular="$STR_A3_nameSound_veh_infantry_MG_s";
 		textPlural="$STR_A3_nameSound_veh_infantry_MG_p";
 		nameSound="veh_infantry_MG_s";
-        backpack="80s_tanoa_hia_backpack_mg3_ammo";
         class SpeechVariants
 		{
 			class Default
@@ -2565,6 +2582,155 @@ class CfgVehicles
 			"ItemWatch",
             "80s_tanoa_hia_mcorps_m62_lzrd",
 			"gm_ge_bgs_vest_80_rifleman"
+		};
+    };
+    class 80s_tanoa_hia_mcorps_autorifleman_assistant_g3a4: 80s_tanoa_hia_mcorps_longsleeve_base
+    {
+        displayName="Machinegunner Assistant";
+        scope=2;
+		scopeCurator=2;
+        role="Rifleman";
+        editorPreview="\80s_tanoa\80s_tanoa_characters\hia\data\editorpreview\80s_tanoa_hia_autorifleman_assistant_g3a4.jpg";
+        backpack="80s_tanoa_hia_backpack_mg3_ammo";
+        weapons[]=
+		{
+			"Throw",
+			"Put",
+			"gm_m16a1_blk"
+		};
+		respawnWeapons[]=
+		{
+			"Throw",
+			"Put",
+			"gm_m16a1_blk"
+		};
+		magazines[]=
+		{
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_handGrenade_frag_rgd5",
+			"gm_handGrenade_frag_rgd5"
+		};
+		respawnMagazines[]=
+		{
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_handGrenade_frag_rgd5",
+			"gm_handGrenade_frag_rgd5"
+		};
+		linkedItems[]=
+		{
+			"gm_gc_compass_f73",
+			"ItemRadio",
+			"itemMap",
+			"gm_watch_kosei_80",
+			"80s_tanoa_hia_mcorps_m62_lzrd",
+			"gm_ge_bgs_vest_80_rifleman"
+		};
+		respawnLinkedItems[]=
+		{
+			"gm_gc_compass_f73",
+			"ItemRadio",
+			"itemMap",
+			"gm_watch_kosei_80",
+			"80s_tanoa_hia_mcorps_m62_lzrd",
+			"gm_ge_bgs_vest_80_rifleman"
+		};
+    };
+    class 80s_tanoa_hia_mcorps_squadlead_m16a1: 80s_tanoa_hia_mcorps_longsleeve_base
+    {
+        displayName="Squad Leader";
+        scope=2;
+		scopeCurator=2;
+        icon="iconManLeader";
+		role="Rifleman";
+        editorPreview="\80s_tanoa\80s_tanoa_characters\hia\data\editorpreview\80s_tanoa_hia_squadlead_m16a1.jpg";
+        textSingular="$STR_A3_nameSound_veh_infantry_officer_s";
+		textPlural="$STR_A3_nameSound_veh_infantry_officer_p";
+		nameSound="veh_infantry_officer_s";
+        class SpeechVariants
+		{
+			class Default
+			{
+				speechSingular[]=
+				{
+					"veh_infantry_officer_s"
+				};
+				speechPlural[]=
+				{
+					"veh_infantry_officer_p"
+				};
+			};
+		};
+        weapons[]=
+		{
+			"Throw",
+			"Put",
+            "gm_df7x40_grn",
+			"gm_m16a1_blk",
+            "gm_p1_blk"
+		};
+		respawnWeapons[]=
+		{
+			"Throw",
+			"Put",
+            "gm_df7x40_grn",
+			"gm_m16a1_blk",
+            "gm_p1_blk"
+		};
+		magazines[]=
+		{
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+            "gm_8rnd_9x19mm_b_dm11_p1_blk",
+            "gm_8rnd_9x19mm_b_dm11_p1_blk",
+            "gm_8rnd_9x19mm_b_dm11_p1_blk",
+			"gm_handGrenade_frag_rgd5",
+			"gm_handGrenade_frag_rgd5"
+		};
+		respawnMagazines[]=
+		{
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+            "gm_8rnd_9x19mm_b_dm11_p1_blk",
+            "gm_8rnd_9x19mm_b_dm11_p1_blk",
+            "gm_8rnd_9x19mm_b_dm11_p1_blk",
+			"gm_handGrenade_frag_rgd5",
+			"gm_handGrenade_frag_rgd5"
+		};
+		linkedItems[]=
+		{
+			"gm_gc_compass_f73",
+			"ItemRadio",
+			"itemMap",
+			"gm_watch_kosei_80",
+			"80s_tanoa_hia_mcorps_beret_grn",            
+			"80s_tanoa_hia_mcorps_vest_leader_brn"
+		};
+		respawnLinkedItems[]=
+		{
+			"gm_gc_compass_f73",
+			"ItemRadio",
+			"itemMap",
+			"gm_watch_kosei_80",
+			"80s_tanoa_hia_mcorps_beret_grn",
+			"80s_tanoa_hia_mcorps_vest_leader_brn"
 		};
     };
 };
