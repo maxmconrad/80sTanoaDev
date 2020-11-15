@@ -2315,7 +2315,7 @@ class CfgVehicles
     };
     class 80s_tanoa_hia_mcorps_rifleman_m16a1: 80s_tanoa_hia_mcorps_longsleeve_base
     {
-        displayName="Rifleman (M16A1)";
+        displayName="Rifleman";
         scope=2;
 		scopeCurator=2;
         icon="iconMan";
@@ -2374,9 +2374,70 @@ class CfgVehicles
 			"gm_ge_bgs_vest_80_rifleman"
 		};
     };
+    class 80s_tanoa_hia_mcorps_rifleman_light_m16a1: 80s_tanoa_hia_mcorps_longsleeve_base
+    {
+        displayName="Rifleman (Light)";
+        scope=2;
+		scopeCurator=2;
+        icon="iconMan";
+		role="Rifleman";
+        editorPreview="\80s_tanoa\80s_tanoa_characters\hia\data\editorpreview\80s_tanoa_hia_specops_rifleman_m16a1.jpg";
+        weapons[]=
+		{
+			"Throw",
+			"Put",
+			"gm_m16a1_blk"
+		};
+		respawnWeapons[]=
+		{
+			"Throw",
+			"Put",
+			"gm_m16a1_blk"
+		};
+		magazines[]=
+		{
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_handGrenade_frag_rgd5",
+			"gm_handGrenade_frag_rgd5"
+		};
+		respawnMagazines[]=
+		{
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_30Rnd_556x45mm_B_M855_stanag_gry",
+			"gm_handGrenade_frag_rgd5",
+			"gm_handGrenade_frag_rgd5"
+		};
+		linkedItems[]=
+		{
+			"gm_gc_compass_f73",
+			"ItemRadio",
+			"itemMap",
+			"gm_watch_kosei_80",
+			"80s_tanoa_hia_mcorps_beret_grn",
+			"gm_ge_bgs_vest_80_rifleman"
+		};
+		respawnLinkedItems[]=
+		{
+			"gm_gc_compass_f73",
+			"ItemRadio",
+			"itemMap",
+			"gm_watch_kosei_80",
+			"80s_tanoa_hia_mcorps_beret_grn",
+			"gm_ge_bgs_vest_80_rifleman"
+		};
+    };
     class 80s_tanoa_hia_mcorps_rifleman_g3a4: 80s_tanoa_hia_mcorps_longsleeve_base
     {
-        displayName="Guard (G3A4)";
+        displayName="Guard";
         scope=2;
 		scopeCurator=2;
         icon="iconMan";
