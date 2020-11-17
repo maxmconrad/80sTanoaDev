@@ -47,8 +47,17 @@ class CfgPatches
 		weapons[]=
         {
             "80s_tanoa_hia_uniform_soldier",
-            "80s_tanoa_insurgents_ammobearer_akm",
-            "80s_tanoa_g3a3_grn_feroz24"
+            "80s_tanoa_hia_uniform_specops",
+            "80s_tanoa_hia_uniform_mcorps",
+            "80s_tanoa_hia_uniform_soldier_longsleeve",
+            "80s_tanoa_hia_uniform_specops_longsleeve",
+            "80s_tanoa_hia_uniform_mcorps_longsleeve",
+            "80s_tanoa_hia_specops_boonie",
+            "80s_tanoa_hia_mcorps_boonie_lzrd",
+            "80s_tanoa_hia_mcorps_m62_lzrd",
+            "80s_tanoa_hia_mcorps_beret_grn",
+            "80s_tanoa_g3a3_grn_feroz24",
+            "80s_tanoa_m16a1_blk_suppressor"
         };
 		requiredAddons[]=
 		{
