@@ -3254,6 +3254,111 @@ class CfgGroups
 					};
 				};
 			};
+            class 80s_tanoa_naval_infantry
+            {
+                name="Naval Infantry";
+                class 80s_tanoa_hia_naval_infantry_squad
+				{
+					name="Marine Squad";
+					side=2;
+					faction="80s_tanoa_hia";
+					icon="\A3\ui_f\data\map\markers\nato\b_inf.paa";
+					class Leader1
+					{
+						side=2;
+						vehicle="80s_tanoa_hia_mcorps_squadlead_m16a1";
+						rank="SERGEANT";
+						position[]={0,0,0};
+					};
+					class MG1: Leader1
+					{
+						vehicle="80s_tanoa_hia_mcorps_autorifleman_mg3";
+						rank="CORPORAL";
+						position[]={5,-5,0};
+					};
+					class MG2: MG1
+					{
+						vehicle="80s_tanoa_hia_mcorps_autorifleman_assistant_g3a4";
+						rank="PRIVATE";
+						position[]={-5,-5,0};
+					};
+					class Rifleman1: MG1
+					{
+						vehicle="80s_tanoa_hia_mcorps_medic_m16a1";
+						rank="CORPORAL";
+						position[]={10,-10,0};
+					};
+					class Rifleman2: Rifleman1
+					{
+						vehicle="80s_tanoa_hia_mcorps_marksman_g3a3";
+						rank="PRIVATE";
+						position[]={-10,-10,0};
+					};
+					class Rifleman3: Rifleman2
+					{
+                        vehicle="80s_tanoa_hia_mcorps_rifleman_m16a1";
+                        rank="PRIVATE";
+						position[]={15,-15,0};
+					};
+				};
+                class 80s_tanoa_hia_naval_infantry_fireteam_light
+				{
+					name="Fire Team (Light)";
+					side=2;
+					faction="80s_tanoa_hia";
+					icon="\A3\ui_f\data\map\markers\nato\b_inf.paa";
+					class Leader1
+					{
+						side=2;
+						vehicle="80s_tanoa_hia_mcorps_squadlead_m16a1";
+						rank="SERGEANT";
+						position[]={0,0,0};
+					};
+					class Rifleman1: Leader1
+					{
+						vehicle="80s_tanoa_hia_mcorps_rifleman_light_m16a1";
+						rank="CORPORAL";
+						position[]={5,-5,0};
+					};
+					class Rifleman2: Rifleman1
+					{
+						vehicle="80s_tanoa_hia_mcorps_rifleman_light_m16a1";
+						rank="PRIVATE";
+						position[]={-5,-5,0};
+					};
+					class Marksman: Rifleman1
+					{
+						vehicle="80s_tanoa_hia_mcorps_marksman_g3a3";
+						position[]={10,-10,0};
+					};
+				};
+                class 80s_tanoa_hia_naval_infantry_mggroup
+				{
+					name="MG Team";
+					side=2;
+					faction="80s_tanoa_hia";
+					icon="\A3\ui_f\data\map\markers\nato\b_inf.paa";
+					class Leader1
+					{
+						side=2;
+						vehicle="80s_tanoa_hia_mcorps_squadlead_m16a1";
+						rank="SERGEANT";
+						position[]={0,0,0};
+					};
+					class MG1: Leader1
+					{
+						vehicle="80s_tanoa_hia_mcorps_autorifleman_mg3";
+						rank="CORPORAL";
+						position[]={5,-5,0};
+					};
+					class MG2: MG1
+					{
+						vehicle="80s_tanoa_hia_mcorps_autorifleman_assistant_g3a4";
+						rank="PRIVATE";
+						position[]={-5,-5,0};
+					};
+				};
+            };
 		};
 	};
 };
