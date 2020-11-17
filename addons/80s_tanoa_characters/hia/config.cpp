@@ -161,11 +161,12 @@ class CfgWeapons
 		};
 	};
     // Vests
+    /*
     class gm_ge_army_vest_80_leader;
     class 80s_tanoa_hia_mcorps_vest_leader_brn: gm_ge_army_vest_80_leader
     {
-        scope=2;
-        scopeArsenal=2;
+        scope=1;
+        scopeArsenal=0;
         displayName="Gear (Leader, Marines)";
         model="\gm\gm_characters\gm_ge_characters\gm_ge_vest_80_leader";
         picture="\gm\gm_characters\gm_ge_characters\data\ui\picture_gm_ge_army_vest_80_leader_ca";
@@ -180,6 +181,7 @@ class CfgWeapons
             "\80s_tanoa\80s_tanoa_characters\hia\data\80s_tanoa_hia_mcorps_vest_brn_co.paa"
         };
     };
+    */
     // Headgear
     class gm_ge_headgear_hat_boonie_base;
     class 80s_tanoa_hia_specops_boonie: gm_ge_headgear_hat_boonie_base
